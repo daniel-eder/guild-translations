@@ -1,8 +1,14 @@
 # Guild Translations
 Contains the latest exported community translations for The Guild 3.
 
+## Download
+
+* Navigate to https://github.com/taotsetung/guild-translations/releases 
+* Download `Source code (zip)` for the latest release (named after the game versions). 
+
 ## Installation
 
+* Unpack the downloaded .zip file.
 * Navigate to `localization\LANG\`, where LANG is the shortcode for your desired language, and copy `locdirect_english.loo`.
 * Open `The Guild 3\media\localization\`, paste and overwrite `locdirect_english.loo`.
 * Start The Guild 3 and enjoy!
