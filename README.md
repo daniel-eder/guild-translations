@@ -3,7 +3,7 @@ Contains the latest exported community translations for The Guild 3.
 
 ## Installation
 
-* Navigate to `localization/LANG/`, where LANG is the shortcode for your desired language, and copy `locdirect_english.loo`.
+* Navigate to `localization\LANG\`, where LANG is the shortcode for your desired language, and copy `locdirect_english.loo`.
 * Open `The Guild 3\media\localization\`, paste and overwrite `locdirect_english.loo`.
 * Start The Guild 3 and enjoy!
 
