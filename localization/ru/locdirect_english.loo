@@ -1360,7 +1360,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ToadSlime";
-			Text = "Слизь Жабы";
+			Text = "Жабья слизь";
 		},
 		LocDirectEntry
 		{
@@ -1370,7 +1370,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyToadSlime";
-			Text = "Использовать Слизь жабы";
+			Text = "Использовать жабью слизь";
 		},
 		LocDirectEntry
 		{
@@ -1385,27 +1385,27 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ToadExcrements";
-			Text = "Пестецид Меженберга";
+			Text = "Пестицид Меженберга";
 		},
 		LocDirectEntry
 		{
 			Key = "$ToadExcrementsDesc";
-			Text = "Конрад фон Меженберг изначально разработал этот комплекс, чтобы удержать вредителей, но оказалось, что он имеет обратный эффект! Так что просто налей немного в здание конкурента, чтобы привлечь всех насекомых-вредители в этом районе, они вторгнутся в хранилище и посеять хаос и разрушение!";
+			Text = "Конрад фон Меженберг изначально разработал этот комплекс, чтобы спастись от вредителей, но оказалось, что он имеет обратный эффект! Так что просто налейте его немного в здание конкурента, чтобы привлечь всех насекомых-вредители в этом районе, они вторгнутся в хранилище и будут сеять хаос и разрушение!";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ApplyToadExcrements";
-			Text = "Применить Пестецид Меженберга";
+			Text = "Применить Пестицид Меженберга";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ApplyToadExcrementsDesc";
-			Text = "Пестецид Меженберга можно использовать на предприятия конкурентов.";
+			Text = "Пестицид Меженберга можно использовать на предприятия конкурентов.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ApplyToadExcrementsInstr";
-			Text = "На какое предприятие вы хотите нацелиться с пестецидом Меженберга?";
+			Text = "На какое предприятие вы хотите нацелиться с пестицидом Меженберга?";
 		},
 		LocDirectEntry
 		{
@@ -9507,7 +9507,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$splashHint12";
-			Text = "Выберите вашего персонажа, нажав один раз на портрете в верхнем левом углу или нажмите клавишу "C". Используйте клавишу V для выбора резиденции вашей династии. Используйте клавишу F для фокусировки камеры на выбранном персонаже или здании.";
+			Text = "Есть три типа работников в игре. Во-первых, это рабочие, которые могут производить товары или, основываясь на бизнесе и его специфике, в котором задействован рабочий, это могут быть карманные кражи или собирательство ингредиентов. Во-вторых, это перевозчики, которых вы можете оснастить рюкзаком или телегой, а затем отправить за покупками или продажей вашей продукции на рынок. Третьи – приспешники, связанные с вашей династией, которых можно использовать для различны видов деятельности.";
 		},
 		LocDirectEntry
 		{
@@ -13530,7 +13530,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.FarAway";
-			Text = "Дальнее путеществие";
+			Text = "Дальнее путешествие";
 		},
 		LocDirectEntry
 		{
@@ -25674,7 +25674,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Scene.BanishAction";
-			Text = "изгнанный";
+			Text = "Изгнанный";
 		},
 		LocDirectEntry
 		{
@@ -25689,912 +25689,913 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.FilterHeader";
-			Text = "";
+			Text = "Фильтры дневника";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Entries";
-			Text = "";
+			Text = "Записи";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.EntriesHeader";
-			Text = "";
+			Text = "Записи дневника с %left% - %right%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.FilterCategory.1";
-			Text = "";
+			Text = "Игра";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.FilterCategory.2";
-			Text = "";
+			Text = "Члены семьи для вступления в брак";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.FilterCategory.3";
-			Text = "";
+			Text = "Личная жизнь";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.FilterCategory.4";
-			Text = "";
+			Text = "Династия";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.FilterCategory.5";
-			Text = "";
+			Text = "Политика";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.FilterCategory.6";
-			Text = "";
+			Text = "Закон";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.FilterCategory.7";
-			Text = "";
+			Text = "Бой";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.FilterCategory.8";
-			Text = "";
+			Text = "Ловкость рук";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.FilterCategory.9";
-			Text = "";
+			Text = "Общества";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.FilterCategory.10";
-			Text = "";
+			Text = "Приспешник";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.FilterCategory.11";
-			Text = "";
+			Text = "Город";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.1";
-			Text = "";
+			Text = "Вымирание семьи";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.2";
-			Text = "";
+			Text = "Рождение";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.3";
-			Text = "";
+			Text = "Смерть члена семьи";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.4";
-			Text = "";
+			Text = "Титул";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.5";
-			Text = "";
+			Text = "Свадьба";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.6";
-			Text = "";
+			Text = "Дальнее путешествие";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.7";
-			Text = "";
+			Text = "Путешествие за границу";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.8";
-			Text = "";
+			Text = "При монаршеском дворе";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.9";
-			Text = "";
+			Text = "Поздравления";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.10";
-			Text = "";
+			Text = "Любовные письма";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.11";
-			Text = "";
+			Text = "Ухаживать за кем-то";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.12";
-			Text = "";
+			Text = "Союзы";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.13";
-			Text = "";
+			Text = "Разрыв альянса";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.14";
-			Text = "";
+			Text = "Вражда";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.15";
-			Text = "";
+			Text = "Прекратить вражду";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.16";
-			Text = "";
+			Text = "Сделки между семьями";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.17";
-			Text = "";
+			Text = "Подарить подарок";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.18";
-			Text = "";
+			Text = "Дать денег";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.19";
-			Text = "";
+			Text = "Осуждать";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.20";
-			Text = "";
+			Text = "Восхвалять";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.21";
-			Text = "";
+			Text = "Злословить";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.22";
-			Text = "";
+			Text = "Льстить";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.23";
-			Text = "";
+			Text = "Подать заявку на политический пост";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.24";
-			Text = "";
+			Text = "Политическая должность доступна";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.25";
-			Text = "";
+			Text = "Политическая должность недоступна";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.26";
-			Text = "";
+			Text = "Выборы на политическую должность";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.27";
-			Text = "";
+			Text = "Помиловать";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.28";
-			Text = "";
+			Text = "Освобождение из тюрьмы";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.29";
-			Text = "";
+			Text = "Приговор – судебная ошибка";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.30";
-			Text = "";
+			Text = "Приговор – тюремное заключение";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.31";
-			Text = "";
+			Text = "Приговор – общественное порицание";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.32";
-			Text = "";
+			Text = "Приговор – общественное унижение";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.33";
-			Text = "";
+			Text = "Приговор – штраф";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.34";
-			Text = "";
+			Text = "Приговор – казнь";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.35";
-			Text = "";
+			Text = "Не виновен";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.36";
-			Text = "";
+			Text = "Суд";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.37";
-			Text = "";
+			Text = "Борьба";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.38";
-			Text = "";
+			Text = "Саботаж";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.39";
-			Text = "";
+			Text = "Разрушать";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.40";
-			Text = "";
+			Text = "Бросить бомбу";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.41";
-			Text = "";
+			Text = "Бросить бомбу-вонючку";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.42";
-			Text = "";
+			Text = "Пестицид Меженберга";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.43";
-			Text = "";
+			Text = "Жабья слизь";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.44";
-			Text = "";
+			Text = "Отравить здание";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.45";
-			Text = "";
+			Text = "Отравить окрестности";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.46";
-			Text = "";
+			Text = "Сломать кости";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.47";
-			Text = "";
+			Text = "Убить персонажа";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.48";
-			Text = "";
+			Text = "Похитить персонажа";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.49";
-			Text = "";
+			Text = "Ликвидировать персонажа";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.50";
-			Text = "";
+			Text = "Оскорбить ради дуэли";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.51";
-			Text = "";
+			Text = "Украсть дом";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.52";
-			Text = "";
+			Text = "Шпионить в здании";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.53";
-			Text = "";
+			Text = "Шпионить за персонажем";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.54";
-			Text = "";
+			Text = "Новый глава династии";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.55";
-			Text = "";
+			Text = "Подход общества";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.56";
-			Text = "";
+			Text = "Присоединиться к обществу";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.57";
-			Text = "";
+			Text = "Покинуть общество";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.58";
-			Text = "";
+			Text = "Саботаж";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.59";
-			Text = "";
+			Text = "Захватить здание";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.60";
-			Text = "";
+			Text = "Шпионить в здании";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.61";
-			Text = "";
+			Text = "Шпионить за персонажем";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.62";
-			Text = "";
+			Text = "Разрушать";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.63";
-			Text = "";
+			Text = "Семейная междоусобица";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.64";
-			Text = "";
+			Text = "Чума";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.65";
-			Text = "";
+			Text = "Новая церковь";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.66";
-			Text = "";
+			Text = "Беспорядки";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.67";
-			Text = "";
+			Text = "Случайное событие";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.0";
-			Text = "";
+			Text = "Произошло событие";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.1";
-			Text = "";
+			Text = "Династия %SourceFamily% уничтожена!";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.2";
-			Text = "";
+			Text = "Династия %SourceFamily% с радостью объявляет о рождении %Character%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.3";
-			Text = "";
+			Text = "%Character% умер(ла).";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.4";
-			Text = "";
+			Text = "Династия %SourceFamily%  получила титул %Title%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.5";
-			Text = "";
+			Text = "%Character1% вступает в брак с %Character2%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.6";
-			Text = "";
+			Text = "Семья %SourceFamily% посылает одного своего ребёнка за границу.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.7";
-			Text = "";
+			Text = "Семья %SourceFamily% посылает одного своего ребёнка далеко за границу.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.8";
-			Text = "";
+			Text = "Семья %SourceFamily% навсегда отсылает одного своего ребёнка к королевскому двору.
+";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.9";
-			Text = "";
+			Text = "%SourceCharacter% хвалит %DestCharacter%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.10";
-			Text = "";
+			Text = "%SourceCharacter% написал(а) любовное письмо для %DestCharacter%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.11";
-			Text = "";
+			Text = "%SourceCharacter% ухаживает за %DestCharacter%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.12";
-			Text = "";
+			Text = "Семья %SourceFamily% создала союз с семьёй %DestFamily%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.13";
-			Text = "";
+			Text = "%SourceFamily% прекращает свой союз с семьёй %DestFamily%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.14";
-			Text = "";
+			Text = "%SourceFamily% начинает вражду с семьёй %DestFamily%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.15";
-			Text = "";
+			Text = "%SourceFamily% более не враждует с семьёй %DestFamily%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.16";
-			Text = "";
+			Text = "%SourceFamily% заключает сделку с %DestFamily%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.17";
-			Text = "";
+			Text = "%SourceFamily% дарит подарок семье %DestFamily%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.18";
-			Text = "";
+			Text = "%SourceFamily% даёт денег семье %DestFamily%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.19";
-			Text = "";
+			Text = "%SourceFamily% осуждает семью %DestFamily%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.20";
-			Text = "";
+			Text = "%SourceFamily% восхваляет семью %DestFamily%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.21";
-			Text = "";
+			Text = "%SourceFamily% злословит о семье %DestFamily%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.22";
-			Text = "";
+			Text = "%SourceFamily% льстит семье %DestFamily%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.23";
-			Text = "";
+			Text = "Семья %SourceFamily% подала заявку на должность %Office%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.24";
-			Text = "";
+			Text = "Приём кандидатов на должность %Office%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.25";
-			Text = "";
+			Text = "Приём кандидатов на должность %Office% прекращён";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.26";
-			Text = "";
+			Text = "%Character% избран(а) на должность %Office%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.27";
-			Text = "";
+			Text = "Семья %SourceFamily% только что получила прощение церкви за свои преступления";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.28";
-			Text = "";
+			Text = "%Character% освобождается из тюрьмы";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.29";
-			Text = "";
+			Text = "%Character% освобождается из-за судебной ошибки";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.30";
-			Text = "";
+			Text = "%Character% приговаривается к тюремному заключению";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.31";
-			Text = "";
+			Text = "%Character% приговаривается к общественному порицанию";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.32";
-			Text = "";
+			Text = "%Character% приговаривается к общественному унижению";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.33";
-			Text = "";
+			Text = "%Character% оштрафован(а)";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.34";
-			Text = "";
+			Text = "%Character% приговаривается к смертной казни";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.35";
-			Text = "";
+			Text = "%Character% признаётся невиновным";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.36";
-			Text = "";
+			Text = "%Character% предстаёт перед судом";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.37";
-			Text = "";
+			Text = "%Character1% атаковал %Character2%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.38";
-			Text = "";
+			Text = "%SourceCharacter% саботировал(а) %DestBuilding%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.39";
-			Text = "";
+			Text = "%SourceCharacter% разрушил(а) %DestBuilding%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.40";
-			Text = "";
+			Text = "%SourceCharacter% кинул(а) бомбу в %DestBuilding%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.41";
-			Text = "";
+			Text = "%SourceCharacter% кинул(а) бомбу-вонючку в %DestBuilding%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.42";
-			Text = "";
+			Text = "%SourceCharacter% применил(а) Пестицид Меженберга на здании %DestBuilding%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.43";
-			Text = "";
+			Text = "%SourceCharacter% применил(а) жабью слизь на %DestBuilding%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.44";
-			Text = "";
+			Text = "%SourceCharacter% отравил(а) %DestBuilding%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.45";
-			Text = "";
+			Text = "%SourceCharacter% отравил(а) %DestNeighbor%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.46";
-			Text = "";
+			Text = "%SourceCharacter% ломает кости %DestCharacter%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.47";
-			Text = "";
+			Text = "%SourceCharacter% убивает %DestCharacter%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.48";
-			Text = "";
+			Text = "%SourceCharacter% похищает %DestCharacter%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.49";
-			Text = "";
+			Text = "%SourceCharacter% ликвидирует %DestCharacter%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.50";
-			Text = "";
+			Text = "%SourceCharacter% оскорбляет %DestCharacter% to provoke a duel";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.51";
-			Text = "";
+			Text = "%SourceCharacter% крадёт из %DestBuilding%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.52";
-			Text = "";
+			Text = "%SourceCharacter% шпионил в здании %DestBuilding%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.53";
-			Text = "";
+			Text = "%SourceCharacter% шпионил за %DestCharacter%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.54";
-			Text = "";
+			Text = "%Character% теперь глава семьи %SourceFamily%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.55";
-			Text = "";
+			Text = "Семье %SourceFamily% предложено вступить в %Society%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.56";
-			Text = "";
+			Text = "Семья %SourceFamily% присоединилась к %Society%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.57";
-			Text = "";
+			Text = "Семья %SourceFamily% покидает %Society%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.58";
-			Text = "";
+			Text = "%SourceCharacter% саботирует здание %DestBuilding%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.59";
-			Text = "";
+			Text = "%SourceCharacter% получил(а) контроль над зданием %DestBuilding%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.60";
-			Text = "";
+			Text = "%SourceCharacter% шпионил(а) в %DestBuilding%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.61";
-			Text = "";
+			Text = "%SourceCharacter% шпионил(а) за %DestCharacter%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.62";
-			Text = "";
+			Text = "%SourceCharacter% уничтожает здание %DestBuilding%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.63";
-			Text = "";
+			Text = "Разразилась небольшая война с соседним регионом";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.64";
-			Text = "";
+			Text = "В вашем регионе разразилась чума";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.65";
-			Text = "";
+			Text = "Город строит новую церковь";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.66";
-			Text = "";
+			Text = "Попытка создать беспорядки %SourceFamily% провалена!";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Election.Position";
-			Text = "";
+			Text = "Выборы: %OfficeName%";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Election.Header";
-			Text = "";
+			Text = "Выберите кандидата на выборы";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Popup.NewBornHeader";
-			Text = "";
+			Text = "Новорожденный ребенок";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Popup.NewChild";
-			Text = "";
+			Text = "Счастья, здоровья, успехов вам! Вы – гордый родитель новорождённого ребёнка!";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Popup.NewTrip";
-			Text = "";
+			Text = "Ваш ребенок вернулся из дальнего путешествия!";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Popup.NewOffice";
-			Text = "";
+			Text = "Радуйтесь! Ваши неустанные усилия заработали вам новую политическую должность!";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Popup.NewSociety";
-			Text = "";
+			Text = "Вы присоединились к обществу.";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Popup.ChooseName";
-			Text = "";
+			Text = "Выберите имя для своего ребёнка";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Budget.Winning";
-			Text = "";
+			Text = "Очки победы";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Budget.ListBusiness";
-			Text = "";
+			Text = "Список предприятий";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Budget.BuildingCondition";
-			Text = "";
+			Text = "Состояние здания";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Budget.BuildingLocation";
-			Text = "";
+			Text = "Место нахождения: %Neighbor%, %City%";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Budget.Production";
-			Text = "";
+			Text = "Режим производства: %Mode%";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Budget.FamilyHeader";
-			Text = "";
+			Text = "Информация о семье";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Budget.WinningCatHeader";
-			Text = "";
+			Text = "Категории очков";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Budget.Top5";
-			Text = "";
+			Text = "Показать Топ-5";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.MPAIBehavior";
-			Text = "";
+			Text = "Поведение ИИ для замены игрока";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.MPLanguage";
-			Text = "";
+			Text = "Язык";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.MPAI.None";
-			Text = "";
+			Text = "Нет ИИ контроля";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.MPAI.Minimal";
-			Text = "";
+			Text = "Минимальный контроль ИИ";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.MPAI.Total";
-			Text = "";
+			Text = "Полный контроль ИИ";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.MPMapInfos";
-			Text = "";
+			Text = "Информация о карте";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.SovereignActions";
-			Text = "";
+			Text = "Действия суверена";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.MPLobbyHeader";
-			Text = "";
+			Text = "Лобби";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.LanguageFilter";
-			Text = "";
+			Text = "Языковой фильтр";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.GameType.Official";
-			Text = "";
+			Text = "Официальные карты сценариев";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.GameType.Modded";
-			Text = "";
+			Text = "Модифицированные карты сценариев";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.GameType.Both";
-			Text = "";
+			Text = "Все карты сценариев";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Password.Small";
-			Text = "";
+			Text = "ПРЛЬ";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Production.RoutesButton";
-			Text = "";
+			Text = "Маршруты";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.EnterPassword";
-			Text = "";
+			Text = "Введите пароль";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.GiveMoneyInstructions";
-			Text = "";
+			Text = "Укажите сумму, которую вы хотите дать";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Residence";
-			Text = "";
+			Text = "Резиденция";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.TradeInvalid";
-			Text = "";
+			Text = "Торговля больше не действует.";
 		},
 	)
 };
