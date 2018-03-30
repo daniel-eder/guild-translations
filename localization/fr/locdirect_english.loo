@@ -24140,8 +24140,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Production.biz.Condition";
-			Text = "
-État du bâtiment";
+			Text = "État du bâtiment";
 		},
 		LocDirectEntry
 		{
@@ -25816,7 +25815,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.14";
-			Text = "Querelle";
+			Text = "Querelles";
 		},
 		LocDirectEntry
 		{
@@ -25826,7 +25825,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.16";
-			Text = "Echanges entre dynasties";
+			Text = "Échanges entre dynasties";
 		},
 		LocDirectEntry
 		{
