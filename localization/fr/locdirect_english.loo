@@ -27652,5 +27652,15 @@ LocDirectData
 			Key = "$gui.network.kicked";
 			Text = "Vous avez été expulsé du jeu par l'hôte.";
 		},
+		LocDirectEntry
+		{
+			Key = "$ui.togglecamera";
+			Text = "Changer la camera";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.showidlecharacters";
+			Text = "Montrer les personnages inactifs";
+		},
 	)
 };
