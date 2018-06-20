@@ -1190,7 +1190,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ShortSwordDesc";
-			Text = "L'épée courte est plus longue qu'une poignard, mais plus courte qu'une épée longue.";
+			Text = "L'épée courte est une arme légère et mobile qui est plus dangereuse qu'un poignard, mais qui ne peut être cachée.";
 		},
 		LocDirectEntry
 		{
@@ -6299,6 +6299,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$nobility.number.1";
+			Text = "I.";
+		},
+		LocDirectEntry
+		{
 			Key = "$nobility.2";
 			Text = "Roturier";
 		},
@@ -6311,6 +6316,11 @@ LocDirectData
 		{
 			Key = "$nobility.2desc";
 			Text = "Les roturiers ne sont pas directement soumis au travail, car ils sont plus ou moins autorisés à voyager plus librement à travers les campagnes. Cependant, la plupart louent le terrain d'un propriétaire.";
+		},
+		LocDirectEntry
+		{
+			Key = "$nobility.number.2";
+			Text = "II.";
 		},
 		LocDirectEntry
 		{
@@ -6329,6 +6339,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$nobility.number.3";
+			Text = "III.";
+		},
+		LocDirectEntry
+		{
 			Key = "$nobility.4";
 			Text = "Résident";
 		},
@@ -6341,6 +6356,11 @@ LocDirectData
 		{
 			Key = "$nobility.4desc";
 			Text = "Les résidents >habitent< >dans< la ville et cultivent les terres appartenant à la ville pour les classes dirigeantes.";
+		},
+		LocDirectEntry
+		{
+			Key = "$nobility.number.4";
+			Text = "IV.";
 		},
 		LocDirectEntry
 		{
@@ -6359,6 +6379,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$nobility.number.5";
+			Text = "V.";
+		},
+		LocDirectEntry
+		{
 			Key = "$nobility.6";
 			Text = "Citoyen Libre";
 		},
@@ -6371,6 +6396,11 @@ LocDirectData
 		{
 			Key = "$nobility.6desc";
 			Text = "Les citoyens libres se situent entre les citoyens normaux et les patriciens.";
+		},
+		LocDirectEntry
+		{
+			Key = "$nobility.number.6";
+			Text = "VI.";
 		},
 		LocDirectEntry
 		{
@@ -6389,6 +6419,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$nobility.number.7";
+			Text = "VII.";
+		},
+		LocDirectEntry
+		{
 			Key = "$nobility.8";
 			Text = "Noble";
 		},
@@ -6401,6 +6436,11 @@ LocDirectData
 		{
 			Key = "$nobility.8desc";
 			Text = "Les nobles ne sont pas très haut parmis les rangs de la noblesse, mais sont supérieurs aux patriciens. Ils sont donc reconnus par les familles aristocratiques de la région et sont parfois invités à leurs festivités.";
+		},
+		LocDirectEntry
+		{
+			Key = "$nobility.number.8";
+			Text = "VIII.";
 		},
 		LocDirectEntry
 		{
@@ -6419,6 +6459,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$nobility.number.9";
+			Text = "IX.";
+		},
+		LocDirectEntry
+		{
 			Key = "$nobility.10";
 			Text = "Seigneur";
 		},
@@ -6431,6 +6476,11 @@ LocDirectData
 		{
 			Key = "$nobility.10desc";
 			Text = "Les seigneurs sont un rang au-dessus des écuyers et peuvent, historiquement parlant, diriger un petit fief.";
+		},
+		LocDirectEntry
+		{
+			Key = "$nobility.number.10";
+			Text = "X.";
 		},
 		LocDirectEntry
 		{
@@ -6449,6 +6499,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$nobility.number.11";
+			Text = "XI.";
+		},
+		LocDirectEntry
+		{
 			Key = "$nobility.12";
 			Text = "Comte";
 		},
@@ -6461,6 +6516,11 @@ LocDirectData
 		{
 			Key = "$nobility.12desc";
 			Text = "Les comtes sont des membres puissants et influents de l'aristocratie, qui historiquement commandent un grand fief.";
+		},
+		LocDirectEntry
+		{
+			Key = "$nobility.number.12";
+			Text = "XII.";
 		},
 		LocDirectEntry
 		{
@@ -6479,6 +6539,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$nobility.number.13";
+			Text = "XIII.";
+		},
+		LocDirectEntry
+		{
 			Key = "$nobility.14";
 			Text = "Duc";
 		},
@@ -6494,6 +6559,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$nobility.number.14";
+			Text = "XIV.";
+		},
+		LocDirectEntry
+		{
 			Key = "$nobility.15";
 			Text = "Archiduc";
 		},
@@ -6506,6 +6576,11 @@ LocDirectData
 		{
 			Key = "$nobility.15desc";
 			Text = "En tant qu'archiduc vous appartenez au petit cercle illustre de l'aristocratie la plus haute et la plus puissante du royaume.";
+		},
+		LocDirectEntry
+		{
+			Key = "$nobility.number.15";
+			Text = "XV.";
 		},
 		LocDirectEntry
 		{
@@ -8394,13 +8469,13 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "AttractCrowd";
-			Text = "Satisfaction du client";
+			Key = "Armor";
+			Text = "$(#2)$ Armure";
 		},
 		LocDirectEntry
 		{
-			Key = "Armor";
-			Text = "$(#2)$ Armure";
+			Key = "AttractCrowd";
+			Text = "Satisfaction du client";
 		},
 		LocDirectEntry
 		{
@@ -14924,7 +14999,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$action.AskAllianceAction.Request";
+			Key = "$action.AskAllianceAction.Request ";
 			Text = "La dynastie %family% veut forger une alliance éternelle avec vous.";
 		},
 		LocDirectEntry
@@ -14939,7 +15014,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$action.AskAllianceAction.SecretSociety.Request";
+			Key = "$action.AskAllianceAction.SecretSociety.Request ";
 			Text = "La sorciété %ss% veut forger une alliance permanente avec votre société.";
 		},
 		LocDirectEntry
@@ -23544,12 +23619,12 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$sce.dist.IleDeLaCité";
+			Key = "$sce.dist.IleDeLaCite";
 			Text = "Ile de la Cité";
 		},
 		LocDirectEntry
 		{
-			Key = "$sce.dist.St-GermainDes-Prés";
+			Key = "$sce.dist.St-GermainDes-Pres";
 			Text = "St-Germain-des-Prés";
 		},
 		LocDirectEntry
@@ -24364,7 +24439,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$sce.dist.Orléans";
+			Key = "$sce.dist.Orleans";
 			Text = "Orléans";
 		},
 		LocDirectEntry
@@ -26624,16 +26699,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$gui.network.lost.server.connection";
-			Text = "La connexion avec le serveur a été perdue.";
-		},
-		LocDirectEntry
-		{
-			Key = "$gui.network.unable_to_connect_to_host";
-			Text = "Impossible de se connecter à l'hôte.";
-		},
-		LocDirectEntry
-		{
 			Key = "$gui.MP.PlayerList";
 			Text = "Liste des joueurs";
 		},
@@ -27661,6 +27726,66 @@ LocDirectData
 		{
 			Key = "$ui.showidlecharacters";
 			Text = "Montrer les personnages inactifs";
+		},
+		LocDirectEntry
+		{
+			Key = "$nobility.cost.header";
+			Text = "Coûts";
+		},
+		LocDirectEntry
+		{
+			Key = "$imperialfavor";
+			Text = "Réputation impériale";
+		},
+		LocDirectEntry
+		{
+			Key = "$nobility.buy.confirm";
+			Text = "Voulez-vous acquérir le titre %title% ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$nobility.level.claim";
+			Text = "Acquérir le titre";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.Plaques.ShowOnObjects";
+			Text = "Montrer les armoiries sur";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.Plaques.ShowOnObjects.Options.0";
+			Text = "Rien";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.Plaques.ShowOnObjects.Options.1";
+			Text = "Tout";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.Plaques.ShowOnObjects.Options.2";
+			Text = "Bâtiments seulement";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.Plaques.ShowOnObjects.Options.3";
+			Text = "Personnages seulement";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.Plaques.ShowForDynasty";
+			Text = "Montrer les armoiries pour";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.Plaques.ShowForDynasty.Options.0";
+			Text = "toutes les dynasties";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.Plaques.ShowForDynasty.Options.1";
+			Text = "ma dynastie seulement";
 		},
 	)
 };
