@@ -12165,7 +12165,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Skilltree.tooltip2";
-			Text = "%title% (Titre %level%), %researched% / %xp% XP";
+			Text = "%title%, %researched% / %xp% XP";
 		},
 		LocDirectEntry
 		{
@@ -27786,6 +27786,71 @@ LocDirectData
 		{
 			Key = "$gui.Options.Plaques.ShowForDynasty.Options.1";
 			Text = "ma dynastie seulement";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.WaterReflections";
+			Text = "Reflets de l'eau";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.StreetArea";
+			Text = "Sélectionnez une zone cible dans une rue.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.StreetAreaRural";
+			Text = "Sélectionnez une zone cible dans une rue d'un quartier rural.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.BuildingNotPlayers";
+			Text = "Sélectionnez un bâtiment qui n'appartient pas à votre dynastie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.BusinessNotPlayers";
+			Text = "Sélectionnez une entreprise qui n'appartient pas à votre dynastie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.CharacterAdultNotPlayers";
+			Text = "Sélectionnez un personnage adulte qui ne fait pas partie d'une dynastie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.CharacterAdult";
+			Text = "Sélectionnez un personnage adulte.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.CharacterAdultOtherGender";
+			Text = "Sélectionnez un personnage adulte d'un autre genre.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.ResidenceBusinessNotPlayers";
+			Text = "Sélectionnez une maison ou une entreprise qui n'appartient pas à votre dynastie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.ResidenceBusiness";
+			Text = "Sélectionnez une maison ou une entreprise.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.BuildingBurning";
+			Text = "Sélectionnez un bâtiment en feu.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.Neighborhood";
+			Text = "Sélectionnez un quartier ou un village.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.Well";
+			Text = "Sélectionnez un puits";
 		},
 	)
 };
