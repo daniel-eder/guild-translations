@@ -5994,11 +5994,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$gui.main.Save";
-			Text = "Sauvegarder la partie";
-		},
-		LocDirectEntry
-		{
 			Key = "$gui.Market";
 			Text = "Marché";
 		},
@@ -9149,11 +9144,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$sce.dist.TradeRoutes";
-			Text = "Routes commerciales";
-		},
-		LocDirectEntry
-		{
 			Key = "$sce.dist.Tradesmen";
 			Text = "Quartier des commerçants";
 		},
@@ -11209,12 +11199,22 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$profession.AlchemistFemale";
+			Text = "Alchimiste";
+		},
+		LocDirectEntry
+		{
 			Key = "$profession.AlchemistDesc";
 			Text = "Les alchimistes ont non seulement de l'expérience avec les poisons, mais aussi des notions de sorcellerie.";
 		},
 		LocDirectEntry
 		{
 			Key = "$profession.Apothecary";
+			Text = "Apothicaire";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.ApothecaryFemale";
 			Text = "Apothicaire";
 		},
 		LocDirectEntry
@@ -11229,6 +11229,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$profession.ArtisanFemale";
+			Text = "Artisane";
+		},
+		LocDirectEntry
+		{
 			Key = "$profession.ArtisanDesc";
 			Text = "Artisans peuvent produire les biens les plus basiques, ils sont donc modestement rémunérés.";
 		},
@@ -11236,6 +11241,11 @@ LocDirectData
 		{
 			Key = "$profession.Baker";
 			Text = "Boulanger";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.BakerFemale";
+			Text = "Boulangère";
 		},
 		LocDirectEntry
 		{
@@ -11249,6 +11259,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$profession.BlacksmithFemale";
+			Text = "Forgeronne";
+		},
+		LocDirectEntry
+		{
 			Key = "$profession.BlacksmithDesc";
 			Text = "Les forgerons sont les maitres de la forge, et sont responsables de la production d'outils de fer, d'armes et d'armures.";
 		},
@@ -11256,6 +11271,11 @@ LocDirectData
 		{
 			Key = "$profession.Carpenter";
 			Text = "Charpentier";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.CarpenterFemale";
+			Text = "Charpentière";
 		},
 		LocDirectEntry
 		{
@@ -11269,6 +11289,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$profession.FarmerFemale";
+			Text = "Fermière";
+		},
+		LocDirectEntry
+		{
 			Key = "$profession.FarmerDesc";
 			Text = "Les fermiers plantent le blé et l'orge, et élèvent le bétail et les moutons.";
 		},
@@ -11279,12 +11304,22 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$profession.InnkeeperFemale";
+			Text = "Tavernière";
+		},
+		LocDirectEntry
+		{
 			Key = "$profession.InnkeeperDesc";
 			Text = "Le tavernier fournit des boissons et des repas simples dans leurs tavernes. Ici, vous pouvez discuter, répandre ou apprendre les dernières rumeurs, et jouer aux dés!";
 		},
 		LocDirectEntry
 		{
 			Key = "$profession.Lansquenet";
+			Text = "Lansquenet";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.LansquenetFemale";
 			Text = "Lansquenet";
 		},
 		LocDirectEntry
@@ -11299,12 +11334,22 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$profession.MedicusFemale";
+			Text = "Médecin";
+		},
+		LocDirectEntry
+		{
 			Key = "$profession.MedicusDesc";
 			Text = "Le médecin s'occupe des malades et des blessés du quartier où son hôpital est bâti.";
 		},
 		LocDirectEntry
 		{
 			Key = "$profession.Robber";
+			Text = "Bandit";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.RobberFemale";
 			Text = "Bandit";
 		},
 		LocDirectEntry
@@ -11319,6 +11364,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$profession.ScholarFemale";
+			Text = "Lettrée";
+		},
+		LocDirectEntry
+		{
 			Key = "$profession.ScholarDesc";
 			Text = "Le lettré copie les documents et rédige même ses propres oeuvres.";
 		},
@@ -11326,6 +11376,11 @@ LocDirectData
 		{
 			Key = "$profession.Stonemason";
 			Text = "Tailleur de pierre";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.StonemasonFemale";
+			Text = "Tailleuse de pierre";
 		},
 		LocDirectEntry
 		{
@@ -11339,6 +11394,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$profession.TailorFemale";
+			Text = "Tailleuse";
+		},
+		LocDirectEntry
+		{
 			Key = "$profession.TailorDesc";
 			Text = "Les tailleurs sont doués avec une aiguille et un fil, et cousent tout, de la simple tenue commune au manteau richement décoré.";
 		},
@@ -11349,8 +11409,88 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$profession.ThiefFemale";
+			Text = "Voleuse";
+		},
+		LocDirectEntry
+		{
 			Key = "$profession.ThiefDesc";
 			Text = "Les voleurs se rendent riches des possessions des autres, par le vol et les cambriolages, mais aussi d'autres activités moins criminelles.";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.Butcher";
+			Text = "Boucher";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.ButcherFemale";
+			Text = "Bouchère";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.ButcherDesc";
+			Text = "Le boucher coupe les animaux en viande et en cuir.";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.Miller";
+			Text = "Meunier";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.MillerFemale";
+			Text = "Meunière";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.MillerDesc";
+			Text = "Le meunier broie le grain en farine.";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.Shaman";
+			Text = "Herboriste";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.ShamanFemale";
+			Text = "Herboriste";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.ShamanDesc";
+			Text = "Les herboristes connaissent les herbes et leurs effets et sont également capables de traiter des maladies mineures.";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.Transporter";
+			Text = "Transporteur";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.TransporterFemale";
+			Text = "Transporteuse";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.TransporterDesc";
+			Text = "La tâche d'un transporteur est de déplacer des marchandises.";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.Henchman";
+			Text = "Homme de main";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.HenchmanFemale";
+			Text = "Homme de main";
+		},
+		LocDirectEntry
+		{
+			Key = "$profession.HenchmanDesc";
+			Text = "Les hommes de main sont des gardes du corps loyaux et endurcis, des espions et des voyous en un.";
 		},
 		LocDirectEntry
 		{
@@ -27851,6 +27991,21 @@ LocDirectData
 		{
 			Key = "$callToAction.Well";
 			Text = "Sélectionnez un puits";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.CharacterAdultNotEmployeeNotPlayers";
+			Text = "Sélectionnez un personnage adulte qui n'est pas un employé et qui ne fait pas partie de votre dynastie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.CharacterNotPlayers";
+			Text = "Sélectionnez un personnage qui ne fait pas partie de votre dynastie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$NavigateRoute";
+			Text = "Route commerciale";
 		},
 	)
 };
