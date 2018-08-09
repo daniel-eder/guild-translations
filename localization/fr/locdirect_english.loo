@@ -11199,7 +11199,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.AlchemistFemale";
+			Key = "$profession.Alchemist.female";
 			Text = "Alchimiste";
 		},
 		LocDirectEntry
@@ -11214,7 +11214,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.ApothecaryFemale";
+			Key = "$profession.Apothecary.female";
 			Text = "Apothicaire";
 		},
 		LocDirectEntry
@@ -11229,7 +11229,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.ArtisanFemale";
+			Key = "$profession.Artisan.female";
 			Text = "Artisane";
 		},
 		LocDirectEntry
@@ -11244,7 +11244,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.BakerFemale";
+			Key = "$profession.Baker.female";
 			Text = "Boulangère";
 		},
 		LocDirectEntry
@@ -11259,7 +11259,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.BlacksmithFemale";
+			Key = "$profession.Blacksmith.female";
 			Text = "Forgeronne";
 		},
 		LocDirectEntry
@@ -11274,7 +11274,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.CarpenterFemale";
+			Key = "$profession.Carpenter.female";
 			Text = "Charpentière";
 		},
 		LocDirectEntry
@@ -11289,7 +11289,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.FarmerFemale";
+			Key = "$profession.Farmer.female";
 			Text = "Fermière";
 		},
 		LocDirectEntry
@@ -11304,7 +11304,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.InnkeeperFemale";
+			Key = "$profession.Innkeeper.female";
 			Text = "Tavernière";
 		},
 		LocDirectEntry
@@ -11319,7 +11319,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.LansquenetFemale";
+			Key = "$profession.Lansquenet.female";
 			Text = "Lansquenet";
 		},
 		LocDirectEntry
@@ -11334,7 +11334,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.MedicusFemale";
+			Key = "$profession.Medicus.female";
 			Text = "Médecin";
 		},
 		LocDirectEntry
@@ -11349,7 +11349,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.RobberFemale";
+			Key = "$profession.Robber.female";
 			Text = "Bandit";
 		},
 		LocDirectEntry
@@ -11364,7 +11364,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.ScholarFemale";
+			Key = "$profession.Scholar.female";
 			Text = "Lettrée";
 		},
 		LocDirectEntry
@@ -11379,7 +11379,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.StonemasonFemale";
+			Key = "$profession.Stonemason.female";
 			Text = "Tailleuse de pierre";
 		},
 		LocDirectEntry
@@ -11394,7 +11394,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.TailorFemale";
+			Key = "$profession.Tailor.female";
 			Text = "Tailleuse";
 		},
 		LocDirectEntry
@@ -11409,7 +11409,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.ThiefFemale";
+			Key = "$profession.Thief.female";
 			Text = "Voleuse";
 		},
 		LocDirectEntry
@@ -11424,7 +11424,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.ButcherFemale";
+			Key = "$profession.Butcher.female";
 			Text = "Bouchère";
 		},
 		LocDirectEntry
@@ -11439,7 +11439,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.MillerFemale";
+			Key = "$profession.Miller.female";
 			Text = "Meunière";
 		},
 		LocDirectEntry
@@ -11449,17 +11449,17 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.Shaman";
+			Key = "$profession.Herbalist";
 			Text = "Herboriste";
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.ShamanFemale";
+			Key = "$profession.Herbalist.female";
 			Text = "Herboriste";
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.ShamanDesc";
+			Key = "$profession.HerbalistDesc";
 			Text = "Les herboristes connaissent les herbes et leurs effets et sont également capables de traiter des maladies mineures.";
 		},
 		LocDirectEntry
@@ -11469,7 +11469,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.TransporterFemale";
+			Key = "$profession.Transporter.female";
 			Text = "Transporteuse";
 		},
 		LocDirectEntry
@@ -11484,7 +11484,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$profession.HenchmanFemale";
+			Key = "$profession.Henchman.female";
 			Text = "Homme de main";
 		},
 		LocDirectEntry
@@ -16165,12 +16165,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Longshore.Success";
-			Text = "%character% est retourné de son long voyage. Il %thing% %event%.\n%character% est fier de vous présenter le butin qu'il a acquiert pendant son excursion: %items%.\n\nVotre dynastie reçoit %xp% points d'expérience pour cette aventure !";
+			Text = "%character% est retourné de son long voyage. Il %location% et %event%.\n%character% est fier de vous présenter le butin qu'il a acquiert pendant son excursion: %items%.\n\nVotre dynastie reçoit %xp% points d'expérience pour cette aventure !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.Longshore.Success.female";
-			Text = "%character% est retourné de son voyage. Elle %thing% %event%.\n%character% est fière de vous présenter le butin qu'elle a acquiert pendant son excursion: %items%.\n\nVotre dynastie reoit %xp% points d'expérience pour cette aventure !";
+			Text = "%character% est retourné de son voyage. Elle %location% et %event%.\n%character% est fière de vous présenter le butin qu'elle a acquiert pendant son excursion: %items%.\n\nVotre dynastie reoit %xp% points d'expérience pour cette aventure !";
 		},
 		LocDirectEntry
 		{
@@ -28006,6 +28006,11 @@ LocDirectData
 		{
 			Key = "$NavigateRoute";
 			Text = "Route commerciale";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.CharacterAdultOtherGenderNotEmployeeNotPlayers";
+			Text = "Sélectionnez un personnage adulte du sexe opposé qui n'est pas un employé et ne fait pas partie de votre dynastie.";
 		},
 	)
 };
