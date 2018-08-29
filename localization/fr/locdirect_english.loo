@@ -5919,6 +5919,11 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$gui.Char.Strength";
+			Text = "Force";
+		},
+		LocDirectEntry
+		{
 			Key = "$gui.Char.Texture";
 			Text = "Visage %id%";
 		},
@@ -8410,22 +8415,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$trial.Sentence.Cost.1";
-			Text = "(%cost% $(#9))";
+			Text = " (%cost% $(#9))";
 		},
 		LocDirectEntry
 		{
 			Key = "$trial.Sentence.Cost.2";
-			Text = "(%cost% $(#3))";
+			Text = " (%cost% $(#3))";
 		},
 		LocDirectEntry
 		{
 			Key = "$trial.Sentence.Cost.3";
-			Text = "(%cost% $(#9))";
+			Text = " (%cost% $(#9))";
 		},
 		LocDirectEntry
 		{
 			Key = "$trial.Sentence.Cost.4";
-			Text = "(%cost% années)";
+			Text = " (%cost% années)";
 		},
 		LocDirectEntry
 		{
@@ -10315,7 +10320,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.QuestsBudget.politicsWindow";
-			Text = "Livre politique";
+			Text = "Dossiers de la ville";
 		},
 		LocDirectEntry
 		{
@@ -10585,7 +10590,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltipPoliticsGray";
-			Text = "Le >Livre politique< n'est pas disponible actuellement.";
+			Text = "Les >Dossiers de la ville< ne sont pas disponible actuellement.";
 		},
 		LocDirectEntry
 		{
@@ -12399,33 +12404,38 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$ui.tooltip.ResumeTime";
+			Text = "Reprendre le jeu";
+		},
+		LocDirectEntry
+		{
 			Key = "$ui.message.SpeedModifier.0";
-			Text = "pause $(#43)";
+			Text = "PAUSE";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.message.SpeedModifier.1";
-			Text = "lent $(#43)";
+			Text = "x 0.5";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.message.SpeedModifier.2";
-			Text = "normal $(#43)";
+			Text = "NORMAL";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.message.SpeedModifier.3";
-			Text = "rapide $(#43)";
+			Text = "x 2";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.message.SpeedModifier.4";
-			Text = "très rapide $(#43)";
+			Text = "x 3";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.message.SpeedModifier.5";
-			Text = "avance rapide $(#43)";
+			Text = "x 4";
 		},
 		LocDirectEntry
 		{
@@ -12665,7 +12675,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Tutorial.19";
-			Text = "Si vous voulez que votre avatar se déplace librement dans le monde, vous pouvez faire un clic droit sur un bâtiment ou dans la rue - laissez appuyé la touche #21 pour voir où chaque rue et chemin mènent.";
+			Text = "Si vous voulez que votre avatar se déplace librement dans le monde, vous pouvez faire un clic droit sur un bâtiment ou dans la rue - laissez appuyé la touche $(#21) pour voir où chaque rue et chemin mènent.";
 		},
 		LocDirectEntry
 		{
@@ -15890,7 +15900,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.RelationNeighborhood.Bad";
-			Text = "La productivité de vos employés est à >%number% %< parce que vous avez une mauvaise réputation parmi les résidents du quartier !";
+			Text = "La productivité de vos employés est à >%number% $< parce que vous avez une mauvaise réputation parmi les résidents du quartier !";
 		},
 		LocDirectEntry
 		{
@@ -17255,7 +17265,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Budget.Winning4";
-			Text = "Nombre de bâtiments";
+			Text = "Nombre d'entreprises";
 		},
 		LocDirectEntry
 		{
@@ -22470,7 +22480,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$help.5.1.SeparationDesc";
-			Text = "Si vous décidez de vous séparer, ou si un accident malheureux arrive à votre conjoint, vous devez le faire avant la naissance du premier enfant. Lorsque vous vous séparez, le joueur influencera d'abord le jugement de l'autre famille qui pourrait réagir avec une éventuelle agression physique, selon l'état de la relation avant la rupture. Chaque séparation sera enregistrée dans la chronologie historique de votre personnage, ce qui représente sa réputation. Par conséquent, si le personnage a une mauvaise réputation en raison de mariages passés, les engagements futurs seront de plus en plus difficiles à réaliser, et c'est pour vous empêcher de ne pas prendre (trop) l'avantage en acquérant des points d'expérience de plusieurs mariages.";
+			Text = "Si vous vous séparez à cause d'un accident malheureux causé à votre conjoint, vous devez le faire avant la naissance du premier enfant. Lorsque vous vous séparez, le joueur influencera d'abord le jugement de l'autre famille qui pourrait réagir avec une éventuelle agression physique, selon l'état de la relation avant la rupture. Chaque séparation sera enregistrée dans la chronologie historique de votre personnage, ce qui représente sa réputation. Par conséquent, si le personnage a une mauvaise réputation en raison de mariages passés, les engagements futurs seront de plus en plus difficiles à réaliser, et c'est pour vous empêcher de ne pas prendre (trop) l'avantage en acquérant des points d'expérience de plusieurs mariages.";
 		},
 		LocDirectEntry
 		{
@@ -22700,7 +22710,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$help.8.CityDesc";
-			Text = "Le terme «ville» désigne une entité politique dans une carte. Une seule carte peut contenir plusieurs agglomérations, mais un seul souverain existe par carte de jeu et donc un seul système politique. Indépendamment du nombre d'agglomérations sur une carte, un unique système politique assure la cohérence du jeu et guide tous les joueurs vers un seul but lors d'un match multijoueur. \n\n En plus de la politique, chaque ville a des systèmes spécifiques sur lesquels vous n'avez aucun contrôle, mais avec lequel vous pouvez interagir.";
+			Text = "Le terme ville désigne une entité politique dans une carte. Une seule carte peut contenir plusieurs agglomérations, mais un seul souverain existe par carte de jeu et donc un seul système politique. Indépendamment du nombre d'agglomérations sur une carte, un unique système politique assure la cohérence du jeu et guide tous les joueurs vers un seul but lors d'un match multijoueur. \n\n En plus de la politique, chaque ville a des systèmes spécifiques sur lesquels vous n'avez aucun contrôle, mais avec lequel vous pouvez interagir.";
 		},
 		LocDirectEntry
 		{
@@ -22820,7 +22830,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$help.8.OutsideDesc";
-			Text = "Alors que vous ne pouvez pas 'voir' ce qui se passe en dehors des limites de la carte, certains éléments qui dépassent la frontière influenceront la façon dont vous jouez au jeu dans une plus ou moins grande mesure.\n\n Vous remarquerez que certaines routes et bateaux vont jusqu'au bord de la carte ; ce sont des routes commerciales menant à d'autres villes proches ou éloignées de la frontière avec lesquelles vous pouvez commercer ne fois que vous avez débloqué cette action. Ce commerce peut prendre plus de temps que le marché local, mais vous pourriez y gagner un prix avantageux, car ces villes pourraient vendre des marchandises beaucoup moins chères ou les acheter pour beaucoup plus. Compte tenu de ces options, vous pouvez facilement gagner de l'argent simplement en échangeant des objets de ville en ville. Mais méfiez-vous : les brigands parcourent ces routes et vous pourriez être attaqué alors que vous êtes en dehors de la carte. Une escorte pourrait devenir une nécessité si vous souhaitez utiliser fréquemment ces routes commerciales.\n\n Vous verrez également d'autres souverains au-delà de la carte avec leurs propres royaumes qui peuvent avoir de bonnes ou de mauvaises relations avec votre souverain local, et diverses guerres ou alliances peuvent être déclarées entre eux. Vous ne pouvez pas avoir un impact direct sur les guerres, mais peut vous aider en envoyant vos ressources ou vos enfants et profiter de l'augmentation de certains types de biens et de produits, à savoir les armes et les armures.\n\n Enfin, le monarque omniprésent du pays où vous habitez réside hors de la carte et, bien que le monarque n'intervienne pas vraiment avec la population et les seigneurs inférieurs, lorsque vous atteignez un rang élevé, votre relation avec ce monarque peut devenir cruciale dans votre tentative pour devenir le souverain de la carte.";
+			Text = "Alors que vous ne pouvez pas voir ce qui se passe en dehors des limites de la carte, certains éléments qui dépassent la frontière influenceront la façon dont vous jouez au jeu dans une plus ou moins grande mesure.\n\n Vous remarquerez que certaines routes et bateaux vont jusqu'au bord de la carte ; ce sont des routes commerciales menant à d'autres villes proches ou éloignées de la frontière avec lesquelles vous pouvez commercer ne fois que vous avez débloqué cette action. Ce commerce peut prendre plus de temps que le marché local, mais vous pourriez y gagner un prix avantageux, car ces villes pourraient vendre des marchandises beaucoup moins chères ou les acheter pour beaucoup plus. Compte tenu de ces options, vous pouvez facilement gagner de l'argent simplement en échangeant des objets de ville en ville. Mais méfiez-vous : les brigands parcourent ces routes et vous pourriez être attaqué alors que vous êtes en dehors de la carte. Une escorte pourrait devenir une nécessité si vous souhaitez utiliser fréquemment ces routes commerciales.\n\n Vous verrez également d'autres souverains au-delà de la carte avec leurs propres royaumes qui peuvent avoir de bonnes ou de mauvaises relations avec votre souverain local, et diverses guerres ou alliances peuvent être déclarées entre eux. Vous ne pouvez pas avoir un impact direct sur les guerres, mais peut vous aider en envoyant vos ressources ou vos enfants et profiter de l'augmentation de certains types de biens et de produits, à savoir les armes et les armures.\n\n Enfin, le monarque omniprésent du pays où vous habitez réside hors de la carte et, bien que le monarque n'intervienne pas vraiment avec la population et les seigneurs inférieurs, lorsque vous atteignez un rang élevé, votre relation avec ce monarque peut devenir cruciale dans votre tentative pour devenir le souverain de la carte.";
 		},
 		LocDirectEntry
 		{
@@ -24145,7 +24155,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.miles";
-			Text = "miles";
+			Text = " miles";
 		},
 		LocDirectEntry
 		{
@@ -28011,6 +28021,61 @@ LocDirectData
 		{
 			Key = "$callToAction.CharacterAdultOtherGenderNotEmployeeNotPlayers";
 			Text = "Sélectionnez un personnage adulte du sexe opposé qui n'est pas un employé et ne fait pas partie de votre dynastie.";
+		},
+		LocDirectEntry
+		{
+			Key = "$Bonus.SecondOfficeLevel";
+			Text = "Bureau de niveau intermédiaire";
+		},
+		LocDirectEntry
+		{
+			Key = "$Bonus.SecondOfficeLevelDesc";
+			Text = "Vous avez le privilège de postuler pour un poste de niveau intermédiaire au conseil municipal.";
+		},
+		LocDirectEntry
+		{
+			Key = "$Bonus.HighestOfficeLevel";
+			Text = "Bureau de plus haut niveau";
+		},
+		LocDirectEntry
+		{
+			Key = "$Bonus.HighestOfficeLevelDesc";
+			Text = "Vous avez le privilège de postuler pour un poste du plus haut niveau au conseil municipal.";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.info";
+			Text = "Informations détaillées";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Idle";
+			Text = "inactif";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.Walk";
+			Text = "en route";
+		},
+		LocDirectEntry
+		{
+			Key = "$WindowTitleInspection";
+			Text = "Inspection du personnage";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.BuildingPlacementDefault";
+			Text = "Placez votre bâtiment dans un endroit plat et dégagé, à côté d’une rue, dans une ville ou un village.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.BuildingPlacementCity";
+			Text = "Placez votre bâtiment dans un endroit plat et dégagé, à côté d’une rue, dans l'enceinte de la ville.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.BuildingPlacementVillage";
+			Text = "Placez votre bâtiment dans un endroit plat et dégagé, à côté d’une rue, dans un village.";
 		},
 	)
 };
