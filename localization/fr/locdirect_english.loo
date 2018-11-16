@@ -35,7 +35,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ALLIANCE";
-			Text = "%action% a échoué - vous êtes allié avec cette dynastie !";
+			Text = "%action% a échoué - vous êtes allié avec cette dynastie !";
 		},
 		LocDirectEntry
 		{
@@ -65,7 +65,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyPowderOfHygeia.SuccessSource";
-			Text = "Votre bâtiment %BuildingTarget% est maintenant exempt de tout poison.";
+			Text = "Votre bâtiment %BuildingTarget% est maintenant exempt de tout poison.";
 		},
 		LocDirectEntry
 		{
@@ -145,22 +145,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Begging.CriticalSuccess.Headline";
-			Text = "On vous a donné %coins% !";
+			Text = "On vous a donné %coins% !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.Begging.CriticalSuccess.Message";
-			Text = "Votre misère a profondément touché les citoyens de %neighborhood% et ils vous ont fait don de %coins%.";
+			Text = "Votre misère a profondément touché les citoyens de %neighborhood% et ils vous ont fait don de %coins%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.Begging.Success.Headline";
-			Text = "Vous avez reçu %coins% !";
+			Text = "Vous avez reçu %coins% !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.Begging.Success.Message";
-			Text = "Votre mendicité dans %neighborhood% vous a rapporté %coins% et une perte de réputation élevée...";
+			Text = "Votre mendicité dans %neighborhood% vous a rapporté %coins% et une perte de réputation élevée...";
 		},
 		LocDirectEntry
 		{
@@ -280,7 +280,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.BuyHouseBuilding.PriceConfirmation";
-			Text = "Acheter le bâtiment %building% pour %coins% ?";
+			Text = "Acheter le bâtiment %building% pour %coins% ?";
 		},
 		LocDirectEntry
 		{
@@ -325,7 +325,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ChangeMainBuilding.ChangeOfcity";
-			Text = "Si vous déplacez votre résidence vers %city%, vous perdrez tous les sièges potentiellements acquis dans le conseil municipal de %city2%. Êtes vous sûr de vouloir déplacer la residence de votre dynastie ?";
+			Text = "Si vous déplacez votre résidence vers %city%, vous perdrez tous les sièges potentiellements acquis dans le conseil municipal de %city2%. Êtes vous sûr de vouloir déplacer la residence de votre dynastie ?";
 		},
 		LocDirectEntry
 		{
@@ -365,7 +365,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Commended";
-			Text = "%CharacterSource% a parlé en votre faveur à la population dans le >%neighborhood%< !";
+			Text = "%CharacterSource% a parlé en votre faveur à la population dans le >%neighborhood%< !";
 		},
 		LocDirectEntry
 		{
@@ -390,12 +390,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ComplimentSomeone.FailureSource";
-			Text = "Vous avez échoué à complimenter %CharacterTarget% de manière embarrassante.";
+			Text = "Vous avez échoué à complimenter %CharacterTarget% de manière embarrassante.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ComplimentSomeone.FailureTarget";
-			Text = "%CharacterSource% a fait une tentative pitoyable de vous complimenter.";
+			Text = "%CharacterSource% a fait une tentative pitoyable de vous complimenter.";
 		},
 		LocDirectEntry
 		{
@@ -405,12 +405,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ComplimentSomeone.SuccessSource";
-			Text = "Vous avez complimenté %CharacterTarget%.";
+			Text = "Vous avez complimenté %CharacterTarget%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ComplimentSomeone.SuccessTarget";
-			Text = "%CharacterSource% vous a complimenté.";
+			Text = "%CharacterSource% vous a complimenté.";
 		},
 		LocDirectEntry
 		{
@@ -495,7 +495,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Denounced";
-			Text = "%CharacterSource% vous a dénoncé à %characterTargets%";
+			Text = "%CharacterSource% vous a dénoncé à %characterTargets%";
 		},
 		LocDirectEntry
 		{
@@ -515,7 +515,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.DestroyBuildingAction.Confirmation";
-			Text = "Êtes-vous sûr de vouloir démolir votre bâtiment >%building%< ?";
+			Text = "Êtes-vous sûr de vouloir démolir votre bâtiment %building% ?";
 		},
 		LocDirectEntry
 		{
@@ -535,7 +535,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.DestroyBuildingPoliticalSucces";
-			Text = "Mauvaises nouvelles ! %office% %character% a fait démolir votre bâtiment %building%, car son état de délabrement constitue un danger pour le grand public.";
+			Text = "Mauvaises nouvelles ! %office% %character% a fait démolir votre bâtiment %building%, car son état de délabrement constitue un danger pour le grand public.";
 		},
 		LocDirectEntry
 		{
@@ -545,7 +545,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.DestroyBuildingPoliticalWarning";
-			Text = "%office% %character% prévoit de démolir votre bâtiment %building%, car son état de délabrement constitue un danger pour le grand public.";
+			Text = "%office% %character% prévoit de démolir votre bâtiment %building%, car son état de délabrement constitue un danger pour le grand public.";
 		},
 		LocDirectEntry
 		{
@@ -610,7 +610,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.DrinkSucces";
-			Text = "Vous avez bu %item%.";
+			Text = "Vous avez bu %item%.";
 		},
 		LocDirectEntry
 		{
@@ -675,7 +675,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.EatSucces";
-			Text = "Vous avez mangé %item%.  Cela améliore légèrement votre guérison de %Ailment%.";
+			Text = "Vous avez mangé %item%.  Cela améliore légèrement votre guérison de %Ailment%.";
 		},
 		LocDirectEntry
 		{
@@ -805,12 +805,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.FindEvidence.Fail";
-			Text = "Malheureusement,%character% n'a pu trouver aucune preuve de crimes commis par vos concurrents dans le %neighborhood% de %city%.";
+			Text = "Malheureusement,%character% n'a pu trouver aucune preuve de crimes commis par vos concurrents dans le %neighborhood% de %city%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.FindEvidence.Success";
-			Text = "%character% a trouvé des preuves dans le %neighborhood% de %city%: >%evidence%<";
+			Text = "%character% a trouvé des preuves dans le %neighborhood% de %city%: >%evidence%<";
 		},
 		LocDirectEntry
 		{
@@ -830,7 +830,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.GenericActionFinished";
-			Text = "%action% terminé.";
+			Text = "%action% terminé.";
 		},
 		LocDirectEntry
 		{
@@ -840,17 +840,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.GiveGift.Refuse";
-			Text = "%character% a refusé ce cadeau : %item%";
+			Text = "%character% a refusé ce cadeau : %item%";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.GiveGift.Request";
-			Text = "%character% souhaite vous offrir en cadeau %item%. Voulez-vous accepter ?";
+			Text = "%character% souhaite vous offrir en cadeau %item%. Voulez-vous accepter ?";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.GiveGift.Source.Success";
-			Text = "Vous avez donné 1 %item% à %CharacterTarget%.";
+			Text = "Vous avez donné 1 %item% à %CharacterTarget%.";
 		},
 		LocDirectEntry
 		{
@@ -875,22 +875,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.GiveMoney.Refuse";
-			Text = "%CharacterTarget% a refusé votre sac contenant %coins%.";
+			Text = "%CharacterTarget% a refusé votre sac contenant %coins%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.GiveMoney.Request";
-			Text = "%CharacterSource% voudrais vous donner un sac de %coins%. Souhaitez-vous accepter ce don ?";
+			Text = "%CharacterSource% voudrais vous donner un sac de %coins%. Souhaitez-vous accepter ce don ?";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.GiveMoney.Source.Success";
-			Text = "Vous avez donné %coins% à %CharacterTarget%.";
+			Text = "Vous avez donné %coins% à %CharacterTarget%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.GiveMoney.Target.Success";
-			Text = "Vous avez reçu %coins% de %CharacterSource%.";
+			Text = "Vous avez reçu %coins% de %CharacterSource%.";
 		},
 		LocDirectEntry
 		{
@@ -1115,7 +1115,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.LevelUpBuilding.Confirmation";
-			Text = "Voulez-vous améliorer votre bâtiment %building% au niveau %lvl% pour %coins%?";
+			Text = "Voulez-vous améliorer votre bâtiment %building% au niveau %lvl% pour %coins%?";
 		},
 		LocDirectEntry
 		{
@@ -1640,7 +1640,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.PickPocketFailureButStoleMoney";
-			Text = "Vous avez été pris en flagrant délit de vol à la tire ! Mais avez quand même réussi a voler %coins%.";
+			Text = "Vous avez été pris en flagrant délit de vol à la tire ! Mais avez quand même réussi a voler %coins%.";
 		},
 		LocDirectEntry
 		{
@@ -1650,12 +1650,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.PickPocketSucces";
-			Text = "Vous avez pu alléger les poches des citoyens pour un total de %coins%.";
+			Text = "Vous avez pu alléger les poches des citoyens pour un total de %coins%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.PickPocketSuccesWithItem";
-			Text = "Vous avez pu alléger les poches des citoyens pour un total de %coins% et avez aussi réussi à subtiliser un : %item%.";
+			Text = "Vous avez pu alléger les poches des citoyens pour un total de %coins% et avez aussi réussi à subtiliser un : %item%.";
 		},
 		LocDirectEntry
 		{
@@ -1755,7 +1755,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Praised";
-			Text = "%CharacterSource% vous a glorifié à %characterTargets%";
+			Text = "%CharacterSource% vous a glorifié à %characterTargets%";
 		},
 		LocDirectEntry
 		{
@@ -1765,7 +1765,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.PublicEntertainmentSucces";
-			Text = "Votre jonglage était réussi. Les citoyens enthousiastes vous jettent un total de %coins%.";
+			Text = "Votre jonglage était réussi. Les citoyens enthousiastes vous jettent un total de %coins%.";
 		},
 		LocDirectEntry
 		{
@@ -1800,7 +1800,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ReapHerbsSucces";
-			Text = "%item% récolté.";
+			Text = "%item% récolté.";
 		},
 		LocDirectEntry
 		{
@@ -1830,12 +1830,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.RepairBuildingAction.CancelledBecauseFire";
-			Text = "Les réparations sur le bâtiments >%building%< ont stoppée, parce que le bâtiment a pris feu...";
+			Text = "Les réparations sur le bâtiments %building% ont stoppée, parce que le bâtiment a pris feu...";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.RepairBuildingAction.PriceConfirmation";
-			Text = "Les réparations sur le bâtiment >%building%< coûteront %coins%. Voulez-vous continuer ?";
+			Text = "Les réparations sur le bâtiment %building% coûteront %coins%. Voulez-vous continuer ?";
 		},
 		LocDirectEntry
 		{
@@ -1845,7 +1845,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Reprimand.quick.lansquenet";
-			Text = "Vous avez envoyé au tribunal les preuves suivantes : >evidence<. Vous avez reçu %coins% de la ville pour votre intervention.";
+			Text = "Vous avez envoyé au tribunal les preuves suivantes : >evidence<. Vous avez reçu %coins% de la ville pour votre intervention.";
 		},
 		LocDirectEntry
 		{
@@ -1970,7 +1970,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Smeared";
-			Text = "%CharacterSource% a monté les gens du %neighborhood% contre vous !";
+			Text = "%CharacterSource% a monté les gens du %neighborhood% contre vous !";
 		},
 		LocDirectEntry
 		{
@@ -2165,12 +2165,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.StealHouseSuccess";
-			Text = "Vous réussisez à voler %coins%,%item% et %evidence% dans le bâtiment %building%.";
+			Text = "Vous réussisez à voler %coins%,%item% et %evidence% dans le bâtiment %building%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.StealHouseVictim";
-			Text = "Quelqu'un est entré par effraction dans votre bâtiment %building% et vous a volé %coins% pièces, %item% et %evidence% !";
+			Text = "Quelqu'un est entré par effraction dans votre bâtiment %building% et vous a volé %coins% pièces, %item% et %evidence% !";
 		},
 		LocDirectEntry
 		{
@@ -8610,7 +8610,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$cf.Child.EE.1";
-			Text = "Regarde, j'ai attrapé une mouche. Et si je tire sa jambe... hehe, c'est vraiment drôle !";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -9890,7 +9890,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Church.action.pay";
-			Text = "Bien sûr. J'espère que vous ferez un don de %coins% à l'Église pour un acte si délicat ?";
+			Text = "Bien sûr. J'espère que vous ferez un don de %coins% à l'Église pour un acte si délicat ?";
 		},
 		LocDirectEntry
 		{
@@ -9910,7 +9910,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Church.buyPardon";
-			Text = "Le Seigneur vous pardonnera si vous êtes prêt à donner à la sainte mère église un don de %coins%...";
+			Text = "Le Seigneur vous pardonnera si vous êtes prêt à donner à la sainte mère église un don de %coins%...";
 		},
 		LocDirectEntry
 		{
@@ -10365,7 +10365,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Cutscenes.Medicus.Cost";
-			Text = "Vous remettre sur pieds vous coûtera %coins% !";
+			Text = "Vous remettre sur pieds vous coûtera %coins% !";
 		},
 		LocDirectEntry
 		{
@@ -10875,7 +10875,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Event.GreatFire";
-			Text = "Un grave incendie ravage %city% ! Tous aux puits, citoyens !";
+			Text = "Un grave incendie ravage %city% ! Tous aux puits, citoyens !";
 		},
 		LocDirectEntry
 		{
@@ -10915,7 +10915,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$Event.Plague.Started";
-			Text = "La peste s'est déclaré dans %city%! Priez, pécheurs !";
+			Text = "La peste s'est déclaré dans %city%! Priez, pécheurs !";
 		},
 		LocDirectEntry
 		{
@@ -10960,7 +10960,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$fb.Compliment.Success.Actor.District";
-			Text = "%TargetCharacter% est flatté par votre compliment. Votre réputation dans le quartier %neighborhood% de la cité de %city% a augmenté.";
+			Text = "%TargetCharacter% est flatté par votre compliment. Votre réputation dans le quartier %neighborhood% de la cité de %city% a augmenté.";
 		},
 		LocDirectEntry
 		{
@@ -10990,22 +10990,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$fb.Insult.Success.Actor.District";
-			Text = "Vous avez insulté %TargetCharacter%, et par là-même les habitant du %neighborhood% de %city%.";
+			Text = "Vous avez insulté %TargetCharacter%, et par là-même les habitant du %neighborhood% de %city%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$fb.Insult.Success.Actor.Dynasty";
-			Text = "Vous avez insulté %TargetCharacter% et les citoyens de %city% l'ont appris ! Même si votre réputation est ternie aux yeux de la dynastie %dynasty%, les habitants du %neighborhood% ont maintenant moins de respect pour cette famille.";
+			Text = "Vous avez insulté %TargetCharacter% et les citoyens de %city% l'ont appris ! Même si votre réputation est ternie aux yeux de la dynastie %dynasty%, les habitants du %neighborhood% ont maintenant moins de respect pour cette famille.";
 		},
 		LocDirectEntry
 		{
 			Key = "$fb.Insult.Success.Target";
-			Text = "%ActionActor% vous a insulté, et les citoyens de %city% l'ont appris ! Votre réputation a donc diminué dans le %neighborhood% !";
+			Text = "%ActionActor% vous a insulté, et les citoyens de %city% l'ont appris ! Votre réputation a donc diminué dans le %neighborhood% !";
 		},
 		LocDirectEntry
 		{
 			Key = "$fb.Insult.Success.Target.Insult";
-			Text = "%ActionActor% vous a insulté, et les citoyens de %city% l'ont appris ! Votre réputation dans le %neighborhood% diminuera si vous ne défendez pas immédiatement votre honneur !";
+			Text = "%ActionActor% vous a insulté, et les citoyens de %city% l'ont appris ! Votre réputation dans le %neighborhood% diminuera si vous ne défendez pas immédiatement votre honneur !";
 		},
 		LocDirectEntry
 		{
@@ -11270,7 +11270,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Budget.BuildingLocation";
-			Text = "Emplacement : %Neighbor%, %city%";
+			Text = "Emplacement : %Neighbor%, %city%";
 		},
 		LocDirectEntry
 		{
@@ -11505,7 +11505,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.business.DestroySelectedItems";
-			Text = "Êtes-vous sûr de vouloir détruire tous les %item% sélectionnés ?";
+			Text = "Êtes-vous sûr de vouloir détruire tous les %item% sélectionnés ?";
 		},
 		LocDirectEntry
 		{
@@ -15520,12 +15520,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.building.burning.text";
-			Text = "Votre bâtiment >%building%< brûle !";
+			Text = "Votre bâtiment %building% brûle !";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.citygrowth.message";
-			Text = "La ville de %city% grandit et va bientôt créer plus d'espace pour ses citoyens !";
+			Text = "La ville de %city% grandit et va bientôt créer plus d'espace pour ses citoyens !";
 		},
 		LocDirectEntry
 		{
@@ -15770,7 +15770,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.feedback.3.1";
-			Text = "Soyez le bienvenu, %name% !\nVous commencerez en tant que >%title%< et ne serez pas autorisé à vivre et travailler dans la ville de %city% jusqu'à ce que vous ayez acquis le titre de >citoyen<.\n\n Consultez le >journal des tâches<, le premier livre en haut de l'interface, pour savoir quoi faire ensuite.";
+			Text = "Soyez le bienvenu, %name% !\nVous commencerez en tant que >%title%< et ne serez pas autorisé à vivre et travailler dans la ville de %city% jusqu'à ce que vous ayez acquis le titre de >citoyen<.\n\n Consultez le >journal des tâches<, le premier livre en haut de l'interface, pour savoir quoi faire ensuite.";
 		},
 		LocDirectEntry
 		{
@@ -15915,12 +15915,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.Medicus.NPCCured";
-			Text = "Un résident du quartier a payé %coins% pour être soigné dans votre établissement %business%.";
+			Text = "Un résident du quartier a payé %coins% pour être soigné dans votre établissement %business%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.Medicus.SomeoneCured";
-			Text = "%character% a payé %coins% pour être soigné dans votre établissement %business%.";
+			Text = "%character% a payé %coins% pour être soigné dans votre établissement %business%.";
 		},
 		LocDirectEntry
 		{
@@ -16810,7 +16810,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$PerfumeDesc";
-			Text = "De nos jours, le parfum est souvent utilisé pour couvrir les odeurs corporelles peu plaisantes. Un bain bous dites ? Pardieu non, cela risque de vous faire tomber malade ou de vous faire perdre le moral. Vous l'ignoriez ?";
+			Text = "De nos jours, le parfum est souvent utilisé pour couvrir les odeurs corporelles peu plaisantes. Un bain vous dites ? Pardieu non, cela risque de vous faire tomber malade ou de vous faire perdre le moral. Vous l'ignoriez ?";
 		},
 		LocDirectEntry
 		{
@@ -17440,12 +17440,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$quickmessage.boughtbuildingonsale";
-			Text = "Ce bâtiment a été acheté : %building%";
+			Text = "Ce bâtiment a été acheté : %building%";
 		},
 		LocDirectEntry
 		{
 			Key = "$quickmessage.BuildingAttacked";
-			Text = "Votre bâtiment %building% est attaqué !";
+			Text = "Votre bâtiment %building% est attaqué !";
 		},
 		LocDirectEntry
 		{
@@ -17455,7 +17455,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$quickmessage.buildingfinished";
-			Text = "Un nouveau bâtiment vient d'être construit : %building%";
+			Text = "Un nouveau bâtiment vient d'être construit : %building%";
 		},
 		LocDirectEntry
 		{
@@ -17465,7 +17465,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$quickmessage.buildinglevelup";
-			Text = "Votre bâtiment %building% a été amélioré.";
+			Text = "Votre bâtiment %building% a été amélioré.";
 		},
 		LocDirectEntry
 		{
@@ -17475,12 +17475,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$quickmessage.buildingputonsale";
-			Text = "Un bâtiment est à vendre : %building%";
+			Text = "Un bâtiment est à vendre : %building%";
 		},
 		LocDirectEntry
 		{
 			Key = "$quickmessage.buildingremovedfromsale";
-			Text = "Ce bâtiment n'est plus à vendre : %building%";
+			Text = "Ce bâtiment n'est plus à vendre : %building%";
 		},
 		LocDirectEntry
 		{
@@ -17495,7 +17495,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$quickmessage.mainbuildingchanged";
-			Text = "La nouvelle résident de cette dynastie est : %building%";
+			Text = "La nouvelle résident de cette dynastie est : %building%";
 		},
 		LocDirectEntry
 		{
@@ -17510,7 +17510,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$quickmessage.soldbuildingonsale";
-			Text = "Ce bâtiment à été vendu : %building%";
+			Text = "Ce bâtiment à été vendu : %building%";
 		},
 		LocDirectEntry
 		{
@@ -17520,37 +17520,37 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.1";
-			Text = "Dans un service religieux, %fullname% vous renifle apparemment par hasard avant de faire une grimace.\n\nIl semblerait que votre nouvelle eau de toilette ne plaise pas aux nez distingués de la famille %dynasty%...";
+			Text = "Dans un service religieux, %fullname% vous renifle apparemment par hasard avant de faire une grimace.\n\nIl semblerait que votre nouvelle eau de toilette ne plaise pas aux nez distingués de la famille %dynasty%...";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.10";
-			Text = "Pour avoir chanté des chansons paillairdes dans une taverne, vous êtes condamné à une amende de %coins% !";
+			Text = "Pour avoir chanté des chansons paillairdes dans une taverne, vous êtes condamné à une amende de %coins% !";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.11";
-			Text = "Lors de la compétition annuelle des ménestrels du %neighborhood% de %city%, vous plongez un peu trop profondément dans votre chope. Cela vous conduit à décider de devenir un participant actif plutôt qu'un simple membre du public, à tel point que vous sautez sur scene quand vous entendez votre chanson préférée.\nEvidemment, au lieu d'applaudissements enthousiastes, vous ne récoltez que des rires...";
+			Text = "Lors de la compétition annuelle des ménestrels du %neighborhood% de %city%, vous plongez un peu trop profondément dans votre chope. Cela vous conduit à décider de devenir un participant actif plutôt qu'un simple membre du public, à tel point que vous sautez sur scene quand vous entendez votre chanson préférée.\nEvidemment, au lieu d'applaudissements enthousiastes, vous ne récoltez que des rires...";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.12";
-			Text = "Habillé de vos meilleurs vêtements, vous vous êtes engagé pour le festival annuel des choux de %city%, quand quelqu'un vide par inadvertance son pot de chambre par la fenêtre juste à vos pieds. Vous ne vous rappelez plus quelles insultes vous avez proféré, mais il serait préférable d'eviter le %neighborhood% pour quelques temps...";
+			Text = "Habillé de vos meilleurs vêtements, vous vous êtes engagé pour le festival annuel des choux de %city%, quand quelqu'un vide par inadvertance son pot de chambre par la fenêtre juste à vos pieds. Vous ne vous rappelez plus quelles insultes vous avez proféré, mais il serait préférable d'eviter le %neighborhood% pour quelques temps...";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.13";
-			Text = "Alors que vous parcourez le %neighborhood% de %city%, vous remarquez que les habitants vous regardent méchamment et beaucoup vous tourne le dos.\nCe qui ne va pas avec ces gens tout d'un coup reste un mystère...";
+			Text = "Alors que vous parcourez le %neighborhood% de %city%, vous remarquez que les habitants vous regardent méchamment et beaucoup vous tourne le dos.\nCe qui ne va pas avec ces gens tout d'un coup reste un mystère...";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.14";
-			Text = "Alors que vous parcourez le %neighborhood% de %city% vous poussez quelques mendiants gênant sur le côté. Ils trébuchent et renversent des échafaudages en tombant, blessant plusieurs habitants au passage. Le temps que la poussière retombe, vous avez évidemment déjà disparu dans une petite ruelle.\nAu loin, vous entendez des gens maudissant votre nom...";
+			Text = "Alors que vous parcourez le %neighborhood% de %city% vous poussez quelques mendiants gênant sur le côté. Ils trébuchent et renversent des échafaudages en tombant, blessant plusieurs habitants au passage. Le temps que la poussière retombe, vous avez évidemment déjà disparu dans une petite ruelle.\nAu loin, vous entendez des gens maudissant votre nom...";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.15";
-			Text = "Vous avez empiété sur les plates-bandes d'un membre renommé du conseil de %city% une fois de trop. Vous êtes sermonné et remis à votre place lors de votre rencontre suivante au marché de %neighborhood% .\nLes gens autour s'en amusent et plus d'un vous pointe du doigt en riant !";
+			Text = "Vous avez empiété sur les plates-bandes d'un membre renommé du conseil de %city% une fois de trop. Vous êtes sermonné et remis à votre place lors de votre rencontre suivante au marché de %neighborhood% .\nLes gens autour s'en amusent et plus d'un vous pointe du doigt en riant !";
 		},
 		LocDirectEntry
 		{
@@ -17560,37 +17560,37 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.17";
-			Text = "Un de vos amis à la cour de %kingdom%vous a recemment écrit une lettre indiquant que votre réputation, autrefois bonne, a beaucoup souffert. Il vous conseille, pour la prochaine fois, d'éviter de dire que %king% est un idiot...";
+			Text = "Un de vos amis à la cour de %kingdom%vous a recemment écrit une lettre indiquant que votre réputation, autrefois bonne, a beaucoup souffert. Il vous conseille, pour la prochaine fois, d'éviter de dire que %king% est un idiot...";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.18";
-			Text = "Quoi qui vous ait poussé à croire que le charismatique marchand étranger voulait réellement vous vendre un >%itemname%< pour seulement %coins%, au moins vous retiendrez la leçon...\nQuand vous ouvrez le sac, tout ce qu'il contient est 1 %resourcename%! Et bien sûr, ce chacal avait déjà fui depuis longtemps...";
+			Text = "Quoi qui vous ait poussé à croire que le charismatique marchand étranger voulait réellement vous vendre un >%itemname%< pour seulement %coins%, au moins vous retiendrez la leçon...\nQuand vous ouvrez le sac, tout ce qu'il contient est 1 %resourcename%! Et bien sûr, ce chacal avait déjà fui depuis longtemps...";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.19";
-			Text = "D'un jour à l'autre, %employee%, employé dans %building%, n'est plus venu travailler. Quelqu'un vous informe que %employee% est recherché par les gardes de la cités et qu'il a probablement quitté la ville.";
+			Text = "D'un jour à l'autre, %employee%, employé dans %building%, n'est plus venu travailler. Quelqu'un vous informe que %employee% est recherché par les gardes de la cités et qu'il a probablement quitté la ville.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.2";
-			Text = "Comme le hasard l'aurait voulu, vous voyez %fullname% marcher accidentellement dans un tas de fumier sur la place marché et commencer à jurer frénétiquement.\nEn passant à côté, vous ne pouvez vous retenir de rire plus longtemps. Le regard en colère que %fullname% vous donnes révèle que cela n'a rien fait pour aider votre relation avec la famille %dynasty%.";
+			Text = "Comme le hasard l'aurait voulu, vous voyez %fullname% marcher accidentellement dans un tas de fumier sur la place marché et commencer à jurer frénétiquement.\nEn passant à côté, vous ne pouvez vous retenir de rire plus longtemps. Le regard en colère que %fullname% vous donnes révèle que cela n'a rien fait pour aider votre relation avec la famille %dynasty%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.20";
-			Text = "%employee%, qui travaille dans %building%, arrive au travail saoul et refuse de suivre les instructions. Vous renvoyez donc %employee% , accompagné d'un bon coup de pied aux fesses.";
+			Text = "%employee%, qui travaille dans %building%, arrive au travail saoul et refuse de suivre les instructions. Vous renvoyez donc %employee% , accompagné d'un bon coup de pied aux fesses.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.21";
-			Text = "Vous avez empiété sur les plates-bandes d'un membre renommé du conseil de %city% une fois de trop. Au conseil suivant, vous êtes sommé de vous expliquer, et vous êtes durement réprimandé.\nLes conseillers en sont visiblement amusés !";
+			Text = "Vous avez empiété sur les plates-bandes d'un membre renommé du conseil de %city% une fois de trop. Au conseil suivant, vous êtes sommé de vous expliquer, et vous êtes durement réprimandé.\nLes conseillers en sont visiblement amusés !";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.22";
-			Text = "Au marché, vous discutez avec excitation des dernières rumeurs à propos de %sovereign%, avec un marchand. Malheureusement, vous ne remarquez pas qu'un membre de la maison du souverain vous écoute. Malheur...";
+			Text = "Au marché, vous discutez avec excitation des dernières rumeurs à propos de %sovereign%, avec un marchand. Malheureusement, vous ne remarquez pas qu'un membre de la maison du souverain vous écoute. Malheur...";
 		},
 		LocDirectEntry
 		{
@@ -17600,47 +17600,47 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.24";
-			Text = "D'humeur joyeuse vous vous promenez au marché, où vous percutez sans le vouloir une vieille femme et faites tomber son panier rempli d'herbes. Elle vous lance un regard noir en marmonnant quelquechose d'inintelligible avant de disparaitre dans la foule...\nPeu après vous comprenez que vous aviez raison : la vieille bique vous a maudit : %malediction% !";
+			Text = "D'humeur joyeuse vous vous promenez au marché, où vous percutez sans le vouloir une vieille femme et faites tomber son panier rempli d'herbes. Elle vous lance un regard noir en marmonnant quelquechose d'inintelligible avant de disparaitre dans la foule...\nPeu après vous comprenez que vous aviez raison : la vieille bique vous a maudit : %malediction% !";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.25";
-			Text = "Vous déposez %coins% sur un autel et priez pour une bonne santé, une longue vie, une fortune sans pareille et le bonheur éternel.\nLe saint vous a probablement mal compris, puisqu'il vous a maudit à la place : %malediction% !";
+			Text = "Vous déposez %coins% sur un autel et priez pour une bonne santé, une longue vie, une fortune sans pareille et le bonheur éternel.\nLe saint vous a probablement mal compris, puisqu'il vous a maudit à la place : %malediction% !";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.3";
-			Text = "Vous laissez accidentelement échapper un pet lors d'une exécution publique. Bien ce ne soit pas répréhensible en soi, %%fullname% était malheureusement directement derrière vous à ce moment.\nLa famille %dynasty% évite désormais la votre, en particulier lors d'événements publics.";
+			Text = "Vous laissez accidentelement échapper un pet lors d'une exécution publique. Bien ce ne soit pas répréhensible en soi, %%fullname% était malheureusement directement derrière vous à ce moment.\nLa famille %dynasty% évite désormais la votre, en particulier lors d'événements publics.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.4";
-			Text = "Autour d'une chope de bière dans une taverne, vous vous engagez dans une conversation animée avec un autre invité. Tout en appuyant l'une de vos déclarations avec un large mouvement de votre bras, vous renversez accidentellement de la bière sur les vêtements de %fullname%.\nEn dépit de vos excuses sincères, vous êtes toujours sujet à un regard méprisant. Nul doute que l'ensemble de la famille %dynasty% va prendre assez mal cet >accident<...";
+			Text = "Autour d'une chope de bière dans une taverne, vous vous engagez dans une conversation animée avec un autre invité. Tout en appuyant l'une de vos déclarations avec un large mouvement de votre bras, vous renversez accidentellement de la bière sur les vêtements de %fullname%.\nEn dépit de vos excuses sincères, vous êtes toujours sujet à un regard méprisant. Nul doute que l'ensemble de la famille %dynasty% va prendre assez mal cet >accident<...";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.5";
-			Text = "Tout à coup, %fullname% sort de derrière un arbre, vous regarde avec condescendance et vous dit : >Je ne vous aime pas !<\nDans votre grande étonnement, vous parvenez à rétorquer >Mais pourquoi pas ?< alors que %fullname% vous tourne déjà le dos en ricanement. Il est évident que le famille %dynasty% ne vous aime plus...";
+			Text = "Tout à coup, %fullname% sort de derrière un arbre, vous regarde avec condescendance et vous dit : >Je ne vous aime pas !<\nDans votre grande étonnement, vous parvenez à rétorquer >Mais pourquoi pas ?< alors que %fullname% vous tourne déjà le dos en ricanement. Il est évident que le famille %dynasty% ne vous aime plus...";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.6";
-			Text = "Vous avez perdu %coins% dans une affaire de contrebande  qui a misérablement échoué.";
+			Text = "Vous avez perdu %coins% dans une affaire de contrebande  qui a misérablement échoué.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.7";
-			Text = "Vous devez payer un supplément de %coins% pour les dîmes de l'église.";
+			Text = "Vous devez payer un supplément de %coins% pour les dîmes de l'église.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.8";
-			Text = "Un commerçant étranger sérieux en apparence vous convainc, dans un moment de faiblesse, d'acheter des terres sur l'île récemment rédécouverte de l'Atlantide.\nVous recevez 13 1/2 hectares pour le prix avantageux de %coins%.";
+			Text = "Un commerçant étranger sérieux en apparence vous convainc, dans un moment de faiblesse, d'acheter des terres sur l'île récemment rédécouverte de l'Atlantide.\nVous recevez 13 1/2 hectares pour le prix avantageux de %coins%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.negative.9";
-			Text = "Trop tard, vous vous rendez compte que vous avez éte la victime d'un pickpocket. Vous avez maintenant une bourse allégée de %coins% pièces.";
+			Text = "Trop tard, vous vous rendez compte que vous avez éte la victime d'un pickpocket. Vous avez maintenant une bourse allégée de %coins% pièces.";
 		},
 		LocDirectEntry
 		{
@@ -17805,37 +17805,37 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.1";
-			Text = "En raison d'une heureuse coïncidence, vous avez pu empêcher une attaque sur un bâtiment appartenant à %fullname%.\nVous pouvez être sûr de la gratitude de la famille %dynasty% !";
+			Text = "En raison d'une heureuse coïncidence, vous avez pu empêcher une attaque sur un bâtiment appartenant à %fullname%.\nVous pouvez être sûr de la gratitude de la famille %dynasty% !";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.10";
-			Text = "Vous gagnez %coins% d'une spéculation immobilière.";
+			Text = "Vous gagnez %coins% d'une spéculation immobilière.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.11";
-			Text = "Vous êtes en route pour une réunion importante avec un partenaire commercial au %neighborhood% de %city% quand un cheval de trait a paniqué et galopé en direction d'une petite fille. Vous agissez immédiatement et sauvez la petite fille !\nLes habitants du quartiers sont enthousiasmés par votre bravoure héroïque !";
+			Text = "Vous êtes en route pour une réunion importante avec un partenaire commercial au %neighborhood% de %city% quand un cheval de trait a paniqué et galopé en direction d'une petite fille. Vous agissez immédiatement et sauvez la petite fille !\nLes habitants du quartiers sont enthousiasmés par votre bravoure héroïque !";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.12";
-			Text = "Vous vous promenez joyeusement dans le %neighborhood% de %city% et saluez amicalement tous ceux que vous rencontrez. Et même si les gens sont en effectivement surpris, ils vous sourient en retour.";
+			Text = "Vous vous promenez joyeusement dans le %neighborhood% de %city% et saluez amicalement tous ceux que vous rencontrez. Et même si les gens sont en effectivement surpris, ils vous sourient en retour.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.13";
-			Text = "Vos entreprises dans le %neighborhood% à %city% ont beaucoup enrichi les citoyens du quartier. Vous êtes bien mieux accueilli quand vous êtes dans le quartier.";
+			Text = "Vos entreprises dans le %neighborhood% à %city% ont beaucoup enrichi les citoyens du quartier. Vous êtes bien mieux accueilli quand vous êtes dans le quartier.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.14";
-			Text = "Sur un coup de tête, vous ne jetez pas aux cochons les restes de la fête d'hier dans votre résidence. Au lieu de cela, vous en faite don pour nourrir les pauvres dans le %neighborhood% à %city% et veillez à ce que tout le monde sache qui a offert ce festin.";
+			Text = "Sur un coup de tête, vous ne jetez pas aux cochons les restes de la fête d'hier dans votre résidence. Au lieu de cela, vous en faite don pour nourrir les pauvres dans le %neighborhood% à %city% et veillez à ce que tout le monde sache qui a offert ce festin.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.15";
-			Text = "Vous donnez à une pauvre fille du %neighborhood% de %city% un quignon de pain sec. Le lendemain, tout le quartier reconnait votre bonté. Peut-être devriez vous distribuer du pain aux pauvres plus souvent...";
+			Text = "Vous donnez à une pauvre fille du %neighborhood% de %city% un quignon de pain sec. Le lendemain, tout le quartier reconnait votre bonté. Peut-être devriez vous distribuer du pain aux pauvres plus souvent...";
 		},
 		LocDirectEntry
 		{
@@ -17845,32 +17845,32 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.17";
-			Text = "Un de vos >informateur< de confiance vous rapporte que des forces hostiles envisagent d'empoisonner votre souverain... Vous envoyez immédiatement une dépêche au tribunal de %kingdom%. Vous pouvez être certain que votre nom va maintenant certainement recevoir plus d'attention là-bas.";
+			Text = "Un de vos >informateur< de confiance vous rapporte que des forces hostiles envisagent d'empoisonner votre souverain... Vous envoyez immédiatement une dépêche au tribunal de %kingdom%. Vous pouvez être certain que votre nom va maintenant certainement recevoir plus d'attention là-bas.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.18";
-			Text = "Vous trouvez 1 %itemname% sur la route, certes avec des signes d'usure, mais en très bon état quand même.";
+			Text = "Vous trouvez 1 %itemname% sur la route, certes avec des signes d'usure, mais en très bon état quand même.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.19";
-			Text = "Vous ne pouvez tout simplement pas refuser une si bonne affaire : Vous achetez 1 %itemname% pour quelques %coins% pièces à un marchand évidemment mentalement déficient.";
+			Text = "Vous ne pouvez tout simplement pas refuser une si bonne affaire : Vous achetez 1 %itemname% pour quelques %coins% pièces à un marchand évidemment mentalement déficient.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.2";
-			Text = "Sur la place du marché, vous remarquez que le pantalon de %fullname% n'est pas >aussi correctement fermé< qu'il devrait l'être. Grâce à votre remarque discrète, la famille %dynasty% s'est épargnée une situation embarrassante, ce qui augmente votre réputation à leur égard.";
+			Text = "Sur la place du marché, vous remarquez que le pantalon de %fullname% n'est pas >aussi correctement fermé< qu'il devrait l'être. Grâce à votre remarque discrète, la famille %dynasty% s'est épargnée une situation embarrassante, ce qui augmente votre réputation à leur égard.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.20";
-			Text = "Eh bien c'était quelque chose... Pour célébrer l'anniversaire d'un parent lointain, vous apportez plusieurs bouteilles de vin à une réunion à l'Hôtel de Ville. Bien qu'aucune décision significative n'ait été prise, cela s'est avéré être un bon jour.\nLes membres du conseil de %city% sont en tout cas reconnaissants pour la petite distraction...";
+			Text = "Eh bien c'était quelque chose... Pour célébrer l'anniversaire d'un parent lointain, vous apportez plusieurs bouteilles de vin à une réunion à l'Hôtel de Ville. Bien qu'aucune décision significative n'ait été prise, cela s'est avéré être un bon jour.\nLes membres du conseil de %city% sont en tout cas reconnaissants pour la petite distraction...";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.21";
-			Text = "Dans un champ près de la ville, vous trouvez une broche portant le blason de la famille %sovereign%. Bien sûr, vous vous précipitez immédiatement à la résidence du souverain et restituez le précieux objet.\nVous pouvez être assuré de la gratitude de %sovereign% !";
+			Text = "Dans un champ près de la ville, vous trouvez une broche portant le blason de la famille %sovereign%. Bien sûr, vous vous précipitez immédiatement à la résidence du souverain et restituez le précieux objet.\nVous pouvez être assuré de la gratitude de %sovereign% !";
 		},
 		LocDirectEntry
 		{
@@ -17880,17 +17880,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.23";
-			Text = "Pour seulement %coins% pièces vous laissez une diseuse de bonne aventure prédire votre avenir. Bien que votre avenir semble plutôt aventureux, vous quittez la voyante plus riche de %xp% points d'expériences...";
+			Text = "Pour seulement %coins% pièces vous laissez une diseuse de bonne aventure prédire votre avenir. Bien que votre avenir semble plutôt aventureux, vous quittez la voyante plus riche de %xp% points d'expériences...";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.24";
-			Text = "Vous avez enfin été entendu ! Chaque jour de votre vie, vous avez prié fidèlement et maintenant vous vous réveillez en vous sentant merveilleusement bien: %blessing% !";
+			Text = "Vous avez enfin été entendu ! Chaque jour de votre vie, vous avez prié fidèlement et maintenant vous vous réveillez en vous sentant merveilleusement bien: %blessing% !";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.25";
-			Text = "Perdu dans vos pensées, vous posez %coins% pièces à côté d'une croix sur le bord d'un chemin et prononcez une prière. Soudain, vous entendez une voix forte et claire dans votre oreille :\n>N'ayez crainte, le Seigneur m'a envoyé à vous comme sa main protectrice !<\nVous vous sentez fortifié et plein d'énergie, car l'ange de Dieu vous a bénis : %blessing%.";
+			Text = "Perdu dans vos pensées, vous posez %coins% pièces à côté d'une croix sur le bord d'un chemin et prononcez une prière. Soudain, vous entendez une voix forte et claire dans votre oreille :\n>N'ayez crainte, le Seigneur m'a envoyé à vous comme sa main protectrice !<\nVous vous sentez fortifié et plein d'énergie, car l'ange de Dieu vous a bénis : %blessing%.";
 		},
 		LocDirectEntry
 		{
@@ -17900,7 +17900,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.4";
-			Text = "Quelqu'un a engagé un assassin pour tuer %fullname% ! Mais vous étiez au bon endroit au bon moment et avez pu éconduire le scélérat en criant haut et fort >À l'assassin ! À l'aide !<.\nLa famille %dynasty% vous en est très reconnaissante.";
+			Text = "Quelqu'un a engagé un assassin pour tuer %fullname% ! Mais vous étiez au bon endroit au bon moment et avez pu éconduire le scélérat en criant haut et fort >À l'assassin ! À l'aide !<.\nLa famille %dynasty% vous en est très reconnaissante.";
 		},
 		LocDirectEntry
 		{
@@ -17910,22 +17910,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.6";
-			Text = "Vous avez gagné %coins% en jouant aux cartes après l'église !";
+			Text = "Vous avez gagné %coins% en jouant aux cartes après l'église !";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.7";
-			Text = "La disparition d'un parent lointain vous rapporte un héritage de %coins% !";
+			Text = "La disparition d'un parent lointain vous rapporte un héritage de %coins% !";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.8";
-			Text = "Dans un champ juste à l'extérieur de la ville, vous trouvez des fragments d'objets anciens.\nMalgré votre insistance sur le fait qu'ils ne sont que des babioles, on vous remet une bourse sur la place du marché contenant une récompense de %coins% pour votre découverte.";
+			Text = "Dans un champ juste à l'extérieur de la ville, vous trouvez des fragments d'objets anciens.\nMalgré votre insistance sur le fait qu'ils ne sont que des babioles, on vous remet une bourse sur la place du marché contenant une récompense de %coins% pour votre découverte.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.positive.9";
-			Text = "Le conseil municipal a décidé de vous rembourser %coins% de vos taxes. Enfin !";
+			Text = "Le conseil municipal a décidé de vous rembourser %coins% de vos taxes. Enfin !";
 		},
 		LocDirectEntry
 		{
@@ -17955,112 +17955,112 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.Alcohol";
-			Text = "Écoutez ! Le conseil municipal de %city% est ravi d'annoncer que les citoyens de la ville sont invités à une grande fête pour honorer les aînés de la ville. Alors des %productcategory% seront vendus à bon prix pour le festival jusqu'en %date%.";
+			Text = "Écoutez ! Le conseil municipal de %city% est ravi d'annoncer que les citoyens de la ville sont invités à une grande fête pour honorer les aînés de la ville. Alors des %productcategory% seront vendus à bon prix pour le festival jusqu'en %date%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.Armor";
-			Text = "La garde de la ville de %city% a désespérément besoin de mettre à niveau son équipement, et paiera des prix élevés pour des %productcategory% jusqu'en %date% !";
+			Text = "La garde de la ville de %city% a désespérément besoin de mettre à niveau son équipement, et paiera des prix élevés pour des %productcategory% jusqu'en %date% !";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.BlackMarketItem";
-			Text = "Un groupe de gentilhommes qui cachent leur visage sous un long capuce achèteront des %productcategory% à prix élevé jusqu'en %date%. Retrouvez-les dans une ruelle obscure à %city% - mot de passe: 'toast au fromage' !";
+			Text = "Un groupe de gentilhommes qui cachent leur visage sous un long capuce achèteront des %productcategory% à prix élevé jusqu'en %date%. Retrouvez-les dans une ruelle obscure à %city% - mot de passe: 'toast au fromage' !";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.Clothing";
-			Text = "Hey ! C'est la semaine de la mode à %city%. La guilde des tailleurs organise une compétition pour voir qui sera le créateur de mode le plus pointu ! Envoyez vos plus beaux %productcategory% pas plus tard qu'en %date%.";
+			Text = "Hey ! C'est la semaine de la mode à %city%. La guilde des tailleurs organise une compétition pour voir qui sera le créateur de mode le plus pointu ! Envoyez vos plus beaux %productcategory% pas plus tard qu'en %date%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.Essentials";
-			Text = "À cause d'un manque de marchandises, %city% paiera des prix élevés pour les %productcategory%. La demande cessera bientôt : %date%.";
+			Text = "À cause d'un manque de marchandises, %city% paiera des prix élevés pour les %productcategory%. La demande cessera bientôt : %date%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.Food";
-			Text = "Une terrible famine a éclaté à %city%. Le comptoir de la ville recherche d'urgence des %productcategory% pas plus tard qu'en %date% et est prêt à payer des prix élevés !";
+			Text = "Une terrible famine a éclaté à %city%. Le comptoir de la ville recherche d'urgence des %productcategory% pas plus tard qu'en %date% et est prêt à payer des prix élevés !";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.Furniture";
-			Text = "Les citoyens de %city% ont désespérément besoin de %productcategory%. La demande cessera bientôt:  %date%.";
+			Text = "Les citoyens de %city% ont désespérément besoin de %productcategory%. La demande cessera bientôt:  %date%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.Intermediate";
-			Text = "La demande de %productcategory% à %city% est actuellement supérieur à la quantité disponible. Les acheteurs sont donc disposés à payer des prix élevés jusqu'à plus tard qu'au %date%.";
+			Text = "La demande de %productcategory% à %city% est actuellement supérieur à la quantité disponible. Les acheteurs sont donc disposés à payer des prix élevés jusqu'à plus tard qu'au %date%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.Luxury";
-			Text = "L'archevêque visitera la ville de %city%. Voilà pourquoi le bourgmestre est à la recherche de %productcategory% pour remettre comme cadeau à Sa Sainteté. Il est prêt à payer au prix fort jusqu'au %date%.";
+			Text = "L'archevêque visitera la ville de %city%. Voilà pourquoi le bourgmestre est à la recherche de %productcategory% pour remettre comme cadeau à Sa Sainteté. Il est prêt à payer au prix fort jusqu'au %date%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.Tool";
-			Text = "La ville de %city% a besoin de %productcategory% pour la construction d'un nouveau projet urbain honorant leur souverain. Les artisans paieront de bons prix jusqu'en %date%.";
+			Text = "La ville de %city% a besoin de %productcategory% pour la construction d'un nouveau projet urbain honorant leur souverain. Les artisans paieront de bons prix jusqu'en %date%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Demand.Weapon";
-			Text = "Oyez, oyez ! Le conseil de %city% appelle ses citoyens aux armes. Dépêchez-vous, car la demande pour les %productcategory% sera très élevée jusqu'en %date% !";
+			Text = "Oyez, oyez ! Le conseil de %city% appelle ses citoyens aux armes. Dépêchez-vous, car la demande pour les %productcategory% sera très élevée jusqu'en %date% !";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.Alcohol";
-			Text = "Il y a actuellement un surplus de %productcategory% à %city%. Ces produits seront donc vendus à des prix avantageux jusqu'en %date%.";
+			Text = "Il y a actuellement un surplus de %productcategory% à %city%. Ces produits seront donc vendus à des prix avantageux jusqu'en %date%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.Armor";
-			Text = "Les forgerons de %city% ont été très productifs l'année dernière et ont fabriqués un surplus de %productcategory% à vendre. C'est pourquoi les articles sont offerts à des prix avantageux jusqu'en %date%.";
+			Text = "Les forgerons de %city% ont été très productifs l'année dernière et ont fabriqués un surplus de %productcategory% à vendre. C'est pourquoi les articles sont offerts à des prix avantageux jusqu'en %date%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.BlackMarketItem";
-			Text = "La rumeur dit que la Guilde des voleurs de %city% a vidé l'entrepôt d'un riche patricien. Ils veulent vendre les %productcategory% volés jusqu'en %date% à bon prix, avant que les gardes de la ville ne les rattrapent...";
+			Text = "La rumeur dit que la Guilde des voleurs de %city% a vidé l'entrepôt d'un riche patricien. Ils veulent vendre les %productcategory% volés jusqu'en %date% à bon prix, avant que les gardes de la ville ne les rattrapent...";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.Clothing";
-			Text = "Dépêchez-vous ! Un groupe de commerçants venus de terres étrangères est arrivé à %city%. Ils proposent des %productcategory% à bons prix. Les commerçants resteront dans la région jusqu'en %date%.";
+			Text = "Dépêchez-vous ! Un groupe de commerçants venus de terres étrangères est arrivé à %city%. Ils proposent des %productcategory% à bons prix. Les commerçants resteront dans la région jusqu'en %date%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.Essentials";
-			Text = "Le comptoir de %city% propose actuellement des %productcategory% à des prix très avantageux. Cependant, l'offre se terminera bientôt : %date%.";
+			Text = "Le comptoir de %city% propose actuellement des %productcategory% à des prix très avantageux. Cependant, l'offre se terminera bientôt : %date%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.Food";
-			Text = "En raison d'une récolte exceptionnellement bonne, le comptoir de %city% offre des %productcategory% à des prix raisonnables. Dépêchez-vous, car cette offre se termine bientôt : %date%.";
+			Text = "En raison d'une récolte exceptionnellement bonne, le comptoir de %city% offre des %productcategory% à des prix raisonnables. Dépêchez-vous, car cette offre se termine bientôt : %date%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.Furniture";
-			Text = "Un fabricant de meubles suédois a ouvert une nouvelle entreprise à %city%. Pour célébrer la grande ouverture, ils vendent des %productcategory% jusqu'en %date% à des prix très compétitifs.";
+			Text = "Un fabricant de meubles suédois a ouvert une nouvelle entreprise à %city%. Pour célébrer la grande ouverture, ils vendent des %productcategory% jusqu'en %date% à des prix très compétitifs.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.Intermediate";
-			Text = "Un grand marché vendant des %productcategory% à bas prix se trouve actuellement à %city%. Dépêchez-vous, car le marché ferme bientôt : %date% !";
+			Text = "Un grand marché vendant des %productcategory% à bas prix se trouve actuellement à %city%. Dépêchez-vous, car le marché ferme bientôt : %date% !";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.Luxury";
-			Text = "Pssst ! Comme toujours, un étranger inconnu a mis la main sur certains %productcategory%. Il doit maintenant les vendre jusqu'en %date% à %city% et est prêt à faire de bonnes affaires...";
+			Text = "Pssst ! Comme toujours, un étranger inconnu a mis la main sur certains %productcategory%. Il doit maintenant les vendre jusqu'en %date% à %city% et est prêt à faire de bonnes affaires...";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.Tool";
-			Text = "Oyez, oyez ! Les artisans de %city% veulent se débarrasser de leur surplus de %productcategory% et les propose à la vente à de bons prix jusqu'en %date%.";
+			Text = "Oyez, oyez ! Les artisans de %city% veulent se débarrasser de leur surplus de %productcategory% et les propose à la vente à de bons prix jusqu'en %date%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$randomEvents.TradeMarket.Offer.Weapon";
-			Text = "La ville de %city% vend des %productcategory% de son arsenal à des prix avantageux jusqu'en %date%.";
+			Text = "La ville de %city% vend des %productcategory% de son arsenal à des prix avantageux jusqu'en %date%.";
 		},
 		LocDirectEntry
 		{
@@ -20130,7 +20130,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$splashHint15";
-			Text = "Vous pouvez utiliser Ctrl + S pour sauvegarder rapidement la partie. Cette sauvegarde rapide remplacera toujours l'ancienne sauvegarde rapide.";
+			Text = "Vous pouvez utiliser $(#27) + $(#20) pour sauvegarder rapidement la partie. Cette sauvegarde rapide remplacera toujours l'ancienne sauvegarde rapide.";
 		},
 		LocDirectEntry
 		{
@@ -20180,7 +20180,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$splashHint9";
-			Text = "Lorsque vous commencez une nouvelle partie, la touche $(#36) est associée à votre résidence et la touche $(#37) est associée au marché le plus proche. Donc, si vous sélectionnez votre avatar, puis utilisez la touche $(#36), vous enverrez votre personnage à votre domicile. Vous pouvez modifier ces raccourcis ou en ajouter de nouveaux en sélectionnant un bâtiment, puis en appuyant sur CTRL+ une touche numérique.";
+			Text = "Lorsque vous commencez une nouvelle partie, la touche $(#36) est associée à votre résidence et la touche $(#37) est associée au marché le plus proche. Donc, si vous sélectionnez votre avatar, puis utilisez la touche $(#36), vous enverrez votre personnage à votre domicile. Vous pouvez modifier ces raccourcis ou en ajouter de nouveaux en sélectionnant un bâtiment, puis en appuyant sur $(#27) + une touche numérique.";
 		},
 		LocDirectEntry
 		{
@@ -20410,27 +20410,32 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$statusEffect.alarm";
-			Text = "alerté";
+			Text = "Alerté";
 		},
 		LocDirectEntry
 		{
 			Key = "$statusEffect.drunk";
-			Text = "en état d'ébriété";
+			Text = "Ivre";
 		},
 		LocDirectEntry
 		{
 			Key = "$statusEffect.fire";
-			Text = "enflammé";
+			Text = "Enflammé";
 		},
 		LocDirectEntry
 		{
 			Key = "$statusEffect.perfume";
-			Text = "parfumé";
+			Text = "Parfumé";
 		},
 		LocDirectEntry
 		{
 			Key = "$statusEffect.poison";
-			Text = "empoisonné";
+			Text = "Empoisonné";
+		},
+		LocDirectEntry
+		{
+			Key = "$statusEffect.sick";
+			Text = "Malade";
 		},
 		LocDirectEntry
 		{
@@ -20645,7 +20650,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.AttackPowerDesc";
-			Text = "La puissance d'attaque décrit les capacités offensives du personnage en combat rapproché.";
+			Text = "La puissance d'attaque décrit les capacités offensives du personnage en combat rapproché.\nInfluencé par : Niveau, Dextérité";
 		},
 		LocDirectEntry
 		{
@@ -20655,7 +20660,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.BargainingBonusDesc";
-			Text = "La négociation permet au personnage d’atteindre de meilleurs prix lors de l’achat et de la vente de biens sur les marchés.";
+			Text = "La négociation permet au personnage d’atteindre de meilleurs prix lors de l’achat et de la vente de biens sur les marchés.\nInfluencé par : Intelligence, Charisme";
 		},
 		LocDirectEntry
 		{
@@ -20725,7 +20730,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.DamageDesc";
-			Text = "Il s’agit des dommages que le personnage peut causer à son adversaire au corps à corps.";
+			Text = "Il s’agit des dommages que le personnage peut causer à son adversaire au corps à corps.\nInfluencé par : Force";
 		},
 		LocDirectEntry
 		{
@@ -20735,7 +20740,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.DefensePowerDesc";
-			Text = "Cet attribut dérivé décrit la capacité du personnage à se défendre en combat rapproché.";
+			Text = "Cet attribut dérivé décrit la capacité du personnage à se défendre en combat rapproché.\nInfluencé par : Niveau, Dexterité";
 		},
 		LocDirectEntry
 		{
@@ -20870,7 +20875,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.NobilityOfNeighborhood";
-			Text = "%nobility% from %neighborhood%";
+			Text = "%nobility% from %neighborhood%";
 		},
 		LocDirectEntry
 		{
@@ -20905,7 +20910,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.ProductivityDesc";
-			Text = "Cet attribut dérivé montre la capacité du personnage à produire des biens de toutes sortes : plus la valeur est élevée, plus la production d'un produit est rapide.";
+			Text = "Cet attribut dérivé montre la capacité du personnage à produire des biens de toutes sortes : plus la valeur est élevée, plus la production d'un produit est rapide.\nInfluencé par : Niveau, Santé";
 		},
 		LocDirectEntry
 		{
@@ -20915,17 +20920,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.ReputationBonusDesc";
-			Text = "Cet attribut dérivé peut influencer l’effet sur les changements de réputation par le biais de compliments et d’autres actions sociales.";
+			Text = "Cet attribut dérivé peut influencer l’effet sur les changements de réputation par le biais de compliments et d’autres actions sociales.\nInfluencé par : Charisme";
 		},
 		LocDirectEntry
 		{
 			Key = "$tooltip.Resistibility";
-			Text = "Résistibilité";
+			Text = "Résistance";
 		},
 		LocDirectEntry
 		{
 			Key = "$tooltip.ResistibilityDesc";
-			Text = "La résistibilité est la protection du personnage contre les maladies et - bien sûr - l'ivresse !";
+			Text = "La résistamce est la protection du personnage contre les maladies et - bien sûr - l'ivresse !\nInfluencé par : Niveau, Force";
 		},
 		LocDirectEntry
 		{
@@ -21075,7 +21080,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.StealthDesc";
-			Text = "La furtivité est utilisée lorsque le personnage veut passer inaperçu ou tromper ses victimes / cibles tout en effectuant une action.";
+			Text = "La furtivité est utilisée lorsque le personnage veut passer inaperçu ou tromper ses victimes / cibles tout en effectuant une action.\nInfluencé par : Niveau, Force, Dexterité";
 		},
 		LocDirectEntry
 		{
@@ -21365,7 +21370,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$trial.EventDescription.intro";
-			Text = "En l'an de notre Seigneur %year%, dans le district de %neighborhood%, dans la ville de %city%, vous avez été accusé de l'activité criminelle suivante : %illegalactionname% (x %numCrimes%).";
+			Text = "En l'an de notre Seigneur %year%, dans le district de %neighborhood%, dans la ville de %city%, vous avez été accusé de l'activité criminelle suivante : %illegalactionname% (x %numCrimes%).";
 		},
 		LocDirectEntry
 		{
@@ -21395,7 +21400,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$trial.EventDescription.target.neighborhood";
-			Text = "L'acte a été commis dans le %neighborhood% district.";
+			Text = "L'acte a été commis dans le %neighborhood% district.";
 		},
 		LocDirectEntry
 		{
@@ -23525,7 +23530,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.LateTutorial.5";
-			Text = "Maintenant, double-cliquez sur les %item% du menu 'Stockage' et placez les dans l'inventaire de votre personnage, dans le menu 'Transporteurs'.";
+			Text = "Maintenant, double-cliquez sur les %item% du menu 'Stockage' et placez les dans l'inventaire de votre personnage, dans le menu 'Transporteurs'.";
 		},
 		LocDirectEntry
 		{
@@ -26255,7 +26260,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyBlackWidowPoison.SuccessSource.Headline";
-			Text = "%CharacterTarget% à été empoisonné avec succès";
+			Text = "%CharacterTarget% à été empoisonné avec succès";
 		},
 		LocDirectEntry
 		{
@@ -26265,12 +26270,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyBlackWidowPoison.SuccessTarget.Message";
-			Text = "Quelqu'un a empoisonné %CharacterTarget% avec du Poison de la Veuve Noire ! Vous devriez trouver de l'aide rapidement !";
+			Text = "Quelqu'un a empoisonné %CharacterTarget% avec du Poison de la Veuve Noire ! Vous devriez trouver de l'aide rapidement !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ApplyBlackWidowPoison.FailureSource.Headline";
-			Text = "Appliquer Poison de la Veuve Noire à %CharacterTarget% à échoué !";
+			Text = "Appliquer Poison de la Veuve Noire à %CharacterTarget% à échoué !";
 		},
 		LocDirectEntry
 		{
@@ -26280,12 +26285,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyBlackWidowPoison.FailureTarget.Message";
-			Text = "La dynastie malicieuse %FamilySource% n'a pas réussi à empoisonner %CharacterTarget% avec Poison de la Veuve Noire.";
+			Text = "La dynastie malicieuse %FamilySource% n'a pas réussi à empoisonner %CharacterTarget% avec Poison de la Veuve Noire.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ApplyToadSlime.SuccessSource.Headline";
-			Text = "Le bâtiment %BuildingTarget% est maintenant infecté par de la Bave de crapaud.";
+			Text = "Le bâtiment %BuildingTarget% est maintenant infecté par de la Bave de crapaud.";
 		},
 		LocDirectEntry
 		{
@@ -26295,12 +26300,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyToadSlime.SuccessTarget.Message";
-			Text = "Quelqu'un a utilisé Bave de crapaud sur votre bâtiment %BuildingTarget%. Vos employés ne se sentent pas bien et leur productivité est considérablement réduite pour un moment...";
+			Text = "Quelqu'un a utilisé Bave de crapaud sur votre bâtiment %BuildingTarget%. Vos employés ne se sentent pas bien et leur productivité est considérablement réduite pour un moment...";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ApplyToadSlime.FailureSource.Headline";
-			Text = "Appliquer de la Bave de crapaud au bâtiment %BuildingTarget% a échoué !";
+			Text = "Appliquer de la Bave de crapaud au bâtiment %BuildingTarget% a échoué !";
 		},
 		LocDirectEntry
 		{
@@ -26310,12 +26315,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyToadSlime.FailureTarget.Message";
-			Text = "La dynastie %FamilySource%  n'a pas réussi à saboter votre bâtiment %BuildingTarget% avec de la Bave de crapaud !";
+			Text = "La dynastie %FamilySource%  n'a pas réussi à saboter votre bâtiment %BuildingTarget% avec de la Bave de crapaud !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.StinkBomb.SuccessSource.Headline";
-			Text = "Bombe Puante  utilisé avec succès contre le bâtiment %BuildingTarget%.";
+			Text = "Bombe Puante  utilisé avec succès contre le bâtiment %BuildingTarget%.";
 		},
 		LocDirectEntry
 		{
@@ -26325,12 +26330,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.StinkBomb.SuccessTarget.Message";
-			Text = "Quelqu'un a jeté une Bombe Puante sur votre bâtiment %BuildingTarget% !";
+			Text = "Quelqu'un a jeté une Bombe Puante sur votre bâtiment %BuildingTarget% !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.StinkBomb.FailureSource.Headline";
-			Text = "Jeter une Bombe Puante sur le bâtiment %BuildingTarget% a échoué!";
+			Text = "Jeter une Bombe Puante sur le bâtiment %BuildingTarget% a échoué!";
 		},
 		LocDirectEntry
 		{
@@ -26340,12 +26345,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.StinkBomb.FailureTarget.Message";
-			Text = "La dynastie % FamilySource% n'a pas réussi à saboter votre bâtiment %BuildingTarget% avec une Bombe Puante!";
+			Text = "La dynastie % FamilySource% n'a pas réussi à saboter votre bâtiment %BuildingTarget% avec une Bombe Puante!";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.GiveGift.Target.Success";
-			Text = "%CharacterTarget% a reçu 1 %item% de %CharacterSource%.";
+			Text = "%CharacterTarget% a reçu 1 %item% de %CharacterSource%.";
 		},
 		LocDirectEntry
 		{
@@ -26355,7 +26360,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyGhostlyFog.SuccessSource.Headline";
-			Text = "%CharacterTarget% souffre de maux de tête et de confusion pendant un moment";
+			Text = "%CharacterTarget% souffre de maux de tête et de confusion pendant un moment";
 		},
 		LocDirectEntry
 		{
@@ -26365,12 +26370,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyGhostlyFog.SuccessTarget.Message";
-			Text = "La dernière chose que %CharacterTarget% remarque est %CharacterSource% qui débouche un fiole qui sent fort l’esprit - et puis la vue de %CharacterTarget% s’estompe...";
+			Text = "La dernière chose que %CharacterTarget% remarque est %CharacterSource% qui débouche un fiole qui sent fort l’esprit - et puis la vue de %CharacterTarget% s’estompe...";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ApplyGhostlyFog.FailureSource.Headline";
-			Text = "Appliquer Brouillard Fantomatique à %CharacterTarget% a échoué !";
+			Text = "Appliquer Brouillard Fantomatique à %CharacterTarget% a échoué !";
 		},
 		LocDirectEntry
 		{
@@ -26380,7 +26385,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyGhostlyFog.FailureTarget.Message";
-			Text = "La misérable dynastie %FamilySource% n'a pas réussi à pulvériser Brouillard Fantomatique au visage de %CharacterTarget%. Vous ne devriez pas les laisser s'en tirer avec cette agression !";
+			Text = "La misérable dynastie %FamilySource% n'a pas réussi à pulvériser Brouillard Fantomatique au visage de %CharacterTarget%. Vous ne devriez pas les laisser s'en tirer avec cette agression !";
 		},
 		LocDirectEntry
 		{
@@ -26395,12 +26400,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.UseAntidote.SuccessSource.Headline";
-			Text = "Grâce à l'Antidote  %CharacterTarget% se sent mieux.";
+			Text = "Grâce à l'Antidote  %CharacterTarget% se sent mieux.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ApplyToadExcrements.SuccessSource.Headline";
-			Text = "Le bâtiment %BuildingTarget% est maintenant infecté par le Jus d'insecte de Megenber.";
+			Text = "Le bâtiment %BuildingTarget% est maintenant infecté par le Jus d'insecte de Megenber.";
 		},
 		LocDirectEntry
 		{
@@ -26410,12 +26415,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyToadExcrements.SuccessTarget.Message";
-			Text = "Quelqu'un a utilisé du Jus d'insecte de Megenber dans votre bâtiment %BuildingTarget%. Moins de clients achèteront vos marchandises au magasin et le bâtiment lui-même subira des dégats avec le temps !";
+			Text = "Quelqu'un a utilisé du Jus d'insecte de Megenber dans votre bâtiment %BuildingTarget%. Moins de clients achèteront vos marchandises au magasin et le bâtiment lui-même subira des dégats avec le temps !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ApplyToadExcrements.FailureSource.Headline";
-			Text = "Appliquer Jus d'insecte de Megenber au bâtiment %BuildingTarget% a échoué !";
+			Text = "Appliquer Jus d'insecte de Megenber au bâtiment %BuildingTarget% a échoué !";
 		},
 		LocDirectEntry
 		{
@@ -26425,12 +26430,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyToadExcrements.FailureTarget.Message";
-			Text = "La dynastie %FamilySource% n'a pas réussi à saboter votre bâtiment %BuildingTarget% avec la Jus d'insecte de Megenber !";
+			Text = "La dynastie %FamilySource% n'a pas réussi à saboter votre bâtiment %BuildingTarget% avec la Jus d'insecte de Megenber !";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ApplyParalysisPoison.SuccessSource.Headline";
-			Text = "%CharacterTarget% est maintenant paralysé";
+			Text = "%CharacterTarget% est maintenant paralysé";
 		},
 		LocDirectEntry
 		{
@@ -26440,12 +26445,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyParalysisPoison.SuccessTarget.Message";
-			Text = "Il y a eu comme une morsure d'insecte minuscule au niveau du cou... et peu après %CharacterTarget% a eu beaucoup plus de mal à bouger. Comme si %CharacterTarget% était en quelque sorte paralysé...";
+			Text = "Il y a eu comme une morsure d'insecte minuscule au niveau du cou... et peu après %CharacterTarget% a eu beaucoup plus de mal à bouger. Comme si %CharacterTarget% était en quelque sorte paralysé...";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ApplyParalysisPoison.FailureSource.Headline";
-			Text = "Appliquer Poison Paralysant à %CharacterTarget% a échoué !";
+			Text = "Appliquer Poison Paralysant à %CharacterTarget% a échoué !";
 		},
 		LocDirectEntry
 		{
@@ -26455,7 +26460,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.ApplyParalysisPoison.FailureTarget.Message";
-			Text = "La famille reprobée %FamilySource% n'a pas réussi à attaquer %CharacterTarget% avec Poison Paralysant.";
+			Text = "La famille reprobée %FamilySource% n'a pas réussi à attaquer %CharacterTarget% avec Poison Paralysant.";
 		},
 		LocDirectEntry
 		{
@@ -26526,6 +26531,361 @@ LocDirectData
 		{
 			Key = "$effect.burning";
 			Text = "en feu";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Business.UseFrontStore";
+			Text = "Utiliser le Magasin";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.AppointHeir.Locked";
+			Text = "Vous devez sélectionner un membre vivant de votre famille à désigner comme nouvel héritier !";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.AppointHeir";
+			Text = "Désigner un héritier";
+		},
+		LocDirectEntry
+		{
+			Key = "$confirm.select.heir";
+			Text = "Êtes-vous sûr de vouloir désigner %newheir% comme votre nouvel héritier ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$confirm.select.heir.title";
+			Text = "Confirmez votre héritier";
+		},
+		LocDirectEntry
+		{
+			Key = "$confirm.replace.heir";
+			Text = "Êtes-vous sûr de vouloir désigner %newheir% comme votre nouvel héritier ? Sachez que ça me plaira pas à %oldheir% !";
+		},
+		LocDirectEntry
+		{
+			Key = "$status.heir.humiliated";
+			Text = "A été humilié par un parent !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.Success";
+			Text = "Succès !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.CriticalSuccess";
+			Text = "Parfait !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.Failure";
+			Text = "Échec !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.CriticalFailure";
+			Text = "Catastrophe !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.Money";
+			Text = "%coins%$(#3)";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.XPGain";
+			Text = "+ %xp% XP";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.ItemReceived";
+			Text = "+ %itemName%";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.Reputation";
+			Text = "%val%%CrestId% %SocialGroupName%";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EvidenceFound";
+			Text = "Preuve trouvée !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EvidenceLeft";
+			Text = "Preuve laissée !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.LiaisonScoreChange";
+			Text = "%score%$(Heart) %characterName%";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.Actorvalue";
+			Text = "%amount% %name%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.Health";
+			Text = "Santé";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.AvChange";
+			Text = "%val% %actorvalue%";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedpoison";
+			Text = "+$(poison) Poisoned!";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedpoison";
+			Text = "-$(poison) Poison retiré !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedfire";
+			Text = "+$(fire) Emflammé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedfire";
+			Text = "-$(fire) Feu éteint !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedsick";
+			Text = "+$(sick) Infecté !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedsick";
+			Text = "-$(sick) Maladie soignée !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedclose";
+			Text = "+$(closed) Bâtiment fermé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedclose";
+			Text = "-$(closed) Bâtiment rouvert !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectApplieddrunk";
+			Text = "+$(drunk) Ivre !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealeddrunk";
+			Text = "-$(drunk) Sobre !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedprison";
+			Text = "+$(prison) Emprisonné !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedprison";
+			Text = "-$(prison) Libéré !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedsleep";
+			Text = "+$(sleep) Endormi !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedsleep";
+			Text = "-$(sleep) Réveillé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedunconscious";
+			Text = "+$(unconscious) Inconscient !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedunconscious";
+			Text = "-$(unconscious) Conscient !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedwound";
+			Text = "+$(wound) Blessé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedwound";
+			Text = "-$(wound) Guéri !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedalarm";
+			Text = "+$(alarm) Alerté !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedalarm";
+			Text = "-$(alarm) Calmé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedperfume";
+			Text = "+$(perfume) Parfumé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedperfume";
+			Text = "-$(perfume) Parfum évaporé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$alert.CharacterBeingAttacked";
+			Text = "%CharacterName% est attaqué !";
+		},
+		LocDirectEntry
+		{
+			Key = "$effect.bleed";
+			Text = "Saignement";
+		},
+		LocDirectEntry
+		{
+			Key = "$tip";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$tip.ErectBusiness.Headlne";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$tip.ErectBusiness";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$tip.Residence.Headline";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$tip.Residence";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$tip.Quickaccesses.Headline";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$tip.Quickaccesses";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$tip.Title.Headline";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$tip.Title";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$tip.Citizen.Headline";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$tip.Citizen";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$help.8.Neighbor";
+			Text = "Districts et Villages";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.HealthDesc";
+			Text = "Ici vous pouvez voir les points de vie de ce personnage.\nInfluencé par : Niveau, Force, Dexterité";
+		},
+		LocDirectEntry
+		{
+			Key = "$character.availability.outsideBuilding";
+			Text = "Ce personnage n'est pas dans le bâtiment en ce moment.";
+		},
+		LocDirectEntry
+		{
+			Key = "$message.familymember.levelup";
+			Text = "Le membre de votre famille %member% a atteint le niveau %level%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$qs.Employees";
+			Text = "Employés : %nb%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Level";
+			Text = "Niveau";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Level.unspentPoints";
+			Text = "Points non dépensés : %points%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Level.getMorePoints";
+			Text = "Monter de niveau pour obtenir plus de points d'attribut.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Level.increaseAttribute";
+			Text = "Augmente l'attribut de 1. Les points utilisés ne peuvent pas être rendus !";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.ColdProtection";
+			Text = "Résistance à la grippe (permanent)";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.LeprosyProtection";
+			Text = "Résistance à la lèpre (permanent)";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.PlagueProtection";
+			Text = "Résistance à la peste (permanent)";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.UICategory.Covert";
+			Text = "Opérations secrètes";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.block";
+			Text = "Bloqué !";
+		},
+		LocDirectEntry
+		{
+			Key = "$statusEffect.wound";
+			Text = "Blessé";
 		},
 	)
 };
