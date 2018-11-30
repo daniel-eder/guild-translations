@@ -11749,7 +11749,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$gui.Char.Resistibility";
+			Key = "$gui.Char.Resistance";
 			Text = "Résistibilité";
 		},
 		LocDirectEntry
@@ -20924,12 +20924,12 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$tooltip.Resistibility";
+			Key = "$tooltip.Resistance";
 			Text = "Résistance";
 		},
 		LocDirectEntry
 		{
-			Key = "$tooltip.ResistibilityDesc";
+			Key = "$tooltip.ResistanceDesc";
 			Text = "La résistamce est la protection du personnage contre les maladies et - bien sûr - l'ivresse !\nInfluencé par : Niveau, Force";
 		},
 		LocDirectEntry
@@ -26599,8 +26599,8 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$feedback.ItemReceived";
-			Text = "+ %itemName%";
+			Key = "$feedback.ItemTransferred";
+			Text = "%num% %itemName%";
 		},
 		LocDirectEntry
 		{
@@ -26640,7 +26640,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$feedback.EffectAppliedpoison";
-			Text = "+$(poison) Poisoned!";
+			Text = "+$(poison) Empoisonné !";
 		},
 		LocDirectEntry
 		{
@@ -26886,6 +26886,16 @@ LocDirectData
 		{
 			Key = "$statusEffect.wound";
 			Text = "Blessé";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.Danube";
+			Text = "Danube";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.NoEvidenceFound";
+			Text = "Aucune preuve trouvée !";
 		},
 	)
 };
