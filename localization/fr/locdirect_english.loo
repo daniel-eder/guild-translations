@@ -324,13 +324,23 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$action.ChangeMainBuilding.ChangeOfcity";
+			Key = "$action.ChangeMainBuilding.ChangeOfCity";
 			Text = "Si vous déplacez votre résidence vers %city%, vous perdrez tous les sièges potentiellements acquis dans le conseil municipal de %city2%. Êtes vous sûr de vouloir déplacer la residence de votre dynastie ?";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ChangeMainBuildingDesc";
 			Text = "Est-ce que vos voisins vous mettent sur les nerfs ? Ou voulez-vous simplement déménager dans un autre quartier ou même dans une autre ville ? Alors vous pouvez le faire ici. Cependant, n'oubliez pas que vous devrez transporter votre famille entière et tous vos biens avec vous dans votre nouvelle résidence...";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.SingleCharacterChangeMainBuilding";
+			Text = "Changer la résidence";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.SingleCharacterChangeMainBuildingDesc";
+			Text = "Ce personnage change de lieu de résidence.";
 		},
 		LocDirectEntry
 		{
@@ -495,7 +505,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Denounced";
-			Text = "%CharacterSource% vous a dénoncé à %characterTargets%";
+			Text = "%CharacterSource% vous a dénoncé devant le conseil municipal !";
 		},
 		LocDirectEntry
 		{
@@ -2109,18 +2119,28 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$action.StartRomanceAction";
+			Text = "Commencer une romance";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.StartRomanceActionDesc";
+			Text = "Vous pouvez commencer par courtiser une personne du sexe opposé et gagner ainsi son coeur. \n Une fois que la personne est amoureuse de vous, vous pouvez utiliser son amour et son dévouement à votre avantage, ou vous pouvez prendre une route plus honorable, épouser cette personne et fonder une famille. Faites des compliments et des cadeaux somptueux, et ne les poursuivez pas lorsque le feu de l'amour est enflammé, car il peut aussi être éteint...";
+		},
+		LocDirectEntry
+		{
 			Key = "$action.StartLiaisonAction";
-			Text = "Commencez une histoire d'amour avec quelqu'un";
+			Text = "Commencez une histoire d'amour";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.StartLiaisonActionDesc";
-			Text = "Vous pouvez commencer par courtiser une personne du sexe opposé et gagner ainsi son coeur. \n Une fois que la personne est amoureuse de vous, vous pouvez utiliser son amour et son dévouement à votre avantage, ou vous pouvez prendre une route la plus honorable, épouser cette personne et fonder une famille. Faites des compliments et des cadeaux somptueux, et ne les poursuivez pas lorsque le feu de l'amour est enflammé, car il peut aussi être éteint...";
+			Text = "Vous pouvez commencer une histoire d'amour avec l'un de vos amans. Cela vous assure la faveur de la personne, ce qui peut notamment vous donner des avantages lors de votes.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.StartLiaisonActionFail";
-			Text = "%character% rejette votre désir pour une histoire d'amour...";
+			Text = "%character% rejette votre désir pour une histoire d'amour...";
 		},
 		LocDirectEntry
 		{
@@ -2130,7 +2150,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.StartLiaisonActionSuccess";
-			Text = "%character% partage votre désir d'histoire d'amour entre vous deux.";
+			Text = "%character% partage votre désir d'histoire d'amour entre vous deux.";
 		},
 		LocDirectEntry
 		{
@@ -2150,7 +2170,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.StealFromCharacterSuccess";
-			Text = "vous avez volé %loot%.";
+			Text = "vous avez volé %loot%.";
 		},
 		LocDirectEntry
 		{
@@ -2359,53 +2379,53 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.AttractCrowd";
+			Key = "$addOn.Attractiveness";
 			Text = "Satisfaction client";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.AttractCrowd1";
-			Text = "Satisfaction client 1";
+			Key = "$addOn.Attractiveness1";
+			Text = "Satisfaction client";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.AttractCrowd2";
-			Text = "Satisfaction client 2";
+			Key = "$addOn.Attractiveness2";
+			Text = "Satisfaction client";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.AttractCrowd3";
-			Text = "Satisfaction client 3";
+			Key = "$addOn.Attractiveness3";
+			Text = "Satisfaction client";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.AttractCrowdDesc";
+			Key = "$addOn.AttractivenessDesc";
 			Text = "Satisfaction client de ce bâtiment est de +%Number%$(#4).";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.BurglaryProtection";
-			Text = "Protection contre la rapine";
+			Key = "$addOn.BuildingSecurity";
+			Text = "Sécurité du bâtiment";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.BurglaryProtection1";
-			Text = "Protection contre la rapine 1";
+			Key = "$addOn.BuildingSecurity1";
+			Text = "Sécurité du bâtiment";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.BurglaryProtection2";
-			Text = "Protection contre la rapine 2";
+			Key = "$addOn.BuildingSecurity2";
+			Text = "Sécurité du bâtiment";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.BurglaryProtection3";
-			Text = "Protection contre la rapine 3";
+			Key = "$addOn.BuildingSecurity3";
+			Text = "Sécurité du bâtiment";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.BurglaryProtectionDesc";
-			Text = "La protection contre la rapine de ce bâtiment est de +%Number%$(#5).";
+			Key = "$addOn.BuildingSecurityDesc";
+			Text = "Sécurité du bâtiment +%Number%$(#5).";
 		},
 		LocDirectEntry
 		{
@@ -2509,63 +2529,63 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.MoreEmployees1";
-			Text = "Plus d'employés 1";
+			Key = "$addOn.MaxEmployees1";
+			Text = "Maximum de travailleurs";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.MoreEmployees2";
-			Text = "Plus d'employés 2";
+			Key = "$addOn.MaxEmployees2";
+			Text = "Maximum de travailleurs";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.MoreEmployees3";
-			Text = "Plus d'employés 3";
+			Key = "$addOn.MaxEmployees3";
+			Text = "Maximum de travailleurs";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.MoreEmployeesDesc";
+			Key = "$addOn.MaxEmployeesDesc";
 			Text = "Espace pour le travail +%Number%#54";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.MoreEmployeesTransport_2";
-			Text = "Transporteurs supplémentaires";
+			Key = "$addOn.MaxTransporters_2";
+			Text = "Transporteur maximal";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.MoreEmployeesTransport_3";
-			Text = "Transporteurs supplémentaires";
+			Key = "$addOn.MaxTransporters_3";
+			Text = "Transporteur maximal";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.MoreEmployeesTransport1";
-			Text = "Transporteurs supplémentaires";
+			Key = "$addOn.MaxTransporters1";
+			Text = "Transporteur maximal";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.MoreEmployeesTransport2";
-			Text = "Transporteurs supplémentaires";
+			Key = "$addOn.MaxTransporters2";
+			Text = "Transporteur maximal";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.MoreEmployeesTransport3";
-			Text = "Transporteurs supplémentaires";
+			Key = "$addOn.MaxTransporters3";
+			Text = "Transporteur maximal";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.MoreEmployeesTransportDesc";
+			Key = "$addOn.MaxTransportersDesc";
 			Text = "Espace de travail pour les transporteurs +%Number%#55";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.MoreTransport";
-			Text = "Plus de transporteurs";
+			Key = "$addOn.MaxTransporters";
+			Text = "Transporteurs";
 		},
 		LocDirectEntry
 		{
-			Key = "$addOn.MoreWorker";
-			Text = "Employés supplémentaires";
+			Key = "$addOn.MaxEmployees";
+			Text = "Employés";
 		},
 		LocDirectEntry
 		{
@@ -2956,836 +2976,6 @@ LocDirectData
 		{
 			Key = "$BoneTalismanDesc";
 			Text = "Le talisman osseux augmente votre valeur d'armure et effraie vos ennemis et tous les autres habitants de la ville. En outre, il semble se nourrir de votre sang, ce qui peut rapidement affecter votre santé - il vaut mieux ne pas savoir quel démon assoiffé de sang est lié à l'artefact...";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AddDiseaseCold";
-			Text = ">Grippe<";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AddDiseaseColdDesc";
-			Text = "La victime souffre de la >grippe<.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AddDiseaseLeprosy";
-			Text = ">Lèpre<";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AddDiseaseLeprosyDesc";
-			Text = "La victime souffre de la >lèpre<.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AddDiseasePlague";
-			Text = ">Peste<";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AddDiseasePlagueDesc";
-			Text = "La victime souffre de la >peste<.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AddPoisonBoozy";
-			Text = "Donne une haleine alcolisée";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AddPoisonBoozyDesc";
-			Text = "Celà vous donne une haleine tellement alcolisé que celui qui vous parle détournera la tête avec dégoût.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AddPoisonDrunk";
-			Text = "Vous rend saoul";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AddPoisonDrunkDesc";
-			Text = "C'est une sensation plaisante qui plairait à Bacchus";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AddPoisonFog";
-			Text = "Vous vous sentez étourdi";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AddPoisonFogDesc";
-			Text = "Cela vous donne mal à la tête et vous rend confus";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AddPoisonParalysis";
-			Text = "Paralise";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AddPoisonParalysisDesc";
-			Text = "Ceci paralise la victime pendant un certain temps";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Armor";
-			Text = "Armure";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.ArmorDesc";
-			Text = "L'armure protège le porteur contre les blessures infligées en combat";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AttackCaravan";
-			Text = "Attaque de transporteur";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AttackCaravanDesc";
-			Text = "Si ce personnage attaque un transporteur, il recevra un bonus en combat.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AttractCrowd";
-			Text = "Satisfaction des clients";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.AttractCrowdDesc";
-			Text = "Ceci vous donne des informations sur la satisfaction des clients";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Bargain";
-			Text = "Se montrer plus malin";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.BargainDesc";
-			Text = "Si vous voulez marchander avec une autre dynastie, faites-en sorte que ce soit à votre avantage.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.BonusStartingGameItemsValue";
-			Text = "Capital de départ";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.BonusStartingGameItemsValueDesc";
-			Text = "Cela détermine la quantité de matières premières que vous recevez au début du jeu.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.BuildingDecay";
-			Text = "Bâtiments en bon état";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.BuildingDecayDesc";
-			Text = "Ceci ralentira la déterioration du bâtiment";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.BuildingDiseaseImmunity";
-			Text = "Protection contre les maladies";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.BuildingDiseaseImmunityDesc";
-			Text = "Les habitants d'un bâtiment sont protégés contre les maladies.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.BuildingPoisonImmunity";
-			Text = "Protection contre le poison";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.BuildingPoisonImmunityDesc";
-			Text = "Le bâtiment et ses habitants sont protégés contre les attaques à base de poison et d'autres substances.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.BurglaryProtection";
-			Text = "Protection contre le cambriolage";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.BurglaryProtectionDesc";
-			Text = "Ce bâtiment est bien protégé contre les cambriolages.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.CannotRun";
-			Text = "Jambe blessée";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.CannotRunDesc";
-			Text = "On ne peut courir avec une jambe blessée. Ceci vaut pour les humains comme pour les animaux.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Charisma";
-			Text = "Charisme augmenté";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.CharismaDesc";
-			Text = "Ceci augmente votre charisme";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.ChurchFees";
-			Text = "Halo";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.ChurchFeesDesc";
-			Text = "Ceci affecte les couts des services de l'Eglise";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.CityGuardsClemency";
-			Text = "Air innocent";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.CityGuardsClemencyDesc";
-			Text = "Les gardes de la cité seront moins enclins à arrêter le personnage";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.CloseBusinessForMaintenance";
-			Text = "Echoppe fermée!";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.CloseBusinessForMaintenanceDesc";
-			Text = "Seul le mot >fermé< a été inscrit à la hate sur un panneau. Il ne dit pas pourquoi bien sûr... Quelle que soit la raison, vous ne pouvez rien acheter ici pour le moment.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.ColdCure";
-			Text = "Soigner l'influenza";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.ColdCureDesc";
-			Text = "Vous pouvez utiliser ceci pour soigner l'>influenza<.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Combat";
-			Text = "Art martiaux";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.CombatDesc";
-			Text = "Donne des informations sur les forces du personnage en combat.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.CombatPrestige";
-			Text = "Prestige de combat";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.CureDisease";
-			Text = "Guérir la maladie";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.CureDiseaseDesc";
-			Text = "Une maladie peut être guérie ici.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.DefendCaravan";
-			Text = "Défense des transporteurs";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.DefendCaravanDesc";
-			Text = "Le transporteur reçoit ce bonus lorsqu'il est attaqué.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Dexterity";
-			Text = "Dextérité améliorée";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.DexterityDesc";
-			Text = "Vous êtes plus agile que les autres.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.DiseaseImmunity";
-			Text = "Immunité contre les maladies";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.DiseaseImmunityDesc";
-			Text = "Si vous êtes atteint par une maladie, vous êtes paré !";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.DoDamage";
-			Text = "Dégats";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.DoDamageDesc";
-			Text = "Les dégats infligés en combat";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.DrinkEffect";
-			Text = "Une bonne descente!";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.DrinkEffectDesc";
-			Text = "Si vous prenez un bon verre, son effet sera plus marqué sur vous. Celà s'applique à la bière, au vin et à toutes sortes de délices liquides.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Duel";
-			Text = "Duéliste";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.DuelDesc";
-			Text = "En duel, votre force augmentera";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Efficiency";
-			Text = "Efficacité";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.EfficiencyDesc";
-			Text = "C'est la vitesse à laquelle le personnage peut travailler.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.EquipLeaderBackpack";
-			Text = "Plus d'espace";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.EquipLeaderBackpackDesc";
-			Text = "Ceci sert à déterminer si vous pouvez commencer avec un sac à dos comme équipement de départ.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FamilyXPPercentage";
-			Text = "Intelligent";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FamilyXPPercentageDesc";
-			Text = "Vous recevez plus de points d'expérience que les autres.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FarMarketAvailable";
-			Text = "Commerce à longue distance";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FarMarketAvailableDesc";
-			Text = "Cela vous permet d'atteindre les villes commerciales à longue distance";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FarMarketFees";
-			Text = "Taux de change";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FarMarketFeesDesc";
-			Text = "Cela s'applique une réduction - ou une surtaxe - lorsque vous effectuez des transactions sur des routes commerciales à longue distance.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FireProtection";
-			Text = "Protection contre le feu";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FireProtectionDesc";
-			Text = "Cela fournit des informations sur l'efficacité de la protection du bâtiment contre le feu.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FirstStrike";
-			Text = "Premier coup";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FirstStrikeDesc";
-			Text = "Avant même que le combat commence, vous pouvez donner le premier coup, qui ne peut être paré...";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FreeChild";
-			Text = "Enfant gratuit";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FreeChildDesc";
-			Text = "Il sera beaucoup plus facile de bénir votre maison avec un enfant, même si vous n'avez pas de conjoint avec qui le concevoir...";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FrontStoreSlots";
-			Text = "Emplacement de vente";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FrontStoreSlotsDesc";
-			Text = "Nombre d'emplacements disponible pour la vente directe.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FrontStoreSpace";
-			Text = "Zone de vente";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.FrontStoreSpaceDesc";
-			Text = "Quantité d'objet que les emplacements de ventes peuvent stocker.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.GiftOpinionPctModifier";
-			Text = "Un cadeau merveilleux";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.GiftOpinionPctModifierDesc";
-			Text = "Vous allez rendre quelqu'un très heureux avec ceci...";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.GoodGenetics";
-			Text = "Excellents gènes";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.GoodGeneticsDesc";
-			Text = "Vos propres enfants naîtront avec de meilleurs attributs.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.GuestRevenue";
-			Text = "Satisfaction client";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.GuestRevenueDesc";
-			Text = "Les invités de votre auberge ou de votre hôpital sont plus satisfaits et dépenseront plus d'argent.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Healthier";
-			Text = "Résistance";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.HealthierDesc";
-			Text = "Vous avez une résistance naturelle aux blessures, aux maladies et aux poisons. Votre guérira également plus rapidement.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.HighestOfficeLevel";
-			Text = "Bureau de plus haut niveau";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.HighestOfficeLevelDesc";
-			Text = "Vous avez le privilège de postuler pour un poste du plus haut niveau au conseil municipal.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Impress";
-			Text = "Personnalité impressionnante";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.ImpressDesc";
-			Text = "Vous êtes un modèle de droiture pour les habitants de la ville, C'est pourquoi vous recevez un bonus de réputation.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Income";
-			Text = "Revenus de votre siège municipal";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.IncomeDesc";
-			Text = "C'est la récompense de tout vos efforts pour le bien des gens simples.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Intelligence";
-			Text = "Intelligence supérieure";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.IntelligenceDesc";
-			Text = "Cela améliore votre intelligence.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.JailTime";
-			Text = "Bon comportement";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.JailTimeDesc";
-			Text = "Cela influe sur la durée de votre séjour dans le donjon.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.LongerLife";
-			Text = "Longue vie";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.LongerLifeDesc";
-			Text = "Vous ne vivrez pas pour toujours, mais ce sera plus longtemps que ce que Dieu avait prévu pour vous...";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.LongshoreInvincibility";
-			Text = "Né dans un pays lointain";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.LongshoreInvincibilityDesc";
-			Text = "Vous et les vôtres sont nés dans un pays lointain, avec un fort instinct pour le danger et de bonnes compétences de négociation avec des personnes et des cultures étrangères. Alors, si vous êtes en voyage à longue distance, vous avez plus de chance de rentrer chez vous en toute sécurité et avec beaucoup de marchandises.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.LowerCourtSentences";
-			Text = "Punition indulgente aux tribunaux";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.LowerCourtSentencesDesc";
-			Text = "Celà garantira sûrement que vos condamnations au tribunal seront plus indulgentes.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.MarketFees";
-			Text = "Contrat commercial";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.MarketFeesDesc";
-			Text = "Vous avez moins de frais de marché à payer... Maintenant vous pouvez sourire... petit tricheur !";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.MasterBuilder";
-			Text = "Bâtisseur";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.MasterBuilderDesc";
-			Text = "En tant que bâtisseur expérimenté, vous devez dépenser moins d'argent pour construire de nouveaux bâtiments.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.ModifyRelationshipWithNeighborhood";
-			Text = "Relation en ville";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.ModifyRelationshipWithNeighborhoodDesc";
-			Text = "Si une dynastie transfert ses faveurs dans un autre quartier, que ce soit par ses propres activités une une influence extérieure, celles ci augmenteront.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.MonthlyChildLearningXP";
-			Text = "Jouet pédagogique";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.MonthlyChildLearningXPDesc";
-			Text = "Cela fournit des informations sur combien un enfant peut apprendre avec un objet lorsqu'il joue avec lui.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.MoreEmployees";
-			Text = "Plus d'employés";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.MoreEmployeesDesc";
-			Text = "Cela créera des emplois supplémentaires dans vos entreprises.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.MoreEmployeesTransport";
-			Text = "Plus de transporteurs";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.MoreEmployeesTransportDesc";
-			Text = "Vous pouvez embaucher plus d'employés de transport.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.MoreHenchmen";
-			Text = "Plus d'hommes de main";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.MoreHenchmenDesc";
-			Text = "Vous pouvez embaucher plus d'hommes de main.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.MovementSpeed";
-			Text = "Vitesse";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.MovementSpeedDesc";
-			Text = "Vous êtes plus rapide - ou plus lent - que d'autres.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Opinion";
-			Text = "Bonus de réputation";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.OpinionDesc";
-			Text = "Cela fournit des informations sur la croissance de votre réputation.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Perception";
-			Text = "Bonne perception";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.PerceptionDesc";
-			Text = "Cela augmente votre perception.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.PickPocket";
-			Text = "Améliorer le vol à la tire";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.PickPocketDesc";
-			Text = "Vous avez une plus grande probabilité de succès avec >Vol à la tire< et >Jonglerie<. Bien sûr, vos compétences vont également déteindre sur vos employés...";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.PickpocketProtection";
-			Text = "Protection contre les pickpockets";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.PickpocketProtectionDesc";
-			Text = "Les doigts habiles trouveront beaucoup plus difficile d'attraper votre bourse...";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.PoisonCure";
-			Text = "Guérir le poison";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.PoisonCureDesc";
-			Text = "Vous pouvez l'utiliser pour désintoxiquer votre corps contre le poison.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.PoisonImmunity";
-			Text = "Immunité contre le poison";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.PoisonImmunityDesc";
-			Text = "Cela vous donne une certaine immunité au poison.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Privacy";
-			Text = "La protection de la vie privée";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.PrivacyDesc";
-			Text = "Les secrets gardés dans ce bâtiment, et tout ce qui s'y passe, restent cachés aux curieux !";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.RevoltProtection";
-			Text = "Qui oserait...";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.RevoltProtectionDesc";
-			Text = "Réduit la probabilité que les citoyens d'un quartier risquent une insurrection contre vous.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.SabotageProtectionDesc";
-			Text = "C'est une protection contre les actes de sabotage sournois.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.SecondOfficeLevel";
-			Text = "Bureau de niveau intermédiaire";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.SecondOfficeLevelDesc";
-			Text = "Vous avez le privilège de postuler pour un poste de niveau intermédiaire au conseil municipal.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.SkillPoints";
-			Text = "Plus de points d'expérience";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.SkillPointsDesc";
-			Text = "Cela vous accordera plus de points d'expérience.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.SmallCriminalsImmunity";
-			Text = "Protection contre les crimes mineurs";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.SmallCriminalsImmunityDesc";
-			Text = "Hah ! Les groupes de voleurs ont peur de vous ! Vous êtes protégé contre les crimes mineurs !";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.StartFire";
-			Text = "Faire un feu";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.StartFireDesc";
-			Text = "C'est là que vous faite votre feu...";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.StorageSlots";
-			Text = "Espace de stockage";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.StorageSlotsDesc";
-			Text = "Nombre d'espace de stockage du bâtiment.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.StorageSpace";
-			Text = "Quantité de stockage";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.StorageSpaceDesc";
-			Text = "Capacité des espaces de stockage.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.Strength";
-			Text = "Force";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.StrengthDesc";
-			Text = "Cela améliore votre force.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.SurveyCrime";
-			Text = "Instinct pour les crimes amélioré";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.SurveyCrimeDesc";
-			Text = "Il est plus facile pour vous de découvrir les infractions à temps, afin que vous puissiez intervenir.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.SurveyWealth";
-			Text = "Instinct pour la richesse amélioré";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.SurveyWealthDesc";
-			Text = "Vous pouvez détecter les signes de richesses plus efficacement.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.TransferItem";
-			Text = "Donnez un objet";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.TransferItemDesc";
-			Text = "Vous donnez cet objet à une autre personne.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.TransportSpeed";
-			Text = "Vitesse de transport";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.TransportSpeedDesc";
-			Text = "Augmente la vitesse de vos transporteurs";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.TrialPopularSupport";
-			Text = "Intérêt public";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.TrialPopularSupportDesc";
-			Text = "Si vous êtes au tribunal, les juges accorderont plus d'attention à votre réputation dans la ville, que ce soit négatif ou positif, celà reste à voir...";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.VandalismProtection";
-			Text = "Protection contre le vandalisme";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.VandalismProtectionDesc";
-			Text = "Réduit les dommages causés par les attaques de vandalisme contre vos bâtiments.";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.WoundCure";
-			Text = "Guérison des plaies";
-		},
-		LocDirectEntry
-		{
-			Key = "$Bonus.WoundCureDesc";
-			Text = "Cela rendra votre guérison légerement plus efficace.";
 		},
 		LocDirectEntry
 		{
@@ -4475,7 +3665,27 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.BrushwoodName1";
-			Text = "Broussailles";
+			Text = "Plants de morelle";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.BrushwoodName2";
+			Text = "Le bassin de grenouilles";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.BrushwoodName3";
+			Text = "Marais du diable";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.BrushwoodName4";
+			Text = "Moisi et moelleux";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.BrushwoodName5";
+			Text = "Bassin des fées";
 		},
 		LocDirectEntry
 		{
@@ -5790,7 +5000,27 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$build.GroveName1";
-			Text = "Bosquet";
+			Text = "Abeilles et fleurs";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.GroveName2";
+			Text = "Le pré aux fleurs";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.GroveName3";
+			Text = "Jardin de la mandragore";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.GroveName4";
+			Text = "Maison des dieux anciens";
+		},
+		LocDirectEntry
+		{
+			Key = "$build.GroveName5";
+			Text = "Où l'herbe pousse";
 		},
 		LocDirectEntry
 		{
@@ -8610,7 +7840,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$cf.Child.EE.1";
-			Text = "";
+			Text = "Haha, ça chatouille ! Allez, pince moi encore !";
 		},
 		LocDirectEntry
 		{
@@ -11895,12 +11125,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.concubineInheritance";
-			Text = "%character% est maintenant le nouveau chef de sa dynastie et doit mettre fin à sa liaison avec vous.";
+			Text = "%character% est maintenant le nouveau chef de sa dynastie et doit mettre fin à sa liaison avec vous.";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.concubineInheritance.female";
-			Text = "%character% est maintenant la nouvelle cheffe de sa dynastie et doit mettre fin à sa liaison avec vous.";
+			Text = "%character% est maintenant la nouvelle cheffe de sa dynastie et doit mettre fin à sa liaison avec vous.";
 		},
 		LocDirectEntry
 		{
@@ -12386,6 +11616,11 @@ LocDirectData
 		{
 			Key = "$gui.InSchool";
 			Text = "À l'école";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.InScene";
+			Text = "Occupé(e)";
 		},
 		LocDirectEntry
 		{
@@ -13646,6 +12881,11 @@ LocDirectData
 		{
 			Key = "$gui.QuestsBudget.trialWindow";
 			Text = "Livre des preuves & procès";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.reaction.duel.defender";
+			Text = "Vous êtes attaqué ! Que voulez-vous faire?";
 		},
 		LocDirectEntry
 		{
@@ -15480,7 +14720,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.AreYouSureToDoAction.NoSkill";
-			Text = "Attention, vous n'avez pas la compétence appropriée >%buildingSkillLvl%< pour exploiter pleinement le bâtiment >%buildingName%<. Jusqu'à ce que vous ayez débloqué la compétence appropriée, vous devrez payer tous les frais du bâtiment. Êtes-vous sûr de vouloir faire l'action  >%actionName%< ?";
+			Text = "Attention, vous n'avez pas la compétence appropriée %buildingSkillLvl% pour exploiter pleinement le bâtiment %buildingName%. Jusqu'à ce que vous ayez débloqué la compétence appropriée, vous devrez payer tous les frais du bâtiment. Êtes-vous sûr de vouloir faire l'action  %actionName% ?";
 		},
 		LocDirectEntry
 		{
@@ -15535,7 +14775,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.EmployeeDead";
-			Text = "%employee% de %level%, qui travaille à %business%, est malheureusement décédé...";
+			Text = "%employee% de %level%, qui travaille à %business%, est malheureusement décédé...";
 		},
 		LocDirectEntry
 		{
@@ -15545,7 +14785,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.EmployeeInebriated";
-			Text = "%employee% de %level%, qui travaille à %business%, est ivre mort. L'ampleur de l'ivresse est : %ailment%.";
+			Text = "%employee% de %level%, qui travaille à %business%, est ivre mort. L'ampleur de l'ivresse est : %ailment%.";
 		},
 		LocDirectEntry
 		{
@@ -15555,7 +14795,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.EmployeeLevel";
-			Text = "Votre employé %employee%, qui travaille à %business%, a atteint un nouveau niveau professionnel : %level%.";
+			Text = "Votre employé %employee%, qui travaille à %business%, a atteint un nouveau niveau professionnel : %level%.";
 		},
 		LocDirectEntry
 		{
@@ -15565,12 +14805,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$message.EmployeePoisoned";
-			Text = "%employee% de %level%, qui travaille à %business%, est empoisonné. L'ampleur de l'empoisonnement est : %ailment%.";
+			Text = "%employee% de %level%, qui travaille à %business%, est empoisonné. L'ampleur de l'empoisonnement est : %ailment%.";
 		},
 		LocDirectEntry
 		{
 			Key = "$message.EmployeePoisoned.Header";
-			Text = "Un employé est empoisonné !";
+			Text = "Un employé a été empoisonné !";
 		},
 		LocDirectEntry
 		{
@@ -15681,196 +14921,6 @@ LocDirectData
 		{
 			Key = "$message.FamilyStartedAFeud.Narration";
 			Text = "Un rival a déclaré une querelle contre vous !";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.10.1";
-			Text = "Vous avez maintenant gagné suffisamment d'argent pour ouvrir une nouvelle entreprise. Pour ce faire, cliquez sur le bouton 'Menu de construction' ci-dessous dans l'interface utilisateur.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.11.1";
-			Text = "Ce menu affiche tous les bâtiments d'entreprises qui sont actuellement disponibles pour vous - tous les autres sont grisés. Veuillez sélectionner une entreprise que vous souhaitez construire.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.11.2";
-			Text = "Bien ! Maintenant, sélectionnez un site pour votre entreprise. Il est conseillé de construire votre entreprise le plus pret possible du marché.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.11.3";
-			Text = "Excellent ! Une fois le bâtiment terminé, vous pouvez l'utiliser. Vous pouvez déjà trouver le bâtiment dans la liste de vos propres bâtiments à droite de l'écran.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.12.1";
-			Text = "Votre nouvelle entreprise est maintenant construite. Vous devriez maintenant la trouver et penser à embaucher des ouvriers. Vous avez également gagné des points d'expérience pour les travaux de construction.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.12.1.narration";
-			Text = "Votre nouvelle entreprise est maintenant prête. Vous avez gagné des points d'expérience pour les travaux de construction ! Vous devriez maintenant embaucher des ouvriers.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.12.2";
-			Text = "Les entreprises du village sont plutôt petites et attirent relativement peu de clients, mais tout cela changera dans la ville. Votre entreprise continuera à gagner de l'argent et de l'expérience et vous deviendrez bientôt de bons citoyens de la ville et pourrez quitter la campagne.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.13.1";
-			Text = "Il est très facile d'embaucher un employé. Cliquez simplement sur 'plus'. Il vous faudra quelques instants pour que votre nouvel employé apparaisse. Selon votre popularité parmis la population, l'attente sera plus ou moins longue.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.13.2";
-			Text = "Les employés à gauche du menu sont les 'ouvriers', mais vous aurez besoin de 'transporteurs' pour effectuer votre transport, qui vous pouvez recruter dans la partie transport. Votre personnage peut être utilisé pour les deux activités.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.13.3";
-			Text = "En plus de l'entrepôt, les entreprises disposent également d'un magasin où vous pouvez exposer vos biens et les proposer à la vente. Tout le monde peut voir votre magasin, mais votre entrepôt sera caché aux regards indiscrets.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.14.1";
-			Text = "Super, vous avez embauché vos premiers employés ! Continuez ainsi, et vous obtiendrez bientôt le titre de >résident< !";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.15.1";
-			Text = "Mes félicitations les plus chaleureuses - vous venez de gagner le titre de >citoyen<, qui vous donne droit à posséder des bâtiments dans les murs de la ville.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.15.2";
-			Text = "À un moment donné, vous devriez envisager de laisse >IA Maître< gérer votre entreprise. Cela vous laissera libre de vous concentrer sur d'autres choses.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.16.1";
-			Text = "Équipez votre entreprise avec suffisamment 'd'actifs' pour permettre le >IA Maître< de gérer vos affaires une fois que vous l'avez activé.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.16.2";
-			Text = "Vous avez quatre options disponibles pour le >IA Maître<. Choisissez une option.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.17.1";
-			Text = "Maintenant que vous savez votre entreprise entre de bonnes mains, vous pouvez partir à la rencontre des habitants de la ville. Bien que vous ne le remarqueriez pas immédiatement, au fil du temps, votre 'importance' continuera à augmenter dans les quartiers, en particulier avec les autres dynasties.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.18.1";
-			Text = "Peut-être qu'un cadeau serait un bon début pour augmenter votre popularité dans la communauté. Placez simplement un article dans votre inventaire que vous pourrez offrir en cadeau, puis trouver un résident ou d'un membre d'une autre dynastie.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.3.1";
-			Text = "Soyez le bienvenu, %name% !\nVous commencerez en tant que >%title%< et ne serez pas autorisé à vivre et travailler dans la ville de %city% jusqu'à ce que vous ayez acquis le titre de >citoyen<.\n\n Consultez le >journal des tâches<, le premier livre en haut de l'interface, pour savoir quoi faire ensuite.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.3.1.narration";
-			Text = "Soyez le bienvenue !\nVous commencez avec un titre inférieur et ne pourrez vivre et travailler en ville qu'une fois le titre de >citoyen< obtenu.\n\n Consultez le >journal des tâches<, le premier livre en haut de l'interface, pour savoir quoi faire ensuite.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.3.2";
-			Text = "Vous commencez votre carrière avec une certaine expertise en tant que >%skill%<.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.3.2.narration";
-			Text = "Vous commencez votre carrière avec une certaine expertise dans un domaine.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.3.3";
-			Text = "Pour remplir votre bourse pour le moment vide, vous pouvez fabriquer des produits et les vendre. Vous ne pourrez le faire qu'à votre domicile d'abord, mais vous pourrez ensuite ouvrir une entreprise.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.4.1";
-			Text = "Ce menu affiche toutes les possibilités offertes par ce bâtiment. Vous pourrez déjà y trouver quelques matières premières que vous pouvez utiliser pour fabriquer un produit et le vendre. Seul le propriétaire du bâtiment peut voir l'entrepôt.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.4.2";
-			Text = "Ici vous pourrez voir quels biens vous pouvez produire dans ce bâtiment. Vous avez encore besoin de matières premières pour les produits en rouge, ces matières premières sont aussi listés ici.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.4.3";
-			Text = "Vous trouverez ici les employés de ce bâtiments qui peuvent produire des biens ou exécuter des actions pour vous.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.4.4";
-			Text = "Pour assigner une tâche à un ouvrier, il suffit de faire glisser le produit ou l'action vers l'icône de l'employé dans la liste à gauche. Cela fonctionne également dans l'autre sens.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.4.5";
-			Text = "Vous ne pouvez fabriquer des produits que si vous avez les matières premières et l'espace de stockage nécessaires pour le faire. Vous devriez alors vendre les marchandises pour gagner de l'argent.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.5.1";
-			Text = "Vous pouvez maintenant vendre les produits que vous avez fabriqués. La manière la plus simple est d'aller au marché le plus proche. Vous pouvez également utiliser la fonction d'accès rapide pour le marché dans la barre d'action ci-dessous.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.5.2";
-			Text = "N'oubliez pas de transférer les produits de l'inventaire de votre personnage, vous pouvez également utiliser le glisser-déposer pour le faire.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.6.1";
-			Text = "Ceci est le menu du marché. Votre personnage vient d'y arriver. Vous pouvez le trouver et utiliser son inventaire à droite, sous >Transport<. Sur la gauche, tous les produits qui peuvent être échangés dans la ville, avec les prix d'achat, de vente et les stocks disponible sur le marché.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.6.2";
-			Text = "Vous pouvez utiliser les filtres ci-dessus pour tirer les différents groupes de produits. Les 'Produits indispensables' sont tous les produits que vous pouvez produire vous-même ou dont vous avez besoin comme matières premières.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.6.3";
-			Text = "Dans la partie de transport à droite, vous verrez tous vos propres personnages actuellement sur le marché. Vous trouverez également des entreprises étrangères dans la partie transport lorsque vous y allez faire vos courses.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.6.4";
-			Text = "Pour vendre vos marchandises, utilisez simplement le glisser-déposer ou cliquez sur >Tout vendre<.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.7.1";
-			Text = "Félicitations ! Vous venez de terminer un cycle de production. Maintenant, vous devriez vous concentrer sur l'obtention de matières premières supplémentaires pour votre production.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.7.2";
-			Text = "Vous devez avoir remarqué la petite fenêtre lorsque vos marchandises sont chargées. Ici, vous pouvez facilement ajuster le nombre requis. Double-cliquez simplement pour sélectionner tout le contenu d'un emplacement. Si vous être en train de charger à partir du stock ou du marché, un double-clic ne fera que sélectionner la quantité qui peut être transférée dans votre inventaire.";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.8.1";
-			Text = "Maintenant, retournez dans votre résidence et produisez plus de marchandises !";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.8.2";
-			Text = "Vous venez de recevoir quelques pièces et des points d'expérience !";
-		},
-		LocDirectEntry
-		{
-			Key = "$message.feedback.8.2.narration";
-			Text = "Vous venez de recevoir quelques pièces et des points d'expérience !";
 		},
 		LocDirectEntry
 		{
@@ -17399,7 +16449,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$qs.Henchmens";
+			Key = "$qs.Henchmen";
 			Text = "Hommes de main : %nb%";
 		},
 		LocDirectEntry
@@ -18274,11 +17324,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$sce.castle.Birmingham";
-			Text = "Siège du Baron";
-		},
-		LocDirectEntry
-		{
 			Key = "$sce.castle.Bohemia";
 			Text = "Château de Prague";
 		},
@@ -18320,7 +17365,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.castle.Visby";
-			Text = "Palais du vice-régent";
+			Text = "Palais du gouverneur";
 		},
 		LocDirectEntry
 		{
@@ -18616,11 +17661,6 @@ LocDirectData
 		{
 			Key = "$sce.desc.Augsburg";
 			Text = "La ville a été fondée en 15 av. J.-C. par Drusus et Tiberius pour leur beau-père l'empereur romain Augustus en tant que camp militaire. En 1156 AD, Augsbourg reçut le privilège de population et devint une ville impériale libre en 1276. Depuis lors, la ville a connu un essor régulier, qui n'a pas été ralentie par les récents bouleversements et querelles. Les familles patriciennes d'Augsbourg ont forgé de vastes relations commerciales et les rumeurs disent que de nombreux nobles sont redevables aux établissements bancaires d'Augsbourg.";
-		},
-		LocDirectEntry
-		{
-			Key = "$sce.desc.Birmingham";
-			Text = "Birmingham est situé aux abords de la rivière Rea dans le comté du Warwickshire, à l'ouest du Royaume d'Angleterre. La cité est bien fortifié et entourée de forêts épaisses avec peu d'agriculture.\nBirmingham s'est probablement developpée au temps des Anglo-Saxon et s'appellait autrefois Beormaham. Des siècles plus tard, quand le village devint le fief d'une famille normande, Birmingham s'est vu accordé le droit de posséder un marché et a vu naitre une expansion économique depuis.\nAujourd'hui, Birmingham est connue pour ses artisans, spécialement pour ses armes et armures en tout genre.";
 		},
 		LocDirectEntry
 		{
@@ -19199,11 +18239,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$sce.name.Birmingham";
-			Text = "Baronnie de Birmingham";
-		},
-		LocDirectEntry
-		{
 			Key = "$sce.name.Bohemia";
 			Text = "Royaume de Bohême";
 		},
@@ -19266,16 +18301,6 @@ LocDirectData
 		{
 			Key = "$sce.sov.Augsburg.male";
 			Text = "Baron d'Augsburg";
-		},
-		LocDirectEntry
-		{
-			Key = "$sce.sov.Birmingham.female";
-			Text = "Baronne de Birmingham";
-		},
-		LocDirectEntry
-		{
-			Key = "$sce.sov.Birmingham.male";
-			Text = "Baron de Birmingham";
 		},
 		LocDirectEntry
 		{
@@ -20650,7 +19675,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.AttackPowerDesc";
-			Text = "La puissance d'attaque décrit les capacités offensives du personnage en combat rapproché.\nInfluencé par : Niveau, Dextérité";
+			Text = "La puissance d'attaque décrit les capacités offensives du personnage en combat rapproché.\nInfluencé positivement par : Dextérité\nInfluencé négativement par : Force";
 		},
 		LocDirectEntry
 		{
@@ -20660,7 +19685,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.BargainingBonusDesc";
-			Text = "La négociation permet au personnage d’atteindre de meilleurs prix lors de l’achat et de la vente de biens sur les marchés.\nInfluencé par : Intelligence, Charisme";
+			Text = "La négociation permet au personnage d’atteindre de meilleurs prix lors de l’achat et de la vente de biens sur les marchés.\nInfluencé positivement par : Intelligence, Charisme";
 		},
 		LocDirectEntry
 		{
@@ -20730,7 +19755,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.DamageDesc";
-			Text = "Il s’agit des dommages que le personnage peut causer à son adversaire au corps à corps.\nInfluencé par : Force";
+			Text = "Il s’agit des dommages que le personnage peut causer à son adversaire au corps à corps.\nInfluencé positivement par : Force, Perception\nInfluencé négativement par : Dextérité";
 		},
 		LocDirectEntry
 		{
@@ -20740,7 +19765,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.DefensePowerDesc";
-			Text = "Cet attribut dérivé décrit la capacité du personnage à se défendre en combat rapproché.\nInfluencé par : Niveau, Dexterité";
+			Text = "Cet attribut dérivé décrit la capacité du personnage à se défendre en combat rapproché.\nInfluencé positivement par : Dexterité";
 		},
 		LocDirectEntry
 		{
@@ -20910,7 +19935,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.ProductivityDesc";
-			Text = "Cet attribut dérivé montre la capacité du personnage à produire des biens de toutes sortes : plus la valeur est élevée, plus la production d'un produit est rapide.\nInfluencé par : Niveau, Santé";
+			Text = "Cet attribut dérivé montre la capacité du personnage à produire des biens de toutes sortes : plus la valeur est élevée, plus la production d'un produit est rapide.\nInfluencé positivement par : Niveau, Dextérité, Intelligence\nInfluencé négativement par : Dégâts subis, Charisme";
 		},
 		LocDirectEntry
 		{
@@ -20920,7 +19945,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.ReputationBonusDesc";
-			Text = "Cet attribut dérivé peut influencer l’effet sur les changements de réputation par le biais de compliments et d’autres actions sociales.\nInfluencé par : Charisme";
+			Text = "Cet attribut dérivé peut influencer l’effet sur les changements de réputation par le biais de compliments et d’autres actions sociales.\nInfluencé positivement par : Charisme";
 		},
 		LocDirectEntry
 		{
@@ -20930,7 +19955,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.ResistanceDesc";
-			Text = "La résistamce est la protection du personnage contre les maladies et - bien sûr - l'ivresse !\nInfluencé par : Niveau, Force";
+			Text = "La résistance est la protection du personnage contre le poison et les maladies.\nInfluencé positivement par : Niveau, Force, Perception";
 		},
 		LocDirectEntry
 		{
@@ -21080,7 +20105,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.StealthDesc";
-			Text = "La furtivité est utilisée lorsque le personnage veut passer inaperçu ou tromper ses victimes / cibles tout en effectuant une action.\nInfluencé par : Niveau, Force, Dexterité";
+			Text = "La furtivité est utilisée lorsque le personnage veut passer inaperçu ou tromper ses victimes / cibles tout en effectuant une action.\nInfluencé positivement par : Dextérité, Perception\nInfluencé négativement par : Force";
 		},
 		LocDirectEntry
 		{
@@ -23835,7 +22860,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Offices.OfficeDescTenure";
-			Text = "Durée du mandat : %lenght% ans";
+			Text = "Durée du mandat : %length% ans";
 		},
 		LocDirectEntry
 		{
@@ -24004,11 +23029,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Popup.NewChild";
-			Text = "Estimez-vous heureux ! Vous êtes le fier parent d'un nouvel enfant !";
-		},
-		LocDirectEntry
-		{
 			Key = "$ui.Popup.NewOffice";
 			Text = "Estimez-vous heureux ! Vos efforts inlassables vous ont valu une nouvelle position politique !";
 		},
@@ -24099,18 +23119,8 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Line0.Tooltip";
-			Text = "";
-		},
-		LocDirectEntry
-		{
 			Key = "$ui.Production.biz.Line1";
 			Text = "Valeur";
-		},
-		LocDirectEntry
-		{
-			Key = "$ui.Production.biz.Line1.Tooltip";
-			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -24119,28 +23129,13 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Line2.Tooltip";
-			Text = "";
-		},
-		LocDirectEntry
-		{
 			Key = "$ui.Production.biz.Line3";
 			Text = "Budget restant";
 		},
 		LocDirectEntry
 		{
-			Key = "$ui.Production.biz.Line3.Tooltip";
-			Text = "";
-		},
-		LocDirectEntry
-		{
 			Key = "$ui.Production.biz.Line4";
 			Text = "Améliorations";
-		},
-		LocDirectEntry
-		{
-			Key = "$ui.Production.biz.Line4.Tooltip";
-			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -25010,7 +24005,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Subquest.Name20";
-			Text = "Devenir meneur d'une société.";
+			Text = "Devenir meneur d'une guilde.";
 		},
 		LocDirectEntry
 		{
@@ -26164,91 +25159,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "Armor";
-			Text = "$(#2)$ Armure";
-		},
-		LocDirectEntry
-		{
-			Key = "AttractCrowd";
-			Text = "Satisfaction du client";
-		},
-		LocDirectEntry
-		{
-			Key = "AttractCrowdDesc";
-			Text = "La satisfaction du client permet de savoir à quel point le bâtiment attirera les clients du quartier.";
-		},
-		LocDirectEntry
-		{
-			Key = "BurglaryProtection";
-			Text = "Protection contre le cambriolage";
-		},
-		LocDirectEntry
-		{
-			Key = "BurglaryProtectionDesc";
-			Text = "Ces améliorations rendent la tâche plus difficile aux voleurs qui souhaitent entrer dans votre bâtiment pour y voler vos richesses.";
-		},
-		LocDirectEntry
-		{
-			Key = "Charisma";
-			Text = "Charisme";
-		},
-		LocDirectEntry
-		{
-			Key = "Combat";
-			Text = "$(#1) Puissance de combat";
-		},
-		LocDirectEntry
-		{
-			Key = "Fighting";
-			Text = "Combat";
-		},
-		LocDirectEntry
-		{
-			Key = "FireProtection";
-			Text = "Protection contre le feu";
-		},
-		LocDirectEntry
-		{
-			Key = "FireProtectionDesc";
-			Text = "Si le bâtiment prend feu - par accident ou par malveillance - ces améliorations garantissent que le feu peut être éteint plus rapidement.";
-		},
-		LocDirectEntry
-		{
-			Key = "Intelligence";
-			Text = "Intelligence";
-		},
-		LocDirectEntry
-		{
-			Key = "Neighborhood.Awareness";
-			Text = "Conscience";
-		},
-		LocDirectEntry
-		{
-			Key = "Perception";
-			Text = "Perception";
-		},
-		LocDirectEntry
-		{
-			Key = "Privacy";
-			Text = "Intimité";
-		},
-		LocDirectEntry
-		{
-			Key = "PrivacyDesc";
-			Text = "Ces améliorations apportent une protection contre les concurrents trop curieux.";
-		},
-		LocDirectEntry
-		{
-			Key = "SleightOfHand";
-			Text = "Tour de passe-passe";
-		},
-		LocDirectEntry
-		{
-			Key = "Strength";
-			Text = "Force";
-		},
-		LocDirectEntry
-		{
 			Key = "$action.SabotageBuilding.Target.Success.narrator";
 			Text = "Quelqu'un a réussi à saboter l'un de vos bâtiments !";
 		},
@@ -26595,7 +25505,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$feedback.XPGain";
-			Text = "+ %xp% XP";
+			Text = "%xp% EXP";
 		},
 		LocDirectEntry
 		{
@@ -26605,7 +25515,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$feedback.Reputation";
-			Text = "%val%%CrestId% %SocialGroupName%";
+			Text = "%val% %CrestIdTarget% -> %CrestIdSource%";
 		},
 		LocDirectEntry
 		{
@@ -26709,16 +25619,6 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$feedback.EffectAppliedunconscious";
-			Text = "+$(unconscious) Inconscient !";
-		},
-		LocDirectEntry
-		{
-			Key = "$feedback.EffectHealedunconscious";
-			Text = "-$(unconscious) Conscient !";
-		},
-		LocDirectEntry
-		{
 			Key = "$feedback.EffectAppliedwound";
 			Text = "+$(wound) Blessé !";
 		},
@@ -26759,68 +25659,13 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "$tip";
-			Text = "";
-		},
-		LocDirectEntry
-		{
-			Key = "$tip.ErectBusiness.Headlne";
-			Text = "";
-		},
-		LocDirectEntry
-		{
-			Key = "$tip.ErectBusiness";
-			Text = "";
-		},
-		LocDirectEntry
-		{
-			Key = "$tip.Residence.Headline";
-			Text = "";
-		},
-		LocDirectEntry
-		{
-			Key = "$tip.Residence";
-			Text = "";
-		},
-		LocDirectEntry
-		{
-			Key = "$tip.Quickaccesses.Headline";
-			Text = "";
-		},
-		LocDirectEntry
-		{
-			Key = "$tip.Quickaccesses";
-			Text = "";
-		},
-		LocDirectEntry
-		{
-			Key = "$tip.Title.Headline";
-			Text = "";
-		},
-		LocDirectEntry
-		{
-			Key = "$tip.Title";
-			Text = "";
-		},
-		LocDirectEntry
-		{
-			Key = "$tip.Citizen.Headline";
-			Text = "";
-		},
-		LocDirectEntry
-		{
-			Key = "$tip.Citizen";
-			Text = "";
-		},
-		LocDirectEntry
-		{
 			Key = "$help.8.Neighbor";
 			Text = "Districts et Villages";
 		},
 		LocDirectEntry
 		{
 			Key = "$tooltip.HealthDesc";
-			Text = "Ici vous pouvez voir les points de vie de ce personnage.\nInfluencé par : Niveau, Force, Dexterité";
+			Text = "Ici vous pouvez voir les points de vie de ce personnage.\nInfluencé positivement par : Niveau, Force, Dexterité";
 		},
 		LocDirectEntry
 		{
@@ -26894,8 +25739,983 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
+			Key = "$sce.name.Wenighusen";
+			Text = "Un petit début";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.desc.Wenighusen";
+			Text = "La petite ville de Wenighusen est proche de votre village d’origine, mais vous n’y êtes jamais allé vous-même en raison de vos fonctions familiales et commerciales. Votre père a été plusieurs fois dans les murs de la ville et il vous a beaucoup parlé des citoyens de qualité qui y vivent. Un jour, vous voulez voir la ville par vous-même et peut-être même posséder une entreprise dans l'enceinte de la ville ...";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.city.Wenighusen";
+			Text = "Wenighusen";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.MonasteryQuarter";
+			Text = "Quartier du monastère";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.Degherdessen";
+			Text = "Degherdessen";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.castle.Wenighusen";
+			Text = "Monastère de Wenighusen";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.sov.Wenighusen.female";
+			Text = "Grande Abbesse";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.sov.Wenighusen.male";
+			Text = "Grand Abbé";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.city.Schwarzental";
+			Text = "Schwarzental";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.Fertility";
+			Text = "Fertilité";
+		},
+		LocDirectEntry
+		{
+			Key = "$status.pregnant";
+			Text = "Enceinte";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.NotificationSuccess.Headline";
+			Text = "Quelqu'un attend un bébé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.NotificationSuccess.Message";
+			Text = "Félicitations ! %CharacterTarget% and %CharacterSource% vont avoir un enfant !";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.NotificationFailure.Headline";
+			Text = "Cela ne m'est jamais arrivé auparavant !";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.NotificationFailure.Message";
+			Text = "%CharacterTarget% et %CharacterSource%  n'ont pas réussi à concevoir un enfant.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.LostChild.Headline";
+			Text = "Oh mon dieu - c'est une tragédie !";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.LostChild.Message";
+			Text = "Bon dieu, je suis désolé... il y a eu un accident et votre enfant à naître est décédé.";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.Lomianki";
+			Text = "Łomianki";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.Bialoleka";
+			Text = "Białołęka";
+		},
+		LocDirectEntry
+		{
+			Key = "$sce.dist.Sluzew";
+			Text = "Służew";
+		},
+		LocDirectEntry
+		{
 			Key = "$feedback.NoEvidenceFound";
 			Text = "Aucune preuve trouvée !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.ProduceOffspring";
+			Text = "Faire un enfant";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.ProduceOffspringDesc";
+			Text = "Vous pouvez prendre votre retraite avec votre conjoint et... faire des choses que vous ne faites qu'après la célébration du mariage sacré.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.ProduceOffspringInstuction";
+			Text = "Vous avez besoin d'un couple marié fertile dans le même bâtiment pour lancer cette action.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.SonOfZeus";
+			Text = "Fils de Zeus";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.SonOfZeusDesc";
+			Text = "Vous avez la force d'Héraklès, fils de Zeus.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Mean";
+			Text = "Méchant";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.MeanDesc";
+			Text = "Fort, mais pas si malin !";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Clever";
+			Text = "Intelligent";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.CleverDesc";
+			Text = "Vos parents doivent être si fiers !";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.SixthSense";
+			Text = "Sixième sens";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.SixthSenseDesc";
+			Text = "Vous avez des instincts très sensibles. C'est presque comme si vous pouviez prédire l'avenir !";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Backstabber";
+			Text = "Traître";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.BackstabberDesc";
+			Text = "Vous avez quelque chose en vous qui ne fait pas confiance aux gens.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Afraid";
+			Text = "Peureux";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.AfraidDesc";
+			Text = "Vous êtes une poule mouillée.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Weak";
+			Text = "Faible";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.WeakDesc";
+			Text = "Pouvez vous au moins soulever quelque chose ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Swordsman";
+			Text = "Épéiste";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.SwordsmanDesc";
+			Text = "Vous êtes un épéiste né. Les gens devraient réfléchir à deux fois avant de se battre contre vous.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Charismatic";
+			Text = "Charismatique";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.CharismaticDesc";
+			Text = "Vous êtes juste irrésistible.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Dreamer";
+			Text = "Rêveur";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.DreamerDesc";
+			Text = "Vous avez la tête est dans les nuages. Vous devriez essayer de vous concentrer un peu plus sur ce qui se passe autour de vous.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Steadfast";
+			Text = "Inébranlable";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.SteadfastDesc";
+			Text = "Vous êtes naturellement en bonne santé. Un peu de froid ne vous a jamais fait mal.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.NaturalResistance";
+			Text = "Résistant";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.NaturalResistanceDesc";
+			Text = "Les poisons et les maladies ne vous affectent pas beaucoup. Vous pouvez les supporter.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.RatEyes";
+			Text = "Yeux de rat";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.RatEyesDesc";
+			Text = "Certains ont l'oeil, certains ont une bonne vue, vous n'avez malheureusement rien de tout ça. Au moins vous avez le pieds léger.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Nervous";
+			Text = "Nerveux";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.NervousDesc";
+			Text = "Vous êtes affreux comme un jeune cerf.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.CatBurglar";
+			Text = "Monte-en-l'air";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.CatBurglarDesc";
+			Text = "Vous avez le pas léger et silencieux. Un voleur né naturel.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.PurpleLantern";
+			Text = "Lanterne Pourpre";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.PurpleLanternDesc";
+			Text = "Votre perception est presque sans précédent. Vous voyez presque tout, peu importe que ce soit au grand jour ou la nuit la plus noire.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Ugly";
+			Text = "Laid";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.UglyDesc";
+			Text = "Vous avez un visage que seule une mère peut aimer.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Sickly";
+			Text = "Maladif";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.SicklyDesc";
+			Text = "Vous êtes faible et tombez facilement malade. Vous devrez passer le plus clair de votre temps devant des livres. Alors utilisez votre cerveau à bon escient.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.StVitusDance";
+			Text = "Danse de Saint-Guy";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.StVitusDanceDesc";
+			Text = "Quelque chose ne va pas chez vous. Le medicus ne peut que vous aider à rendre votre vie un peu plus confortable pendant que vous vous dégradez lentement.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Methuselah";
+			Text = "Mathusalem";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.MethuselahDesc";
+			Text = "Vous avez la chance de vivre longtemps et en bonne santé. A condition de ne pas vous faire tuer en cours de route.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Expeditious";
+			Text = "Expéditif";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.ExpeditiousDesc";
+			Text = "Vous êtes né pour être un aventurier ! Vous avez le désir de voyager dans le sang.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Crippled";
+			Text = "Estropié";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.CrippledDesc";
+			Text = "Vos jambes sont déformées. Vous pourrez marcher, mais lentement.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.SpeechImpediment";
+			Text = "Trouble de la parole";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.SpeechImpedimentDesc";
+			Text = "Vous bégayez. Cela vous empêche d'échanger avec d'autres personnes.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Untalented";
+			Text = "Sans talent";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.UntalentedDesc";
+			Text = "Vous n'êtes pas vraiment pas doué pour quoi que ce soit.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.NaturalBornFighter";
+			Text = "Combattant né";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.NaturalBornFighterDesc";
+			Text = "Comme vos parents, vous êtes un vrai guerrier. Personne ne se mettre en travers de votre chemin vers la grandeur... tant qu'il s'agit d'une confrontation physique.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.ChildOfSiegfried";
+			Text = "Enfant de Siegfried";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.ChildOfSiegfriedDesc";
+			Text = "Comme le légendaire héros, vous êtes dur et fort. Presque rien ne pourra vous blesser, mais assurez-vous de couvrir vos angles morts.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Talented";
+			Text = "Talentueux";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.TalentedDesc";
+			Text = "Vous êtes un homme à tout faire, il ne devrait pas y avoir de défi auquel vous n'êtes pas préparé.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Literary";
+			Text = "Littéraire";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.LiteraryDesc";
+			Text = "Vous êtes une personne littéraire, vous connaissez les meilleurs mots !";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.DarkKnight";
+			Text = "Chevalier noir";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.DarkKnightDesc";
+			Text = "Les légendes racontent qu'un chevalier noir rode les nuits, purgeant le pays des malfaiteurs. Vous pourriez être sa réincarnation, ou son pire cauchemar.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Temperamental";
+			Text = "Capricieux";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.TemperamentalDesc";
+			Text = "Vous êtes connu pour avoir des crises de colère.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.Dealmaker";
+			Text = "Négociateur";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.DealmakerDesc";
+			Text = "Vous savez manipuler les gens pour faire ce que vous voulez. Si vous jouez bien vos cartes, vous pourriez même écrire un livre sur la façon de conclure des affaires ou devenir souverain sur vos propres terres!";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.TuFelixAustriaNube";
+			Text = "Tu felix Austria nube!";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.TuFelixAustriaNubeDesc";
+			Text = "Laissez les autres combattre leurs guerres. Vous êtes un diplomate, un charmeur. Vous allez vous marier et négocier votre chemin à travers ce monde dur et sans amour.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.DaVincisBrains";
+			Text = "Cerveau de Da Vinci";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.DaVincisBrainsDesc";
+			Text = "Vous êtes plus intelligent que la plupart des gens de votre temps. Si vous utilisez bien votre cerveau et vos mains, les gens se souviendront de vous longtemps après votre mort.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.MarkOfTheSpider";
+			Text = "Marque de l'araignée";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.MarkOfTheSpiderDesc";
+			Text = "Le jour de votre naissance, vous avez été mordu par une araignée. Cela a eu des effets étranges sur votre corps, mais beaucoup de gens semblent vous voir comme une menace. Rappelez-vous qu’un grand pouvoir entraîne de grandes responsabilités.";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.MaidOfOrleans";
+			Text = "Pucelle d'Orléans";
+		},
+		LocDirectEntry
+		{
+			Key = "$pregnancy.birthtrait.MaidOfOrleansDesc";
+			Text = "Comme la célèbre Jeanne d'Arc, vous êtes un combattant. Vos adversaires réfléchiront à deux fois avant de vous engager dans un combat physique.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.MovementSpeedMult";
+			Text = "Vitesse de mouvement";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.PrestigeGainMult";
+			Text = "Taux de gain d'influence";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.ExperienceGainMult";
+			Text = "Taux de gain d'expérience";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.MedicineMastery";
+			Text = "Maîtrise en médecine";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.GoodGenetics";
+			Text = "Bonne génétique";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.HealthRegeneration";
+			Text = "Régénération";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.Intimidation";
+			Text = "Intimidation";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.FertilityDesc";
+			Text = "Ici vous pouvez voir à quel point ce personnage est fertile. Plus la fécondité est élevée, plus les chances de produire une progéniture sont grandes.\nInfluencé négativement par : Age du personnage";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.MovementSpeedMultDesc";
+			Text = "Cela vous montre à quelle vitesse le personnage est capable de se déplacer.\nInfluencé positivement par : Force, Dextérité\nInfluencé négativement par : Perception";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.PrestigeGainMultDesc";
+			Text = "C'est le taux auquel ce personnage gagne de l'Influence.\nInfluencé positivement par : Charisme";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.ExperienceGainMult";
+			Text = "Taux de gain d'expérience";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.ExperienceGainMultDesc";
+			Text = "C’est la vitesse à laquelle ce personnage acquiert de l’expérience.\nInfluencé positivement par : Intelligence";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.MedicineMasteryDesc";
+			Text = "Cet attribut dérivé définit dans quelle mesure ce personnage réussira à utiliser des objets de soin comme des potions ou des bandages.\nInfluencé positivement par : Intelligence";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.GoodGeneticsDesc";
+			Text = "Affecte la probabilité que votre progéniture ait de meilleurs attributs de départ et des traits de naissance.\nInfluencé positivement par : Niveau, Intelligence, Force";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.HealthRegenerationDesc";
+			Text = "Cet attribut dérivé définit le niveau de régénération de santé du personnages quand il est blessé.\nInfluencé positivement par : Dextérité";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.IntimidationDesc";
+			Text = "Celà définit à quel point ce personnage sera capable d’intimider ses adversaires lorsqu’il utilise des actions sociales agressives.\nInfluencé positivement par : Force, Charisme";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Popup.NewChild.singleParent";
+			Text = "Votre dynastie grandit ! %parent1% est très fier !";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Popup.NewChild";
+			Text = "Votre dynastie grandit ! %parent1% et %parent2% sont les fiers parents de...";
+		},
+		LocDirectEntry
+		{
+			Key = "$ui.Popup.NewChild.missingName";
+			Text = "L'enfant a besoin d'un nom pour être félicité ou grondé";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Options.VSync";
+			Text = "Synchro Verticale";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.Prestige";
+			Text = "%coins%$(Prestige)";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Label.Money";
+			Text = "Argent";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Label.Prestige";
+			Text = "Influence";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.NOT_ENOUGH_PRESTIGE";
+			Text = "%action% a échoué - vous n'en avez pas assez d'Influence !";
+		},
+		LocDirectEntry
+		{
+			Key = "$Buff.RecentlyCured";
+			Text = "Vous avez récemment survécu à une maladie";
+		},
+		LocDirectEntry
+		{
+			Key = "$statusEffect.blessed";
+			Text = "Béni";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedblessed";
+			Text = "=+$(blessed) Bénédiction !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedblessed";
+			Text = "-$(blessed) Bénédiction !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedpregnant";
+			Text = "=+$(pregnant) Grossesse !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedpregnant";
+			Text = "-$(pregnant) Grossesse !";
+		},
+		LocDirectEntry
+		{
+			Key = "$statusEffect.pregnant";
+			Text = "Enceinte";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.dialog.BuySkillConfirmation";
+			Text = "Voulez-vous dépenser %Currency% pour déverrouiller  %SkillName% %SkillLevel% ?";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.dialog.NotEnoughMoney";
+			Text = "Vous n'avez pas assez d'Argent pour déverrouiller %SkillName% %SkillLevel%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.dialog.NotEnoughPrestige";
+			Text = "Vous n'avez pas assez de Prestige pour déverrouiller %SkillName% %SkillLevel%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.dialog.NotEnoughNobility";
+			Text = "Vous avez besoin d'un Titre plus élevé pour déverrouiller  %SkillName% %SkillLevel%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.dialog.PreviousLevelNotUnlocked";
+			Text = "Vous devez déverrouiller la compétence précédente.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.select";
+			Text = "Sélectionner";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.PickNeutralFamily";
+			Text = "Choisissez une famille dont vous voulez dire du mal !";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.guiRomanceAboutToEnd";
+			Text = "%character% a l'impression que vous le négligez et commence à perdre de l'intérêt pour vous.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.guiRomanceAboutToEnd.female";
+			Text = "%character% a l'impression que vous la négligez et commence à perdre de l'intérêt pour vous.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.guiRomanceDowngraded";
+			Text = "Votre relation avec %character% a changé de Liaison à Romance.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.guiRomanceDowngraded.female";
+			Text = "Votre relation avec %character% a changé de Liaison à Romance.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.romances";
+			Text = "Romances";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.MaxHenchmen";
+			Text = "Plus d'hommes de main";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.Char.MaxOwnedBusinesses";
+			Text = "Plus d'entreprises";
+		},
+		LocDirectEntry
+		{
+			Key = "$CollectProtectionMoney";
+			Text = "Recueillir l'argent de protection";
+		},
+		LocDirectEntry
+		{
+			Key = "$CollectProtectionMoneyDesc";
+			Text = "Il est grand temps que certaines entreprises commencent à payer pour votre protection.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.ProtectionMoneyNotPaid";
+			Text = "N'a pas payé l'argent de protection";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.ProtectionMoneyPaid";
+			Text = "A payé l'argent de protection";
+		},
+		LocDirectEntry
+		{
+			Key = "$statusEffect.protected";
+			Text = "Protégé";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedprotected";
+			Text = "=+ Protégé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedprotected";
+			Text = "- Protégé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$BucketOfWater";
+			Text = "Seau d'eau";
+		},
+		LocDirectEntry
+		{
+			Key = "$BucketOfWaterDesc";
+			Text = "Un seau rempli d'eau pouvant être recueilli à un puits.";
+		},
+		LocDirectEntry
+		{
+			Key = "$WashCloth";
+			Text = "Gant de toilette";
+		},
+		LocDirectEntry
+		{
+			Key = "$WashClothDesc";
+			Text = "La baignade vous rend malade et misérable ! Mais une eau tiède et quelque chose pour vous frotter peuvent faire des merveilles lorsque vous essayez d’impressionner les autres. L'utiliser augmentera votre charisme pour un temps. Et si vous avez des puces, il y a des chances que vous vous débarrasserez de cette plaie en utilisant un gant de toilette...";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.Character";
+			Text = "Sélectionnez un personnage.";
+		},
+		LocDirectEntry
+		{
+			Key = "$statusEffect.Washed";
+			Text = "Vous êtes propre.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.PlayerBusiness";
+			Text = "Sélectionnez l'une de vos entreprises.";
+		},
+		LocDirectEntry
+		{
+			Key = "$OverseeWorkers";
+			Text = "Provoquer les travailleurs";
+		},
+		LocDirectEntry
+		{
+			Key = "$OverseeWorkersDesc";
+			Text = "Vous pouvez frapper verbalement vos employés paresseux ! ils travailleront ensuite plus vite pendant un moment. Mais soyez prudent avec la force de vos mots - cela les rendra peut-être plus en colère que motivés...";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.MotivatedWorkers";
+			Text = "Travailleurs motivés";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.DemotivatedWorkers";
+			Text = "Travailleurs démotivés";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.UICategory.Business";
+			Text = "Entreprises";
+		},
+		LocDirectEntry
+		{
+			Key = "$statusEffect.whipped";
+			Text = "Fouetté";
+		},
+		LocDirectEntry
+		{
+			Key = "$WhipTransporters";
+			Text = "Fouetter les transporteurs";
+		},
+		LocDirectEntry
+		{
+			Key = "$WhipTransportersDesc";
+			Text = "Vos transporteurs sont-ils assis toute la journée ? Peut-être qu'une petite tape dans le dos leur rappellera de se déplacer un peu plus vite. En cas de succès, cela augmentera la vitesse de déplacement du transporteur dans l'entreprise sélectionnée.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.pick.character.for.romance";
+			Text = "Choisissez un personnage avec lequel vous voulez commencer une romance !";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.pick.romance.for.liaison";
+			Text = "Choisissez un personnage avec lequel vous souhaitez commencer la liaison !";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.pick.liaison.for.marriage";
+			Text = "Choisissez un personnage que vous voulez épouser !";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.pick.character.from.3dworld";
+			Text = "Choisissez parmi le monde";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.wealth";
+			Text = "Richesse";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.no.romances.to.start.liaison.with";
+			Text = "Vous n'avez pas de romance pour commencer une liaison !";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.no.liaisons.to.get.married.to";
+			Text = "Vous n'avez aucune liaison avec qui vous marier !";
+		},
+		LocDirectEntry
+		{
+			Key = "$FlowerBouqet";
+			Text = "Bouquet de fleurs";
+		},
+		LocDirectEntry
+		{
+			Key = "$FlowerBouqetDesc";
+			Text = "Un bouquet de fleurs merveilleusement odorant. Vous pouvez les présenter comme un cadeau à vos proches pour augmenter leur affection pour vous-même.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.StealHouse.FailureTargetHeadline";
+			Text = "Quelqu'un a essayé de vous voler !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.StealHouse.FailureTarget";
+			Text = "Quelqu'un a essayé de pénétrer dans votre bâtiment %BuildingTarget% mais heureusement, ils ont été dérangés avant de pouvoir achever leurs sales actions.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.StealHouse.SuccessTargetHeadline";
+			Text = "Quelqu'un a pénétré dans votre bâtiment !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.StealHouse.SuccessTarget";
+			Text = "Quelqu'un a pénétré dans votre bâtiment %BuildingTarget%. Mieux vaut regarder votre inventaire pour voir ce qu’ils ont pris!";
+		},
+		LocDirectEntry
+		{
+			Key = "$status.ProduceOffspringFailed";
+			Text = "Faire un enfant a échoué.";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.ReputationNeighborhood";
+			Text = "%val% %CrestIdTarget% %SocialGroupName%";
+		},
+		LocDirectEntry
+		{
+			Key = "$effect.HitInTheHead";
+			Text = "Vous avez été touché à la tête";
+		},
+		LocDirectEntry
+		{
+			Key = "$statusEffect.unconscious";
+			Text = "Etourdi";
+		},
+		LocDirectEntry
+		{
+			Key = "$ThrowStones";
+			Text = "Lancer des pierres";
+		},
+		LocDirectEntry
+		{
+			Key = "$ThrowStonesDesc";
+			Text = "Vous vous ennuyé ? Essayez de jeter des pierres sur les gens ! Si vous les frappez à la tête, ils auront la tête qui tourne et marcheront plus lentement !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectHealedunconscious";
+			Text = "-$(unconscious) Etourdi !";
+		},
+		LocDirectEntry
+		{
+			Key = "$feedback.EffectAppliedunconscious";
+			Text = "=+$(unconscious) Etourdi !";
+		},
+		LocDirectEntry
+		{
+			Key = "$error.CannotEquip.Header";
+			Text = "Ne peut pas équiper %item% !";
+		},
+		LocDirectEntry
+		{
+			Key = "$error.CannotEquip.Body";
+			Text = "Seuls les %age_group% peuvent équiper %item%.";
+		},
+		LocDirectEntry
+		{
+			Key = "$characters.Age.Child";
+			Text = "enfants";
+		},
+		LocDirectEntry
+		{
+			Key = "$characters.Age.Adult";
+			Text = "adultes";
+		},
+		LocDirectEntry
+		{
+			Key = "$DistractGuard";
+			Text = "Distraire un garde";
+		},
+		LocDirectEntry
+		{
+			Key = "$DistractGuardDesc";
+			Text = "Essayez de distraire un garde pour aider avec les affaires sournoises de votre famille. Attention cependant, les gardes ne sont peut-être pas toujours d'humeur pour vos bêtises.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.CharacterGuard";
+			Text = "Sélectionnez un garde.";
+		},
+		LocDirectEntry
+		{
+			Key = "$effect.Distracted";
+			Text = "Distraits";
+		},
+		LocDirectEntry
+		{
+			Key = "$SpreadFleas";
+			Text = "Déposer un sac de puces";
+		},
+		LocDirectEntry
+		{
+			Key = "$SpreadFleasDesc";
+			Text = "Vous voulez faire une blague aux adultes ? Ramassez un paquet de puces dans un sac et déposez-le à côté d'un bâtiment ! Cela commencera la propagation du parasite.";
+		},
+		LocDirectEntry
+		{
+			Key = "$effect.InfectedWithFleas";
+			Text = "Infecté par les puces";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.StorageSlots";
+			Text = "Emplacements de stockage";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.StorageSpace";
+			Text = "Espace de stockage";
+		},
+		LocDirectEntry
+		{
+			Key = "$tooltip.MovementSpeedMult";
+			Text = "Vitesse de mouvement";
 		},
 	)
 };
