@@ -335,12 +335,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.SingleCharacterChangeMainBuilding";
-			Text = "Changer la résidence";
+			Text = "Se déplace";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.SingleCharacterChangeMainBuildingDesc";
-			Text = "Ce personnage change de lieu de résidence.";
+			Text = "Ce personnage se déplace vers sa nouvelle résidence.";
 		},
 		LocDirectEntry
 		{
@@ -375,7 +375,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.Commended";
-			Text = "%CharacterSource% a parlé en votre faveur à la population dans le >%neighborhood%< !";
+			Text = "%CharacterSource% a parlé en votre faveur à la population dans le >%neighborhood%< !";
 		},
 		LocDirectEntry
 		{
@@ -635,7 +635,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.DuelHumiliate";
-			Text = "Humilier en duel";
+			Text = "Accepter le duel";
 		},
 		LocDirectEntry
 		{
@@ -1565,7 +1565,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.LookInsideDesc";
-			Text = "Vous pouvez utiliser ceci pour voir votre famille dans votre résidence.";
+			Text = "Vous pouvez l'utiliser pour voir l'interieur de ce bâtiment.";
 		},
 		LocDirectEntry
 		{
@@ -2130,7 +2130,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.StartLiaisonAction";
-			Text = "Commencez une histoire d'amour";
+			Text = "Commencer une histoire d'amour";
 		},
 		LocDirectEntry
 		{
@@ -11905,7 +11905,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.MPAIBehavior";
-			Text = "Comportement de l'IA pour le remplacement d'un joueur";
+			Text = "Paramétrer l'IA pour remplacer un joueur";
 		},
 		LocDirectEntry
 		{
@@ -12150,7 +12150,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Options.LeaveHeader";
-			Text = "Quitter sans sauvegarder ?";
+			Text = "Sauvegarder les changements ?";
 		},
 		LocDirectEntry
 		{
@@ -13120,7 +13120,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.sys.HomeDistrict";
-			Text = "Quartier d'origine";
+			Text = "Lieu de résidence";
 		},
 		LocDirectEntry
 		{
@@ -13200,22 +13200,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Trade.Header.5";
-			Text = "Retenu en otages";
+			Text = "Otages";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Trade.Header.6";
-			Text = "Prochain vote en procès";
+			Text = "Votes de justice en cours";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Trade.Header.7";
-			Text = "Prochains votes d'élections politiques";
+			Text = "Votes aux élections officielles";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Trade.InventoryButton";
-			Text = "Inventaire";
+			Text = "Objets de valeur";
 		},
 		LocDirectEntry
 		{
@@ -15295,7 +15295,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$network.authserver.signinerror";
-			Text = "Connexion impossible.";
+			Text = "Échec de la connexion.";
 		},
 		LocDirectEntry
 		{
@@ -16030,12 +16030,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$PoliticalPower.ConstructionsDesc";
-			Text = "Avec ce pouvoir, vous pouvez diriger les ressources de la ville pour construire des bâtiments publics comme des écoles et des églises.";
+			Text = "Vous pouvez utiliser ce privilège officiel pour ordonner la construction de bâtiments dans la ville.";
 		},
 		LocDirectEntry
 		{
 			Key = "$PoliticalPower.DeclareHeretic";
-			Text = "Déclarer hérétique";
+			Text = "Déclarer quelqu'un hérétique";
 		},
 		LocDirectEntry
 		{
@@ -17749,7 +17749,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "sce.dist.Brixton";
+			Key = "$sce.dist.Brixton";
 			Text = "Brixton";
 		},
 		LocDirectEntry
@@ -18240,7 +18240,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.name.Bohemia";
-			Text = "Royaume de Bohême";
+			Text = "Prague";
 		},
 		LocDirectEntry
 		{
@@ -18250,17 +18250,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.name.Hansa";
-			Text = "La ligue hanséatique";
+			Text = "Hambourg et Lubeck";
 		},
 		LocDirectEntry
 		{
 			Key = "$sce.name.London";
-			Text = "La puissante cité de Londres";
+			Text = "Londres";
 		},
 		LocDirectEntry
 		{
 			Key = "$sce.name.Magdeburg";
-			Text = "Archevêché de Magdebourg";
+			Text = "Magdebourg";
 		},
 		LocDirectEntry
 		{
@@ -18270,7 +18270,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.name.Netherlands";
-			Text = "Les Pays-Bas";
+			Text = "Anvers";
 		},
 		LocDirectEntry
 		{
@@ -18290,7 +18290,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.name.Visby";
-			Text = "Ville hanséatique de Visby";
+			Text = "Visby";
 		},
 		LocDirectEntry
 		{
@@ -19190,7 +19190,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$splashHint6";
-			Text = "Si vous déplacez le pointeur sur un bouton ou une icône, une info-bulle apparaîtra peu de temps après. Maintenez le bouton droit de la souris appuyé pour afficher une info-bulle plus détaillée.";
+			Text = "Au début, vous ne pouvez contrôler que votre avatar, qui est le chef de votre dynastie. Mais au fur et à mesure que votre famille s'agrandit, vous pourrez contrôler, dans une certaine mesure, de plus en plus de personnages dès qu'ils auront plus de 5 ans.";
 		},
 		LocDirectEntry
 		{
@@ -20105,12 +20105,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.StealthDesc";
-			Text = "La furtivité est utilisée lorsque le personnage veut passer inaperçu ou tromper ses victimes / cibles tout en effectuant une action.\nInfluencé positivement par : Dextérité, Perception\nInfluencé négativement par : Force";
+			Text = "La furtivité est utilisée lorsque le personnage planifie quelque chose de sournois et doit se faufiler discrètement vers une cible ou s'assurer que sa victime ne détermine pas ses véritables intentions.\nInfluencé positivement par : Dextérité, Perception\nInfluencé négativement par : Force";
 		},
 		LocDirectEntry
 		{
 			Key = "$tooltip.StopAutomation";
-			Text = "Arrêter l'automatisation IA";
+			Text = "Désactiver les contrôles de l'IA";
 		},
 		LocDirectEntry
 		{
@@ -20125,7 +20125,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.StorageComponents";
-			Text = "Le nombre de jours de travail pour lequel le magasinier doit conserver suffisamment de matières premières en stock.";
+			Text = "Nombre d'articles actuellement produits pour lesquels les transporteurs devraient fournir des ressources.";
 		},
 		LocDirectEntry
 		{
@@ -20300,12 +20300,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip31";
-			Text = "Progression de l'action";
+			Text = "Progression";
 		},
 		LocDirectEntry
 		{
 			Key = "$tooltip4";
-			Text = "Procès en attente";
+			Text = "Négociation à venir";
 		},
 		LocDirectEntry
 		{
@@ -20465,22 +20465,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$trial.Sentence.Level.2";
-			Text = "Amende";
+			Text = "amende";
 		},
 		LocDirectEntry
 		{
 			Key = "$trial.Sentence.Level.3";
-			Text = "Honte publique";
+			Text = "au pilori";
 		},
 		LocDirectEntry
 		{
 			Key = "$trial.Sentence.Level.4";
-			Text = "Peine de prison";
+			Text = "peine de prison";
 		},
 		LocDirectEntry
 		{
 			Key = "$trial.Sentence.Level.5";
-			Text = "Peine de mort";
+			Text = "peine de mort";
 		},
 		LocDirectEntry
 		{
@@ -21630,7 +21630,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.13";
-			Text = "Rompre une alliance";
+			Text = "Alliances terminées";
 		},
 		LocDirectEntry
 		{
@@ -21640,27 +21640,27 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.15";
-			Text = "Interrompre une querelle";
+			Text = "querelles terminées";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.16";
-			Text = "Échanges entre dynasties";
+			Text = "Échanges";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.17";
-			Text = "Donner un cadeau";
+			Text = "Cadeaux";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.18";
-			Text = "Donner de l'argent";
+			Text = "Dons en argent";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.19";
-			Text = "Dénoncer";
+			Text = "Dénigrer";
 		},
 		LocDirectEntry
 		{
@@ -21675,32 +21675,32 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.21";
-			Text = "Diffamer";
+			Text = "Provoquer le quartier";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.22";
-			Text = "Recommander";
+			Text = "Recommander dans le quartier";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.23";
-			Text = "Postuler pour un poste politique";
+			Text = "Candidatures pour bureau politique";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.24";
-			Text = "Poste de bureau politique ouvert";
+			Text = "Bureau ouvert";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.25";
-			Text = "Position du bureau politique fermé";
+			Text = "Candidatures pour bureau politique fermées";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.26";
-			Text = "Election du bureau politique";
+			Text = "Election officiel";
 		},
 		LocDirectEntry
 		{
@@ -21710,12 +21710,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.28";
-			Text = "Libérer de prison";
+			Text = "Libéré de prison";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.29";
-			Text = "Verdict - Annulation";
+			Text = "Le procès a été arrêté";
 		},
 		LocDirectEntry
 		{
@@ -21735,7 +21735,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.32";
-			Text = "Verdict - Honte publique";
+			Text = "Verdict - Au pilori";
 		},
 		LocDirectEntry
 		{
@@ -21770,7 +21770,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.39";
-			Text = "Vandaliser";
+			Text = "Vandalisme";
 		},
 		LocDirectEntry
 		{
@@ -21780,12 +21780,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.40";
-			Text = "Lancer une bombe";
+			Text = "Bombe";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.41";
-			Text = "Lancer une bombe puante";
+			Text = "Bombe puante";
 		},
 		LocDirectEntry
 		{
@@ -21800,32 +21800,32 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.44";
-			Text = "Empoisonner un bâtiment";
+			Text = "Bâtiment empoisonné";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.45";
-			Text = "Empoisonner un quartier";
+			Text = "Quartier empoisonné";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.46";
-			Text = "Casser les os";
+			Text = "Os cassé";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.47";
-			Text = "Tuer le personnage";
+			Text = "Quelqu'un a été tué";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.48";
-			Text = "Kidnapper le personnage";
+			Text = "Quelqu'un a été enlevé";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.49";
-			Text = "Assassiner le personnage";
+			Text = "Quelqu'un a été éliminé";
 		},
 		LocDirectEntry
 		{
@@ -21835,12 +21835,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.50";
-			Text = "Insulter pour duel";
+			Text = "Duel";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.51";
-			Text = "Cambrioler la maison";
+			Text = "Cambriolage";
 		},
 		LocDirectEntry
 		{
@@ -21850,17 +21850,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.53";
-			Text = "Espionner un personnage";
+			Text = "Surveiller un personnage";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.54";
-			Text = "Nouveau chef de la dynastie";
+			Text = "Nouveau chef de famille";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.55";
-			Text = "Approché par une guilde";
+			Text = "Invité par une guilde";
 		},
 		LocDirectEntry
 		{
@@ -21880,7 +21880,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.59";
-			Text = "Conquérir un bâtiment";
+			Text = "Capture d'un bâtiment";
 		},
 		LocDirectEntry
 		{
@@ -21890,12 +21890,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.60";
-			Text = "Espionner un bâtiment";
+			Text = "Bâtiment espionné";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.61";
-			Text = "Espionner un personnage";
+			Text = "Quelqu'un est observé";
 		},
 		LocDirectEntry
 		{
@@ -21910,7 +21910,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.64";
-			Text = "Peste";
+			Text = "Épidémie";
 		},
 		LocDirectEntry
 		{
@@ -21960,7 +21960,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.FilterCategory.2";
-			Text = "Membres de la famille pour le mariage";
+			Text = "Membres de la famille admissibles au mariage";
 		},
 		LocDirectEntry
 		{
@@ -22005,7 +22005,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.0";
-			Text = "Un événement s'est produit";
+			Text = "Informations !";
 		},
 		LocDirectEntry
 		{
@@ -22115,7 +22115,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.29";
-			Text = "%Character% a été libéré en annulation";
+			Text = "Les procédures contre %Character% ont été arrêtées.";
 		},
 		LocDirectEntry
 		{
@@ -22305,12 +22305,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.63";
-			Text = "Une petite guerre a éclaté avec la région voisine";
+			Text = "Une querelle a éclaté entre le souverain et une autre noble maison !";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.64";
-			Text = "Un fléau est annoncé dans votre région";
+			Text = "Une horrible peste a éclaté !";
 		},
 		LocDirectEntry
 		{
@@ -22370,7 +22370,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Election.Header";
-			Text = "Choisissez un candidat pour l'élection";
+			Text = "Qui devrait être élu ?";
 		},
 		LocDirectEntry
 		{
@@ -22795,7 +22795,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Office.RejectReasonActionNotUnlocked";
-			Text = "Vous n'avez pas encore le privilège de postuler.";
+			Text = "Malheureusement, le privilège de postuler ne vous a pas encore été accordé.";
 		},
 		LocDirectEntry
 		{
@@ -22830,7 +22830,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Office.RejectReasonTooManyCandidates";
-			Text = "Il y a déjà trop de candidats.";
+			Text = "La liste des candidats à ce poste est déjà complète.";
 		},
 		LocDirectEntry
 		{
@@ -22855,7 +22855,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Offices.OfficeDescSalary";
-			Text = "Salaire annuel : %salary%";
+			Text = "Salaire pour le poste : %salary%";
 		},
 		LocDirectEntry
 		{
@@ -22865,7 +22865,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Politics.AnnualSalary";
-			Text = "Salaire annuel";
+			Text = "Salaire pour le poste";
 		},
 		LocDirectEntry
 		{
@@ -23030,7 +23030,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Popup.NewOffice";
-			Text = "Estimez-vous heureux ! Vos efforts inlassables vous ont valu une nouvelle position politique !";
+			Text = "Félicitations ! Vous avez été élu à une nouvelle position politique !";
 		},
 		LocDirectEntry
 		{
@@ -23190,12 +23190,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Quest.EventDetail";
-			Text = "Détails de l'évènement";
+			Text = "Détails";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Quest.EventInfo";
-			Text = "Informations sur l'événement";
+			Text = "Description";
 		},
 		LocDirectEntry
 		{
@@ -23205,12 +23205,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Quest.HeaderDetail";
-			Text = "Détail de la quête";
+			Text = "Détails";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Quest.HeaderTimed";
-			Text = "Événements chronométrés";
+			Text = "Commandes commerciales";
 		},
 		LocDirectEntry
 		{
@@ -23220,7 +23220,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Quest.QuestSteps";
-			Text = "Étapes de la quête";
+			Text = "Tâches individuelles";
 		},
 		LocDirectEntry
 		{
@@ -23300,7 +23300,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.RouteLeftHeader";
-			Text = "Liste des routes %current%/%max%";
+			Text = "Routes commerciales %current%/%max%";
 		},
 		LocDirectEntry
 		{
@@ -23320,7 +23320,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Routes.BuyLabel2";
-			Text = "Charger / acheter - automatisé";
+			Text = "Charger / acheter (automatisé)";
 		},
 		LocDirectEntry
 		{
@@ -23335,12 +23335,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Routes.SelectItemButtonAIProducts";
-			Text = "Marchandises automatisées";
+			Text = "Marchandises (automatisées)";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Routes.SelectItemButtonAISupplies";
-			Text = "Provisions automatisées";
+			Text = "Provisions (automatisées)";
 		},
 		LocDirectEntry
 		{
@@ -23435,7 +23435,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Secret.LeaderPositionApplication";
-			Text = "La position de chef de la >%name%< est ouverte. Pour postuler, consultez le Livre des Guildess.";
+			Text = "Un nouveau chef de la >%name%< sera bientôt désigné. Vous pouvez postuler via le >Livre des Guildes<.";
 		},
 		LocDirectEntry
 		{
@@ -23470,7 +23470,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Secret.ResignText";
-			Text = "Êtes-vous sûr de vouloir quitter la >%name%< ? Quitter la guilde va également supprimer vos avantages et changer les relations de votre dynastie.";
+			Text = "Voulez-vous vraiment quitter cet illustre groupe et renoncer à tous ses avantages ? Et que penseront de vous les autres membres si vous tournez le dos à la %name% ?";
 		},
 		LocDirectEntry
 		{
@@ -23480,7 +23480,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Secret.SocietyChart";
-			Text = "Diagramme";
+			Text = "Relations";
 		},
 		LocDirectEntry
 		{
@@ -24155,12 +24155,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.AbilityIncrease";
-			Text = "Allouer un point disponible à cette capacité";
+			Text = "Augmente la valeur de cet attribut";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.AllPopulation";
-			Text = "Montant total de la population";
+			Text = "Total de la population";
 		},
 		LocDirectEntry
 		{
@@ -24220,7 +24220,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.ChurchBuyPardon";
-			Text = "Obtenir le pardon de la population d'un crime reconnu dans votre passé";
+			Text = "Si Dieu pardonne vos crimes, les citoyens de la ville le feront aussi";
 		},
 		LocDirectEntry
 		{
@@ -24230,7 +24230,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.ClosePanel";
-			Text = "Fermer le panneau";
+			Text = "Fermer";
 		},
 		LocDirectEntry
 		{
@@ -24295,7 +24295,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.Frontstore";
-			Text = "Magasin où les produits fabriqués par ce bâtiment sont à vendre à d'autres citoyens";
+			Text = "Ceci est le magasin principal de ce bâtiment - les produits stockés ici sont proposés à la vente";
 		},
 		LocDirectEntry
 		{
@@ -24315,12 +24315,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.IncomingMessageFilter";
-			Text = "Activer les filtres pour les messages entrants";
+			Text = "Filtre de message";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.IndictmentSelect";
-			Text = "Sélectionnez à l'avance comment vous allez mener ce procès";
+			Text = "Si vous décidez avant le début du procès";
 		},
 		LocDirectEntry
 		{
@@ -24410,7 +24410,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.NoSpiedBuildings";
-			Text = "Il n'y a pas de bâtiments dont vous pouvez voir les informations";
+			Text = "Vous n'espionnez actuellement aucun bâtiments";
 		},
 		LocDirectEntry
 		{
@@ -24515,7 +24515,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.PrioritySupplies";
-			Text = "La priorité prise en compte lors de la collecte automatique des composants";
+			Text = "Liste de priorité pour la fourniture de produits pour la production";
 		},
 		LocDirectEntry
 		{
@@ -24595,7 +24595,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.RouteNodeBuy";
-			Text = "À cette étape, l'employé va tenter d'acheter / charger le suivant";
+			Text = "Le transporteur doit acheter / charger les marchandises suivantes ici :";
 		},
 		LocDirectEntry
 		{
@@ -24620,7 +24620,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.RouteNodeSell";
-			Text = "À cette étape, l'employé va tenter de vendre/décharger les éléments suivants";
+			Text = "Le transporteur doit vendre / décharger les marchandises suivantes ici :";
 		},
 		LocDirectEntry
 		{
@@ -24665,7 +24665,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.SeeFilters";
-			Text = "Basculer les filtres du panneau";
+			Text = "Filtres";
 		},
 		LocDirectEntry
 		{
@@ -24730,7 +24730,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.SocietyResign";
-			Text = "Résilier votre adhésion à cette guilde";
+			Text = "Quitter la guilde";
 		},
 		LocDirectEntry
 		{
@@ -24740,12 +24740,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.SpiedBuildings";
-			Text = "Bâtiments dont vous pouvez voir les informations";
+			Text = "Informations sur les bâtiments espionnés";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.SpyIcon";
-			Text = "Vous avez accès aux informations internes de ce bâtiment";
+			Text = "Vous avez accès aux information de ce bâtiment";
 		},
 		LocDirectEntry
 		{
@@ -24760,7 +24760,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.Storage";
-			Text = "Espace de stockage de ce bâtiment où tout peut être stocké";
+			Text = "Ceci est le stockage de ce bâtiment";
 		},
 		LocDirectEntry
 		{
@@ -24830,17 +24830,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.TrialDelay";
-			Text = "Période de vote restante";
+			Text = "Période de réflexion";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.TrialFinalVerdict";
-			Text = "Verdict final de tous les juges";
+			Text = "Verdict général de la cour d'appel";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.TrialNeighborhood";
-			Text = "Opinion publique sur la peine prononcée";
+			Text = "Opinion de la population dans la ville";
 		},
 		LocDirectEntry
 		{
@@ -24965,7 +24965,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.WarningWindow.MaxAddons";
-			Text = "Nombre maximum d'addons déjà atteint.";
+			Text = "Vous ne pouvez pas acheter de nouvelles améliorations.";
 		},
 		LocDirectEntry
 		{
@@ -24985,7 +24985,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.WarningWindow.SkillUnlocked";
-			Text = "Nouvelle compétence débloquée";
+			Text = "Vous avez appris un nouveau talent";
 		},
 		LocDirectEntry
 		{
@@ -25100,7 +25100,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$WindowTitleInspection";
-			Text = "Inspection du personnage";
+			Text = "Fenêtre du personnage";
 		},
 		LocDirectEntry
 		{
@@ -25925,12 +25925,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$pregnancy.birthtrait.WeakDesc";
-			Text = "Pouvez vous au moins soulever quelque chose ?";
+			Text = "Même une chope de bière est presque trop lourde pour vous ...";
 		},
 		LocDirectEntry
 		{
 			Key = "$pregnancy.birthtrait.Swordsman";
-			Text = "Épéiste";
+			Text = "Maître épéiste";
 		},
 		LocDirectEntry
 		{
@@ -25965,7 +25965,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$pregnancy.birthtrait.SteadfastDesc";
-			Text = "Vous êtes naturellement en bonne santé. Un peu de froid ne vous a jamais fait mal.";
+			Text = "Vous êtes naturellement en bonne santé et résistant.";
 		},
 		LocDirectEntry
 		{
@@ -26110,12 +26110,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$pregnancy.birthtrait.ChildOfSiegfried";
-			Text = "Enfant de Siegfried";
+			Text = "Fils de Siegfried";
 		},
 		LocDirectEntry
 		{
 			Key = "$pregnancy.birthtrait.ChildOfSiegfriedDesc";
-			Text = "Comme le légendaire héros, vous êtes dur et fort. Presque rien ne pourra vous blesser, mais assurez-vous de couvrir vos angles morts.";
+			Text = "Vous êtes fort et soldie comme le fabuleux héros. Rien ne peut vous faire de mal... ou presque...";
 		},
 		LocDirectEntry
 		{
@@ -26215,12 +26215,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Char.PrestigeGainMult";
-			Text = "Taux de gain d'influence";
+			Text = "Capacité à gagner de l'influence";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Char.ExperienceGainMult";
-			Text = "Taux de gain d'expérience";
+			Text = "Capacité à apprendre";
 		},
 		LocDirectEntry
 		{
@@ -26230,7 +26230,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Char.GoodGenetics";
-			Text = "Bonne génétique";
+			Text = "Excellents gènes";
 		},
 		LocDirectEntry
 		{
@@ -26260,7 +26260,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.ExperienceGainMult";
-			Text = "Taux de gain d'expérience";
+			Text = "Capacité à apprendre";
 		},
 		LocDirectEntry
 		{
@@ -26435,22 +26435,22 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$CollectProtectionMoney";
-			Text = "Recueillir l'argent de protection";
+			Text = "Extorquer de l'argent de protection";
 		},
 		LocDirectEntry
 		{
 			Key = "$CollectProtectionMoneyDesc";
-			Text = "Il est grand temps que certaines entreprises commencent à payer pour votre protection.";
+			Text = "Vous pouvez utiliser ceci pour envoyer votre lansquenet informer le propriétaire d'une entreprise que votre protection n’est pas gratuite. S'il paye, tout voyou saura qu'il doit rester à l'écart du bâtiment.";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ProtectionMoneyNotPaid";
-			Text = "N'a pas payé l'argent de protection";
+			Text = "Pas de protection payée";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.ProtectionMoneyPaid";
-			Text = "A payé l'argent de protection";
+			Text = "Protection payée";
 		},
 		LocDirectEntry
 		{
@@ -26475,17 +26475,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$BucketOfWaterDesc";
-			Text = "Un seau rempli d'eau pouvant être recueilli à un puits.";
+			Text = "L'eau peut être obtenue à partir d'un puits.";
 		},
 		LocDirectEntry
 		{
 			Key = "$WashCloth";
-			Text = "Gant de toilette";
+			Text = "Flanelle";
 		},
 		LocDirectEntry
 		{
 			Key = "$WashClothDesc";
-			Text = "La baignade vous rend malade et misérable ! Mais une eau tiède et quelque chose pour vous frotter peuvent faire des merveilles lorsque vous essayez d’impressionner les autres. L'utiliser augmentera votre charisme pour un temps. Et si vous avez des puces, il y a des chances que vous vous débarrasserez de cette plaie en utilisant un gant de toilette...";
+			Text = "Prendre un bain vous rend malade et misérable ! Mais de l’eau tiède et quelque chose pour frotter la saleté peuvent faire des merveilles si vous voulez impressionner quelqu'un. Si vous êtes propre, cela aura un effet positif sur votre charisme. Et si les puces vous piquent, utilisez une flanelle pour vous en débarrasser...";
 		},
 		LocDirectEntry
 		{
@@ -26510,7 +26510,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$OverseeWorkersDesc";
-			Text = "Vous pouvez frapper verbalement vos employés paresseux ! ils travailleront ensuite plus vite pendant un moment. Mais soyez prudent avec la force de vos mots - cela les rendra peut-être plus en colère que motivés...";
+			Text = "Vous pouvez donner un coup de pouce verbal à vos employés paresseux et ils pourront travailler plus rapidement pendant un certain temps. Mais ne laissez pas vos mots être trop durs, car vous pouvez parfois les mettre en colère plutôt que de les motiver...";
 		},
 		LocDirectEntry
 		{
@@ -26545,17 +26545,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.pick.character.for.romance";
-			Text = "Choisissez un personnage avec lequel vous voulez commencer une romance !";
+			Text = "Choisissez la personne avec lequel vous voulez commencer une romance !";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.pick.romance.for.liaison";
-			Text = "Choisissez un personnage avec lequel vous souhaitez commencer la liaison !";
+			Text = "Choisissez la personne avec lequel vous souhaitez commencer la liaison !";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.pick.liaison.for.marriage";
-			Text = "Choisissez un personnage que vous voulez épouser !";
+			Text = "Choisissez la personne que vous voulez épouser.";
 		},
 		LocDirectEntry
 		{
@@ -26675,7 +26675,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$DistractGuardDesc";
-			Text = "Essayez de distraire un garde pour aider avec les affaires sournoises de votre famille. Attention cependant, les gardes ne sont peut-être pas toujours d'humeur pour vos bêtises.";
+			Text = "Essayez de distraire un garde afin que son attention soit détournée de votre famille. Mais attention : les gardes ne sont pas toujours distraits par les enfants.";
 		},
 		LocDirectEntry
 		{
@@ -26716,6 +26716,281 @@ LocDirectData
 		{
 			Key = "$tooltip.MovementSpeedMult";
 			Text = "Vitesse de mouvement";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.dialog.UnlockSkillHeader";
+			Text = "Débloquer %SkillName% %SkillLevel%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.label.costs";
+			Text = "Coûts";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.label.rewards";
+			Text = "Récompenses";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.error.maxNumberOfBuildings";
+			Text = "Nombre maximum de bâtiments atteints";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.canBePlacedInCity";
+			Text = "Peut être construit dans la city";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.canBePlacedInVillage";
+			Text = "Peut être construit dans le  village";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.LegalInCity";
+			Text = "Légal à %city%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.IllegalInCity";
+			Text = "Illégal à %city%";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.label.consumable";
+			Text = "Consommable";
+		},
+		LocDirectEntry
+		{
+			Key = "$equipmentType.Body";
+			Text = "Corps";
+		},
+		LocDirectEntry
+		{
+			Key = "$equipmentType.Weapon";
+			Text = "Arme";
+		},
+		LocDirectEntry
+		{
+			Key = "$equipmentType.SpecialItems";
+			Text = "Artefacts";
+		},
+		LocDirectEntry
+		{
+			Key = "$equipmentType.Head";
+			Text = "Tête";
+		},
+		LocDirectEntry
+		{
+			Key = "$equipmentType.Hand";
+			Text = "Main";
+		},
+		LocDirectEntry
+		{
+			Key = "$equipmentType.ExtraInventory";
+			Text = "Inventaire";
+		},
+		LocDirectEntry
+		{
+			Key = "$message.window.header";
+			Text = "Journal des messages";
+		},
+		LocDirectEntry
+		{
+			Key = "$effect.rejected";
+			Text = "Avances romantiques rejetées";
+		},
+		LocDirectEntry
+		{
+			Key = "$warning.general.notEnoughPrestige";
+			Text = "Vous n'avez pas assez d' Influence (%amount% $(Prestige) requis).";
+		},
+		LocDirectEntry
+		{
+			Key = "$warning.general.notEnoughMoney";
+			Text = "Vous n'avez pas assez d' Argent (%amount% $(Money) requis).";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.KissCheek";
+			Text = "Donner un baiser sur la joue";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.KissCheekDesc";
+			Text = "Vous pouvez donner à votre amant un baiser sur la joue. Cela devrait suffire à les faire rougir, mais sachez que des avances non désirées peuvent avoir un impact négatif.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.RomanceCharacter";
+			Text = "Sélectionnez l'un de vos amoureux.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.LiaisonCharacter";
+			Text = "Sélectionnez l'une de vos amants.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.SweetTalk";
+			Text = "Dire des mots doux à votre amoureux";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.SweetTalkDesc";
+			Text = "Parler avec douceur de choses que vous voulez faire lorsque vous êtes seul avec votre romance ou votre liaison peut parfois faire des merveilles pour une relation.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.AskFavor";
+			Text = "Demander une faveur";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.AskFavorDesc";
+			Text = "Demandez à votre liaison de vous parler de manière positive avec sa famille et ses voisins.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.UseConnections";
+			Text = "Utilisez les liaisons de votre amant";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.UseConnectionsDesc";
+			Text = "Avoir un amant au bon endroit peut augmenter votre influence.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.ManipulateLiaison";
+			Text = "Manipuler votre amant";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.ManipulateLiaisonDesc";
+			Text = "Utilisez les sentiments de votre amant pour l'inciter à raconter des secrets de famille. Cela augmentera votre influence et vous pourrez peut-être trouver des preuves de crimes dans le processus.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.pick.liaison";
+			Text = "Choisissez l'une de vos amants.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.no.liaisons";
+			Text = "Votre personnage doit avoir un amant !";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.pick.lover";
+			Text = "Choisissez l'un de vos amoureux.";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.no.lovers";
+			Text = "Votre personnage doit avoir une relation amoureuse avec quelqu'un!";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.BoastAboutYourExploits";
+			Text = "Se vanter de vos exploits";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.BoastAboutYourExploitsDesc";
+			Text = "Vous savez déjà à quel point vous êtes génial. Mais il est temps que tout le monde le découvre également. Utilisez cette action pour augmenter votre influence dans la ville.";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.DonateToChurch";
+			Text = "Faire un don à l'église";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.DonateToChurchDesc";
+			Text = "Que vous soyez pieux ou non, vous ne pouvez pas nier qu’être en règle avec l’église est également bon pour votre statut social.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.BuildingChurch";
+			Text = "Sélectionnez une église";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.GreaseTheWheels";
+			Text = "Graisser les rouages de la bureaucratie";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.GreaseTheWheelsDesc";
+			Text = "La bureaucratie fonctionne parfois lentement. Heureusement, il y a toujours un fonctionnaire sous-payé qui aidera à graisser les roues pour quelques pièces de monnaie. Cela vous aidera à gagner de l'influence.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.BuildingPublicService";
+			Text = "Sélectionnez un bâtiment public";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.BribeOfficeHolder";
+			Text = "Soudoyer un fonctionnaire";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.BribeOfficeHolderDesc";
+			Text = "Certains fonctionnaires sont susceptibles de corruption. Vous pouvez essayer de donner de l’argent à des fonctionnaires d’autres familles. Si vous êtes chanceux, cela pourrait vous aider à gagner de l'influence.";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.CharacterOfficeHolder";
+			Text = "Sélectionnez un fonctionnaire qui ne fait pas partie de votre dynastie";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.pick.target";
+			Text = "Choisissez une cible";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.no.office.holders";
+			Text = "Il n'y a pas de fonctionnaire disponible !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.MainpulateLiaison.SuccessTargetHeadline";
+			Text = "Un des membres de votre famille a été manipulé !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.MainpulateLiaison.SuccessTargetMessage";
+			Text = "%CharacterSource% a manipulé %CharacterTarget% pour obtenir des informations sur votre famille ! Cette information réduit l'influence que vous avez!";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.StartRomance.TargetNotificationHeadline";
+			Text = "Un membre de votre famille a une liaison amoureuse !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.StartRomance.TargetNotification";
+			Text = "%CharacterSource% a attiré %CharacterTarget% dans une relation amoureuse. Si vous êtes contre cette fréquentation, vous devez intervenir avant qu'il ne soit trop tard !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.MarryConcubine.TargetNotificationHeadline";
+			Text = "Un des membres de votre famille s'est marié sans votre consentement !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.MarryConcubine.TargetNotification";
+			Text = "Le malhonnête %CharacterSource% a attiré %CharacterTarget% dans un mariage rapide sans vous demander sa main ! Assurez-vous que votre succession est en ordre ! Cela pourrait être une tentative de prendre le controle de votre famille !";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.MarryConcubine.Request";
+			Text = "Vous êtes sur le point de demander la main de %target% sans demander l'autorisation du chef de la famille %family%. Cela ne leur plaira pas.\nPour demander d'abord la permission au chef de famille, utilisez l'action >Échange entre Dynastie<.";
 		},
 	)
 };

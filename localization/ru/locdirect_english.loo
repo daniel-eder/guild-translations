@@ -336,12 +336,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.SingleCharacterChangeMainBuilding";
-			Text = "Смена места жительства";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$action.SingleCharacterChangeMainBuildingDesc";
-			Text = "Этот персонаж меняет место жительства";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -636,7 +636,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.DuelHumiliate";
-			Text = "Дуэль унижение";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -1566,7 +1566,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$action.LookInsideDesc";
-			Text = "Вы можете использовать это, чтобы увидеть свою семью в своей резиденции.";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -11906,7 +11906,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.MPAIBehavior";
-			Text = "Поведение ИИ для замены игрока";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -12151,7 +12151,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Options.LeaveHeader";
-			Text = "Выходите без сохранения?";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -13121,7 +13121,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.sys.HomeDistrict";
-			Text = "Домашний район";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -13206,17 +13206,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Trade.Header.6";
-			Text = "Предстоящие пробные выборы";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Trade.Header.7";
-			Text = "Предстоящие политические выборы";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$gui.Trade.InventoryButton";
-			Text = "Инвентарь";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -14571,7 +14571,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$LeaveOffice.Action";
-			Text = "";
+			Text = "%character% left the office %office%.";
 		},
 		LocDirectEntry
 		{
@@ -16031,7 +16031,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$PoliticalPower.ConstructionsDesc";
-			Text = "С помощью этой силы вы можете направить ресурсы города для строительства общественных зданий, таких как школы и церкви.";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -17750,7 +17750,7 @@ LocDirectData
 		},
 		LocDirectEntry
 		{
-			Key = "sce.dist.Brixton";
+			Key = "$sce.dist.Brixton";
 			Text = "Брикстон";
 		},
 		LocDirectEntry
@@ -18241,7 +18241,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.name.Bohemia";
-			Text = "Королевство Богемия";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -18251,17 +18251,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.name.Hansa";
-			Text = "Ганзейский Союз";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$sce.name.London";
-			Text = "Великий город Лондон";
+			Text = "Лондон";
 		},
 		LocDirectEntry
 		{
 			Key = "$sce.name.Magdeburg";
-			Text = "Магдебургское архиепископство";
+			Text = "Магдебургское";
 		},
 		LocDirectEntry
 		{
@@ -18271,7 +18271,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.name.Netherlands";
-			Text = "Нидерланды";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -18291,7 +18291,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$sce.name.Visby";
-			Text = "Ганзейский город Висбю";
+			Text = "Висбю";
 		},
 		LocDirectEntry
 		{
@@ -18621,7 +18621,8 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$society.antonianorder.desc";
-			Text = "";
+			Text = "
+Гильдия врачей возникла из Ордена Святого Антония - Canonici Regulares Sancti Antonii - основанного в 1095 году как Орден христианской больницы. Членам гильдии предписывается бороться с болезнями и эпидемиями средствами современной медицины.";
 		},
 		LocDirectEntry
 		{
@@ -18646,7 +18647,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$society.antonianorder.motto";
-			Text = "";
+			Text = "Исцели мир!";
 		},
 		LocDirectEntry
 		{
@@ -18686,7 +18687,8 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$society.artificers.name";
-			Text = "";
+			Text = "
+Гильдия Оккультистов";
 		},
 		LocDirectEntry
 		{
@@ -19191,7 +19193,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$splashHint6";
-			Text = "При наведении указателя на кнопку или значок всплывающая подсказка появится через некоторое время. Удерживая нажатой правую кнопку мыши, можно отобразить более подробную подсказку.";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -20126,7 +20128,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.StorageComponents";
-			Text = "Количество дней производства, в течение которых хранитель должен хранить достаточное количество сырья на складе.";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -20301,12 +20303,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip31";
-			Text = "Прогресс действия";
+			Text = "Прогресс";
 		},
 		LocDirectEntry
 		{
 			Key = "$tooltip4";
-			Text = "В ожидании суда";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -20471,7 +20473,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$trial.Sentence.Level.3";
-			Text = "публичное унижение";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -21631,7 +21633,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.13";
-			Text = "Разрыв альянса";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -21641,27 +21643,27 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.15";
-			Text = "Прекратить вражду";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.16";
-			Text = "Сделки между семьями";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.17";
-			Text = "Подарить подарок";
+			Text = "подарок";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.18";
-			Text = "Дать денег";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.19";
-			Text = "Осуждать";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -21676,32 +21678,32 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.21";
-			Text = "Злословить";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.22";
-			Text = "Льстить";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.23";
-			Text = "Подать заявку на политический пост";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.24";
-			Text = "Политическая должность доступна";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.25";
-			Text = "Политическая должность недоступна";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.26";
-			Text = "Выборы на политическую должность";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -21716,7 +21718,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.29";
-			Text = "Приговор – судебная ошибка";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -21736,7 +21738,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.32";
-			Text = "Приговор – общественное унижение";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -21781,12 +21783,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.40";
-			Text = "Бросить бомбу";
+			Text = "бомбу";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.41";
-			Text = "Бросить бомбу-вонючку";
+			Text = "бомбу-вонючку";
 		},
 		LocDirectEntry
 		{
@@ -21801,32 +21803,32 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.44";
-			Text = "Отравить здание";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.45";
-			Text = "Отравить окрестности";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.46";
-			Text = "Сломать кости";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.47";
-			Text = "Убить персонажа";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.48";
-			Text = "Похитить персонажа";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.49";
-			Text = "Ликвидировать персонажа";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -21836,12 +21838,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.50";
-			Text = "Оскорбить ради дуэли";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.51";
-			Text = "Ограбить дом";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -21856,12 +21858,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.54";
-			Text = "Новый глава династии";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.55";
-			Text = "Подошел гильдии";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -21881,7 +21883,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.59";
-			Text = "Захватить здание";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -21891,12 +21893,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.60";
-			Text = "Шпионить в здании";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.61";
-			Text = "Шпионить за персонажем";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -21911,7 +21913,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Filter.64";
-			Text = "Чума";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -22006,7 +22008,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.0";
-			Text = "Произошло событие";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -22116,7 +22118,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.29";
-			Text = "%Character% освобождается из-за судебной ошибки";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -22306,12 +22308,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.63";
-			Text = "Разразилась небольшая война с соседним регионом";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Diary.Message.64";
-			Text = "В вашем регионе разразилась чума";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -22372,7 +22374,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Election.Header";
-			Text = "Выберите кандидата на выборы";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -23192,7 +23194,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Quest.EventDetail";
-			Text = "Детали мероприятия";
+			Text = "Детали";
 		},
 		LocDirectEntry
 		{
@@ -23207,12 +23209,12 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Quest.HeaderDetail";
-			Text = "Детали задания";
+			Text = "Детали";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.Quest.HeaderTimed";
-			Text = "Временные события";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -23222,7 +23224,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Quest.QuestSteps";
-			Text = "Этапы задания";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -23482,7 +23484,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.Secret.SocietyChart";
-			Text = "Карта";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -24157,7 +24159,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.AbilityIncrease";
-			Text = "Прибавить очки к этому умению";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -24412,7 +24414,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.NoSpiedBuildings";
-			Text = "Сейчас нет зданий, о которых вы можете видеть информацию";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -24517,7 +24519,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.PrioritySupplies";
-			Text = "Приоритет рассматривается при автоматическом сборе компонентов";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -24667,7 +24669,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.SeeFilters";
-			Text = "Переключить фильтры панели";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -24832,17 +24834,17 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.TrialDelay";
-			Text = "Напоминание о сроке голосования";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.TrialFinalVerdict";
-			Text = "Окончательный вердикт судей";
+			Text = "";
 		},
 		LocDirectEntry
 		{
 			Key = "$ui.tooltip.TrialNeighborhood";
-			Text = "Общественный приговор";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -25867,7 +25869,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$pregnancy.birthtrait.SonOfZeusDesc";
-			Text = "У вас сыла Геракла, сын Зевса";
+			Text = "У вас сила Геракла, сына Зевса";
 		},
 		LocDirectEntry
 		{
@@ -25928,7 +25930,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$pregnancy.birthtrait.WeakDesc";
-			Text = "Вы вообще можете что-то поднять?";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -26013,7 +26015,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$pregnancy.birthtrait.PurpleLantern";
-			Text = "Пурпурный фоанрь";
+			Text = "Пурпурный фонарь";
 		},
 		LocDirectEntry
 		{
@@ -26223,8 +26225,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$gui.Char.ExperienceGainMult";
-			Text = "Скорость повышения опыта
-";
+			Text = "Скорость повышения опыта";
 		},
 		LocDirectEntry
 		{
@@ -26264,8 +26265,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$tooltip.ExperienceGainMult";
-			Text = "Скорость повышения опыта
-";
+			Text = "Скорость повышения опыта";
 		},
 		LocDirectEntry
 		{
@@ -26485,7 +26485,7 @@ LocDirectData
 		LocDirectEntry
 		{
 			Key = "$WashCloth";
-			Text = "Стирать одежду";
+			Text = "";
 		},
 		LocDirectEntry
 		{
@@ -26721,6 +26721,281 @@ LocDirectData
 		{
 			Key = "$tooltip.MovementSpeedMult";
 			Text = "Скорость передвижения";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.dialog.UnlockSkillHeader";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.label.costs";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.label.rewards";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.error.maxNumberOfBuildings";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.canBePlacedInCity";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.canBePlacedInVillage";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.LegalInCity";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.tooltip.IllegalInCity";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.label.consumable";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$equipmentType.Body";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$equipmentType.Weapon";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$equipmentType.SpecialItems";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$equipmentType.Head";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$equipmentType.Hand";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$equipmentType.ExtraInventory";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$message.window.header";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$effect.rejected";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$warning.general.notEnoughPrestige";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$warning.general.notEnoughMoney";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.KissCheek";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.KissCheekDesc";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.RomanceCharacter";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.LiaisonCharacter";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.SweetTalk";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.SweetTalkDesc";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.AskFavor";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.AskFavorDesc";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.UseConnections";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.UseConnectionsDesc";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.ManipulateLiaison";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.ManipulateLiaisonDesc";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.pick.liaison";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.no.liaisons";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.pick.lover";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.no.lovers";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.BoastAboutYourExploits";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.BoastAboutYourExploitsDesc";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.DonateToChurch";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.DonateToChurchDesc";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.BuildingChurch";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.GreaseTheWheels";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.GreaseTheWheelsDesc";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.BuildingPublicService";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.BribeOfficeHolder";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.BribeOfficeHolderDesc";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$callToAction.CharacterOfficeHolder";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.pick.target";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$gui.no.office.holders";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.MainpulateLiaison.SuccessTargetHeadline";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.MainpulateLiaison.SuccessTargetMessage";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.StartRomance.TargetNotificationHeadline";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.StartRomance.TargetNotification";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.MarryConcubine.TargetNotificationHeadline";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.MarryConcubine.TargetNotification";
+			Text = "";
+		},
+		LocDirectEntry
+		{
+			Key = "$action.MarryConcubine.Request";
+			Text = "";
 		},
 	)
 };
